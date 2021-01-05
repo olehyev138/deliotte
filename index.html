@@ -1,0 +1,202 @@
+<html>
+<head>
+<title>Report</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- deloitte fonts -->
+<style>
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'),url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype')}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Bold-webfont.woff') format('woff'),url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Bold-webfont.ttf') format('truetype')}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Italic-webfont.woff') format('woff'),url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Italic-webfont.ttf') format('truetype')}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Semibold-webfont.woff') format('woff')}
+@font-face{font-family:'Dcom-EDE';src:url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/fonticons/myd-p4-13072020.woff') format('woff'),url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/fonticons/myd-p4-13072020.ttf') format('truetype'),url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/fonticons/myd-p4-13072020.svg#Dcom-EDE') format('svg');font-weight:normal;font-style:normal}
+</style>
+<!-- bootstrap 3.3.4 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+</head>
+<body>
+
+<!-- our stuff for them to copy-paste -->
+<style>
+
+/* font-weight: 300 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.janka-report { width: 100%; font-family: 'Open Sans',Verdana,Helvetica,sans-serif; }
+
+@media (min-width: 1200px) {
+	.janka-report .container { max-width: 1090px; box-sizing: content-box; }
+}
+
+.janka-report .group-63 { background-color: black; color: white; }
+.janka-report .group-63 .row { padding: 25px 0; }
+.janka-report .group-63 .row:nth-of-type(2) { background-color: white; color: black; }
+.janka-report .group-63 .col-lg-5 { padding-right: 60px; }
+.janka-report .group-63 h1 { font-size: 50px; font-weight: 300; margin-top: 185px; }
+.janka-report .group-63 h2 { font-size: 32px; font-weight: bold; margin-top: 40px; }
+.janka-report .group-63 p { font-size: 18px; font-weight: 300; margin: 35px 0 25px 0; }
+.janka-report .group-63 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer; }
+.janka-report .group-63 .read::after { font-family: Dcom-EDE; font-weight: normal; content: "\f019"; }
+.janka-report .group-63 .image-530 { background-color: #707070; width: 530px; height: 530px; border-radius: 50%; margin: 110px 0 30px 60px; }
+
+.janka-report .group-55 { background-color: #0D8390; color: white; font-weight: 300; }
+.janka-report .group-55 .row { padding: 38px 0; }
+.janka-report .group-55 h1 { font-size: 32px; font-weight: 300; margin-top: 0; margin-bottom: 40px; }
+.janka-report .group-55 p { font-size: 16px; }
+.janka-report .group-55 .image-242 { width: 242px; height: 242px; margin-bottom: 35px; }
+.janka-report .group-55 .letter { background-color: #161618; width: 466px; height: 192px; padding: 14px 22px;
+	position: absolute; top: 20px; left: 200px;
+}
+.janka-report .group-55 .letter p { font-size: 28px; /* pretend to be even thinner? */ -webkit-text-stroke: .015em #161618; }
+.janka-report .group-55 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer; }
+.janka-report .group-55 .read::after { font-family: Dcom-EDE; font-weight: normal; content: "\f067"; margin-left: 10px; }
+
+.janka-report .group-133 .row { padding: 32px 0; }
+.janka-report .group-133 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px; }
+.janka-report .group-133 p { font-size: 16px; }
+    
+.janka-report .group-135 .row { padding: 32px 0; }
+.janka-report .group-135 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px; }
+.janka-report .group-135 p { font-size: 16px; }
+.janka-report .group-135 .image-345 { background-color: #000; width: 100%; margin-bottom: 13px; }
+
+.janka-report .group-90 { background-color: rgba(167,173,175,0.1); }
+.janka-report .group-90 .row { padding: 50px 0; }
+.janka-report .group-90 .image-345 { background-color: #707070; width: 345px; height: 345px; margin-bottom: 13px; }
+.janka-report .group-90 p.title { text-transform: uppercase; margin-bottom: 2px; }
+.janka-report .group-90 h1 { font-size: 18px; font-weight: bold; margin-top: 0; margin-bottom: 20px; }
+.janka-report .group-90 p { font-size: 14px; margin-bottom: 20px; }
+.janka-report .group-90 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: black; cursor: pointer; }
+.janka-report .group-90 .read::after { font-family: Dcom-EDE; font-weight: normal; content: "\f105"; }
+</style>
+<div class="janka-report">
+	<div class="group-63">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<h1>The racial equity imperative</h1>
+					<h2 style="color: #86BC25">Why the future depends on business taking bold action now</h2>
+					<p>Break the status quo. Transform long-held beliefs and behaviors. Build a more equitable future, together. It’s on businesses to lead the way toward racial equity. Out report can help you drive the change we need.</p>
+					<a class="read">Download the full report</a>
+				</div>
+				<div class="col-lg-7">
+					<div class="image-530"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8">&nbsp;</div>
+				<div class="col-lg-1">Home</div>
+				<div class="col-lg-1">Reflect</div>
+				<div class="col-lg-1">Look Ahead</div>
+				<div class="col-lg-1">Act Now</div>
+			</div>
+		</div>
+	</div>
+	<div class="group-55">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<h1>Why racial equity? Why now?</h1>
+					<p>Fighting systemic bias and racism is one of the biggest challenges of our time. And businesses must lead the way. They must take action now to tear down entrenched mechanisms, change beliefs and behaviors, and build a new future of racial equity together. Our report helps leaders reflect on the realities of racism, envision potential future scenarios for racial equity, and move swiftly from intention to action.</p>
+				</div>
+				<div class="col-lg-7">
+					<div class="image-242"><img src="https://www.brainyyack.com/deloitte/images/janet-foutty-new_2@2x.png" width="315px" alt=""></div>
+					<div class="letter">
+						<p>“Equity isn’t just about efforts, it’s about results: measurable and meaningful outcomes in the lives of our people, our communities, our country, and our world.”</p>
+						<a class="read">Read the full letter</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="group-133">
+		<div class="container">
+			<div class="row">
+                <div class="col-lg-2"></div>
+				<div class="col-lg-8">
+					<h1>The journey from reflection to foresight to action</h1>
+					<p>Building a more equitable future starts by understanding where we’ve been. Look ahead to the future of racial equity by exploring four potential scenarios, and act now to turn good intentions into measurable results. Explore each chapter or download the full report.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="group-90">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="image-345"></div>
+					<p class="title">reflect</p>
+					<h1>Chapter I: What is racial equity and why should you care about it?</h1>
+					<p>We break down the problem of systemic racism by the numbers and explain why businesses must take the lead in dismantling it.</p>
+					<a class="read">Read the chapter</a>
+				</div>
+				<div class="col-lg-4">
+					<div class="image-345"></div>
+					<p class="title">Look ahead</p>
+					<h1>Chapter II: How can future-focused scenarios help business leaders drive change?</h1>
+					<p>We provide a scenarios-based view of racial equity in the United States, designed to spark the imagination for how the future may unfold in potentially surprising ways.</p>
+					<a class="read">Read the chapter</a>
+				</div>
+				<div class="col-lg-4">
+					<div class="image-345"></div>
+					<p class="title">act now</p>
+					<h1>Chapter III: What can you do now to drive measurable, meaningful, and sustainable change toward racial equity?</h1>
+					<p>We take an expansive view of the choices leaders face to drive meaningful progress toward racial equity both in the workplace and outside their organization.</p>
+					<a class="read">Read the chapter</a>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="group-135">
+		<div class="container">
+			<div class="row">
+                <div class="col-lg-1"></div>
+				<div class="col-lg-10">
+					<h1>Racial equity perspectives and resources</h1>
+					<p>Extensive, on-the-ground research. Insights and experiences of Deloitte’s own leaders. Interviews with a diverse group of 50-plus “changemakers” — leaders in the public, private, and social sectors committed to driving racial equity. We’ve integrated these essential frames of reference to create a full understanding of the realities of racial inequity in the United States and what it will take for businesses to transform our future. <br><br>
+                        
+                        <b><u>Learn more about the changemakers.</b></u></p>
+				</div>
+			</div>
+            <div class="row">
+                <div class="col-lg-1"></div>
+				    <div class="col-lg-10">
+					       <h1>Related insights on racial equity</h1>
+					       <p>Explore more Deloitte thought leadership on advancing diversity, equity, and inclusion.</p>
+				    </div>
+			</div>
+            <div class="container">
+			     <div class="row">
+                     <div class="col-lg-1"></div>
+				     <div class="col-lg-3">
+					 <div class="image-345"><center><img src="http://www.brainyyack.com/deloitte/images/Group_2329.png"></center></div>
+					       <p><center><b>Deloitte’s first annual DEI Transparency report</b></center></p>
+				     </div>
+				     <div class="col-lg-3">
+					 <div class="image-345"><center><img src="http://www.brainyyack.com/deloitte/images/Group_1.png"></center></div>
+					       <p><center><b>Support your Black workforce now</b></center></p>
+				     </div>
+				     <div class="col-lg-3">
+					 <div class="image-345"><center><img src="http://www.brainyyack.com/deloitte/images/Group_2328.png"></center></div>
+					       <p><center><b>Taking action against systemic bias, racism and unequal treatment</b></center></p>
+				     </div>
+			     </div>
+		    </div>
+        <div class="container">
+			     <div class="row">
+                     <div class="col-lg-1"></div>
+				     <div class="col-lg-5">
+					 <div class="image-345"><center>Text</center></div>
+				     </div>
+				     <div class="col-lg-5">
+					 <div class="image-345"><center>Text</center></div>
+				     </div>
+			     </div>
+		</div>
+		</div>
+	</div>
+</div>
+	
+
+</body>
+</html>
