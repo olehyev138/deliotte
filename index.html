@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- bootstrap 3.3.4 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <!-- Animation on Scroll.css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- deloitte fonts -->
 <style>
 @font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'),url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype')}
@@ -28,6 +30,8 @@
   .deloitte-report .group_wrapper{ width: 720px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
 .deloitte-report .container { max-width: 1200px;  } 
 }
+.deloitte-report section {  overflow: hidden;  } 
+
 .img-resposive { max-width: 100%; }
 .deloitte-report .group-63 { background-color: black; color: white; }
 .deloitte-report .group-63 .row{ padding: 25px 0 45px 0;  }
@@ -96,10 +100,7 @@
 .modal.modal-vcenter .modal-dialog .modal-header .author-name{ font-size:16px; font-family: 'Open Sans', sans-serif; }
 .modal.modal-vcenter .modal-dialog .modal-content{ border-radius: 0; }
 @media screen and (min-width: 576px){
-	.modal.modal-vcenter .modal-dialog { min-width: 546px; max-width: 70%;}
-}
-@media screen and (min-width: 1600px){
-	.modal.modal-vcenter .modal-dialog { max-width: 1170px;}
+.modal.modal-vcenter .modal-dialog { min-width: 546px; max-width: 70%;}
 }
 .modal.modal-vcenter .modal-body { max-height: 40vh; overflow-y: auto; padding: 0 55px 55px 55px;}
 .modal.modal-vcenter .modal-body p{ font-family: 'Open Sans', sans-serif; font-size: 16px;}
@@ -163,13 +164,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5 col-md-5 col-12">
-					<h1>The racial equity imperative</h1>
-					<h2>Why the future depends on business taking bold action now</h2>
-					<p>Break the status quo. Transform long-held beliefs and behaviors. Build a more equitable future, together. It’s on businesses to lead the way toward racial equity. Out report can help you drive the change we need.</p>
-					<a class="read">Download the full report</a>
+					<h1 data-aos="fade-right">The racial equity imperative</h1>
+					<h2 data-aos="fade-right">Why the future depends on business taking bold action now</h2>
+					<p data-aos="fade-right">Break the status quo. Transform long-held beliefs and behaviors. Build a more equitable future, together. It’s on businesses to lead the way toward racial equity. Out report can help you drive the change we need.</p>
+					<a class="read" data-aos="fade-right">Download the full report</a>
 				</div>
 				<div class="col-lg-7 col-md-7 col-12">
-					<div class="image-530"></div>
+					<div class="image-530" data-aos="fade-left"></div>
 				</div>
 			</div>
 			
@@ -180,7 +181,7 @@
             <div class="row">
 				<div class="col-lg-7 col-md-6">&nbsp;</div>
 				<div class="col-lg-5 col-md-6">
-					<ul class="sec_nav">
+					<ul class="sec_nav" data-aos="fade-left">
 						<li><a href="#" class="active">Home</a></li>
 						<li><a href="#">Reflect</a></li>
 						<li><a href="#">Look Ahead</a></li>
@@ -194,14 +195,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5 col-md-8 group-55_left">
-					<h1>Why racial equity? Why now?</h1>
-					<p>Fighting systemic bias and racism is one of the biggest challenges of our time. And businesses must lead the way. They must take action now to tear down entrenched mechanisms, change beliefs and behaviors, and build a new future of racial equity together. Our report helps leaders reflect on the realities of racism, envision potential future scenarios for racial equity, and move swiftly from intention to action.</p>
+					<h1 data-aos="fade-right">Why racial equity? Why now?</h1>
+					<p data-aos="fade-right">Fighting systemic bias and racism is one of the biggest challenges of our time. And businesses must lead the way. They must take action now to tear down entrenched mechanisms, change beliefs and behaviors, and build a new future of racial equity together. Our report helps leaders reflect on the realities of racism, envision potential future scenarios for racial equity, and move swiftly from intention to action.</p>
 				</div>
 				<div class="col-md-4 visible-md"><div class="image-242"><img class="img-resposive" src="https://www.brainyyack.com/deloitte/images/janet-foutty-new_2@2x.png" alt=""></div></div>
 				<div class="col-lg-7 col-md-12">
-                    <div class="image-242 hidden-md"><img class="img-resposive" src="https://www.brainyyack.com/deloitte/images/janet-foutty-new_2@2x.png" alt=""></div>
+                    <div class="image-242 hidden-md"><img class="img-resposive" data-aos="fade-up" src="https://www.brainyyack.com/deloitte/images/janet-foutty-new_2@2x.png" alt=""></div>
 
-					<div class="letter">
+					<div class="letter" data-aos="fade-left">
 						<p>“Equity isn’t just about efforts, it’s about results: measurable and meaningful outcomes in the lives of our people, our communities, our country, and our world.”</p>
                         <a href="" data-toggle="modal" data-target="#author_modal" class="read">Read the full letter</a>
                         
@@ -216,8 +217,8 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="text_wrapper">
-							<h1>The journey from reflection to foresight to action</h1>
-							<p>Building a more equitable future starts by understanding where we’ve been. Look ahead to the future of racial equity by exploring four potential scenarios, and act now to turn good intentions into measurable results. Explore each chapter or download the full report.</p>
+							<h1 data-aos="fade-up">The journey from reflection to foresight to action</h1>
+							<p data-aos="fade-up">Building a more equitable future starts by understanding where we’ve been. Look ahead to the future of racial equity by exploring four potential scenarios, and act now to turn good intentions into measurable results. Explore each chapter or download the full report.</p>
 						</div>
 					</div>
 				</div>	
@@ -229,29 +230,29 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-4">
 					<div class="card1">
-					<div class="image-345"></div>
-						<p class="title">reflect</p>
-						<h1>Chapter I: What is racial equity and why should you care about it?</h1>
-						<p class="body_p">We break down the problem of systemic racism by the numbers and explain why businesses must take the lead in dismantling it.</p>
-						<a class="read">Read the chapter</a>
+					<div class="image-345" data-aos="fade-right"></div>
+						<p class="title" data-aos="fade-right">reflect</p>
+						<h1 data-aos="fade-right">Chapter I: What is racial equity and why should you care about it?</h1>
+						<p class="body_p" data-aos="fade-right">We break down the problem of systemic racism by the numbers and explain why businesses must take the lead in dismantling it.</p>
+						<a class="read" data-aos="fade-right">Read the chapter</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<div class="card2">
-					<div class="image-345"></div>
-						<p class="title">Look ahead</p>
-						<h1>Chapter II: How can future-focused scenarios help business leaders drive change?</h1>
-						<p class="body_p">We provide a scenarios-based view of racial equity in the United States, designed to spark the imagination for how the future may unfold in potentially surprising ways.</p>
-						<a class="read">Read the chapter</a>
+					<div class="image-345" data-aos="fade-up"></div>
+						<p class="title" data-aos="fade-up">Look ahead</p>
+						<h1 data-aos="fade-up">Chapter II: How can future-focused scenarios help business leaders drive change?</h1>
+						<p class="body_p" data-aos="fade-up">We provide a scenarios-based view of racial equity in the United States, designed to spark the imagination for how the future may unfold in potentially surprising ways.</p>
+						<a class="read" data-aos="fade-up">Read the chapter</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<div class="card3">
-					<div class="image-345"></div>
-						<p class="title">act now</p>
-						<h1>Chapter III: What can you do now to drive measurable, meaningful, and sustainable change toward racial equity?</h1>
-						<p class="body_p">We take an expansive view of the choices leaders face to drive meaningful progress toward racial equity both in the workplace and outside their organization.</p>
-						<a class="read">Read the chapter</a>
+					<div class="image-345" data-aos="fade-left"></div>
+						<p class="title" data-aos="fade-left">act now</p>
+						<h1 data-aos="fade-left">Chapter III: What can you do now to drive measurable, meaningful, and sustainable change toward racial equity?</h1>
+						<p class="body_p" data-aos="fade-left">We take an expansive view of the choices leaders face to drive meaningful progress toward racial equity both in the workplace and outside their organization.</p>
+						<a class="read" data-aos="fade-left">Read the chapter</a>
 					</div>
 				</div>
 			</div>
@@ -263,79 +264,79 @@
 				<div class="row part_1">
 					<div class="col-lg-12">
 						<div class="text_wrapper">
-							<h1>Racial equity perspectives and resources</h1>
-							<p>Extensive, on-the-ground research. Insights and experiences of Deloitte’s own leaders. Interviews with a diverse group of 50-plus “changemakers” — leaders in the public, private, and social sectors committed to driving racial equity. We’ve integrated these essential frames of reference to create a full understanding of the realities of racial inequity in the United States and what it will take for businesses to transform our future. <br><br>
-                        	<b><u>Learn more about the changemakers.</b></u></p>
+							<h1 data-aos="fade-right">Racial equity perspectives and resources</h1>
+							<p data-aos="fade-right">Extensive, on-the-ground research. Insights and experiences of Deloitte’s own leaders. Interviews with a diverse group of 50-plus “changemakers” — leaders in the public, private, and social sectors committed to driving racial equity. We’ve integrated these essential frames of reference to create a full understanding of the realities of racial inequity in the United States and what it will take for businesses to transform our future. <br><br>
+                        	<b data-aos="fade-right"><u>Learn more about the changemakers.</b></u></p>
 						</div>
 					</div>
 				</div>
 				<div class="row part_2">
 					<div class="col-lg-12">
-						<h1>Related insights on racial equity</h1>
-						<p>Explore more Deloitte thought leadership on advancing diversity, equity, and inclusion.</p>
+						<h1 data-aos="fade-left">Related insights on racial equity</h1>
+						<p data-aos="fade-left">Explore more Deloitte thought leadership on advancing diversity, equity, and inclusion.</p>
 					</div>
 				</div>
 				<div class="row part_3">
-					<div class="col-lg-4 col-md-4">
-					<div class="image-345">
-						<img src="http://www.brainyyack.com/deloitte/images/Group_2329.png">
+					<div class="col-lg-4 col-md-4" data-aos="fade-right">
+						<div class="image-345">
+							<img src="http://www.brainyyack.com/deloitte/images/Group_2329.png">
+						</div>
+						<p><b>Deloitte’s first annual DEI Transparency report</b></p>
 					</div>
-						  <p><b>Deloitte’s first annual DEI Transparency report</b></p>
-					</div>
-					<div class="col-lg-4 col-md-4">
+					<div class="col-lg-4 col-md-4" data-aos="fade-up">
 					<div class="image-345"><img src="http://www.brainyyack.com/deloitte/images/Group_1.png"></div>
 						  <p><b>Support your Black workforce now</b></p>
 					</div>
-					<div class="col-lg-4 col-md-4">
+					<div class="col-lg-4 col-md-4" data-aos="fade-left">
 					<div class="image-345"><img src="http://www.brainyyack.com/deloitte/images/Group_2328.png"></div>
 						  <p><b>Taking action against systemic bias, racism and unequal treatment</b></p>
 					</div>
 				</div>
 				<div class="row part_4">
 					<div class="col-lg-6 col-md-6 col-xs-12">
-						<a class="btn btn-default read1">SUBSCRIBE TO NEW CONTENT</a>
+						<a class="btn btn-default read1" data-aos="fade-right">SUBSCRIBE TO NEW CONTENT</a>
 					</div>
 					<div class="col-lg-6 col-md-6 col-xs-12">
-						<a class="btn btn-default read2">Download the full report</a>
+						<a class="btn btn-default read2" data-aos="fade-left">Download the full report</a>
 					</div>
 					
 				</div>
 				<div class="row part_6">
 					<div class="col-lg-12">
-						<h1>H1 Deloitte leader/sponsor bios</h1>
+						<h1 data-aos="fade-up">H1 Deloitte leader/sponsor bios</h1>
 					</div>
 				</div>
 				<div class="row part_5">
-					<div class="col-lg-2 col-md-2 col-xs-6">
+					<div class="col-lg-2 col-md-2 col-xs-6" data-aos="fade-right">
 						<div class="image-555"></div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-xs-6">
+					<div class="col-lg-4 col-md-4 col-xs-6" data-aos="fade-right">
 						<p>
 							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
 						</p>
 					</div>
-					<div class="col-lg-2 col-md-2 col-xs-6">
+					<div class="col-lg-2 col-md-2 col-xs-6" data-aos="fade-left">
 						<div class="image-555"></div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-xs-6">
+					<div class="col-lg-4 col-md-4 col-xs-6" data-aos="fade-left">
 						<p>
 							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
 						</p>
 					</div>
 				</div>
 				<div class="row part_5">
-					<div class="col-lg-2 col-md-2 col-xs-6">
+					<div class="col-lg-2 col-md-2 col-xs-6" data-aos="fade-right">
 						<div class="image-555"></div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-xs-6">
+					<div class="col-lg-4 col-md-4 col-xs-6" data-aos="fade-right">
 						<p>
 							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
 						</p>
 					</div>
-					<div class="col-lg-2 col-md-2 col-xs-6">
+					<div class="col-lg-2 col-md-2 col-xs-6" data-aos="fade-left">
 						<div class="image-555"></div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-xs-6">
+					<div class="col-lg-4 col-md-4 col-xs-6" data-aos="fade-left">
 						<p>
 							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
 						</p>
@@ -374,6 +375,15 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <!--Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<!-- Animation on Scroll.js -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- Custom Js -->
+	<script>
+		AOS.init({
+		duration: 800,
+		})
+
+	</script>
 </body>
 </html>
