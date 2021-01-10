@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <!-- Animation on Scroll.css -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 <!-- deloitte fonts -->
 <style>
 @font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'),url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype')}
@@ -19,7 +20,8 @@
 
 </head>
 <body>
-    <!-- our stuff for them to copy-paste -->
+	<!-- our stuff for them to copy-paste -->
+	
 <style>
 	/* font-weight: 300 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
@@ -28,6 +30,7 @@
 
 @media (min-width: 1200px) {
   .deloitte-report.reflect .group_wrapper{ width: 720px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
+  .deloitte-report.reflect .group_wrapper_2{ width: 910px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
 .deloitte-report.reflect .container { max-width: 1200px;  } 
 }
 .deloitte-report.reflect section {  overflow: hidden;  } 
@@ -52,6 +55,89 @@
 .deloitte-report.reflect .group-66 { padding: 60px 0; background-color: #ffffff; }
 .deloitte-report.reflect .group-66 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;}
 .deloitte-report.reflect .group-66 p { font-size: 16px; padding-right: 30px; line-height: 28px;}
+.deloitte-report.reflect .group-67 { padding-bottom: 60px; }
+.deloitte-report.reflect .group-67 .group_wrapper_2{ background: #000000; padding: 25px 15px 25px 30px;}
+.deloitte-report.reflect .group-67 h1 { font-size: 28px; color: #ffffff; font-weight: 300; margin-top:0 ;}
+.deloitte-report.reflect .group-67 p { font-size: 16px; color: #ffffff; padding: 10px 0; margin-bottom: 0; font-style: italic; font-weight: 300;}
+
+.deloitte-report.reflect .group-68 { background: #EBEBEB; padding: 50px 0 100px 0;  }
+.deloitte-report.reflect .group-68 .group_wrapper h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;}
+.deloitte-report.reflect .group-68 .group_wrapper p { font-size: 16px; padding-right: 30px; line-height: 28px;}
+/* Horizontal Scrolling */
+.trigger {
+  position: absolute;
+}
+.trigger--one {
+  left: 0;
+}
+
+
+.scene {
+  position: absolute;
+  height: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+} 
+.scene--active {
+  position: fixed;
+}
+.scene--ended {
+  position: absolute;
+  bottom: 0;
+  top: auto;
+}
+
+.horizontal-scroll-section {
+  position: relative;
+  height: auto;
+  opacity: 0;
+  transition: 0.2s opacity;
+}
+/* .horizontal-scroll-section img {
+  display: block;
+  height: auto;
+  width: 100%;
+} */
+.horizontal-scroll-section--init {
+  opacity: 1;
+}
+.horizontal-scroll-section__content {
+  display: flex;
+  align-items: center;
+}
+.horizontal-scroll-section__content-wrapper {
+  display: flex;
+  height: auto;
+  position: relative;
+  left: 183px;
+  width: 3500px;
+  padding: 25px 0;
+}
+.scene--active .horizontal-scroll-section__content-wrapper {left: 0px;}
+.horizontal-scroll-section__content-section {
+  position: relative;
+  width: 25%;
+  padding: 0 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.horizontal-scroll-section__content-section.scroll_wrapper1 { width: 35%; }
+.horizontal-scroll-section__content-section.scroll_wrapper2 { width: 45%; }
+.horizontal-scroll-section__content-section .content_wrapper { width: 85%;
+  text-align: left; }
+/* .horizontal-scroll-section__image {
+  display: flex;
+  align-items: center;
+} */
+.horizontal-scroll-section__content-section .content_wrapper1 h2{ font-size: 24px; text-align: left; font-weight: 300;  line-height: 30px;padding-right: 50px; margin-top: 0;}
+.horizontal-scroll-section__content-section .content_wrapper2 h2{ font-size: 24px; text-align: left; font-weight: 300;  line-height: 30px; margin-top: 0;}
+.horizontal-scroll-section__content-section .content_wrapper1 .number { font-size: 150px; font-weight: 300;margin-top: -30px;}
+.horizontal-scroll-section__content-section .content_wrapper2 .number { font-size: 150px; font-weight: 300;margin-top: -30px;}
+.horizontal-scroll-section__content-section .content_wrapper1 .num_text { font-size: 24px; font-weight: 300; font-style: italic; margin-top: 95px;}
+.horizontal-scroll-section__content-section .content_wrapper2 .num_text { font-size: 24px; font-weight: 300;  margin-top: 95px;}
+.horizontal-scroll-section__content-section .content_wrapper2 .num_text .italic { font-style: italic;}
 
 
 /* Tablet */
@@ -138,6 +224,199 @@
 			</div>
 		</div>
 	</section>
+	<section class="group-67">
+		<div class="container">
+			<div class="group_wrapper_2 black">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="text_wrapper">
+							<h1>“There is a power in changing the narrative, where we can all believe
+								and imagine things being different from the past</h1>
+							<p>Cathy Engelbert, Commissioner, Women’s National Basketball Association </p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<section class="group-66">
+		<div class="container">
+			<div class="group_wrapper">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="text_wrapper">
+							<h1 data-aos="fade-up">Racial equity is an outcome</h1>
+							<p data-aos="fade-up">To start, organizations must move from focusing on good intentions to focusing on good results that can be measured against a demanding standard: equity. In the same way that business leaders focus on financial and operational outcomes rather than just inputs, they must also focus on the outcomes of their efforts to cultivate systemic change. <br>
+								Racial equity for Black individuals will exist when they have the same power, access, influence, and independence as White individuals.  <br>
+								Equity necessitates an intentional focus on the needs of the most historically marginalized. It requires deliberate and often courageous actions that acknowledge and eliminate the societal inequities ingrained in people, processes, and systems. And it takes commitment to examining and redressing the bias and racism built into everyday decisions, which may appear fair on the surface, and which may have even been designed with good intentions, but ultimately have disparate effects on racial and ethnic minorities and other marginalized identity groups.  <br>
+								To achieve racial equity, organizations must be willing to transform their beliefs and values, and then change their decisions and behaviors. That work starts internally, but extends to their relationships externally in the marketplace  and through to society. 
+								</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<section class="group-67">
+		<div class="container">
+			<div class="group_wrapper_2 black">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="text_wrapper">
+							<h1>“We need leaders transcending their own short-term interests for 
+								the greater long-term good.”</h1>
+							<p>Steven Olikara, Founder and CEO, Millennial Action Project</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	 
+	<section class="group-68 ">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="horizontal-scroll-section">
+						<div class="scene">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="group_wrapper">
+										<h1 >Racial equity will create business value</h1>
+										<p >Racial inequity is deeply rooted in American history and still pervades American society. While businesses are not solely responsible for upholding the legacy of racism, the business world has long failed Black people.</p>	
+									</div>
+								</div>
+							</div>
+						  <div class="row">
+							  <div class="col-lg-12">
+								<div class="horizontal-scroll-section__content-wrapper wrapper">
+									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
+										<div class="content_wrapper1">
+											<div class="row">
+												<div class="col-lg-12">
+													<h2 class="top_h2">Among all U.S. companies <br> with 100 or more employees,<br> <b>Black people hold just</b> </h2>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-6 col-md-6">
+													<p class="number">3%</p>
+												</div>
+												<div class="col-lg-6 col-md-6">
+													<p class="num_text">of executive or senior-level roles.</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-12">
+													<h2><b>Just three Fortune 500 CEOs are Black.</b></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
+										<div class="content_wrapper2">
+											<div class="row">
+												<div class="col-lg-12">
+													<h2>Compared to the average White male worker <br><b>Black men,</b> on average, earn </h2>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-6 col-md-6">
+													<p class="number">87%</p>
+												</div>
+												<div class="col-lg-6 col-md-6">
+													<p class="num_text"><span class="italic">while</span><b> Black women,</b> earn only</p>
+													<p class="number">63%</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-12">
+													<h2><b>Just three Fortune 500 CEOs are Black.</b></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
+										<div class="content_wrapper1">
+											<div class="row">
+												<div class="col-lg-12">
+													<h2 class="top_h2">Among all U.S. companies <br> with 100 or more employees,<br> <b>Black people hold just</b> </h2>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-6 col-md-6">
+													<p class="number">3%</p>
+												</div>
+												<div class="col-lg-6 col-md-6">
+													<p class="num_text">of executive or senior-level roles.</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-12">
+													<h2><b>Just three Fortune 500 CEOs are Black.</b></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
+										<div class="content_wrapper2">
+											<div class="row">
+												<div class="col-lg-12">
+													<h2>Compared to the average White male worker <br><b>Black men,</b> on average, earn </h2>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-6 col-md-6">
+													<p class="number">87%</p>
+												</div>
+												<div class="col-lg-6 col-md-6">
+													<p class="num_text"><span class="italic">while</span><b> Black women,</b> earn only</p>
+													<p class="number">63%</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-12">
+													<h2><b>Just three Fortune 500 CEOs are Black.</b></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									
+									
+								  </div>
+							  </div>
+						  </div>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="group-66">
+		<div class="container">
+			<div class="group_wrapper">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="text_wrapper">
+							<h1 data-aos="fade-up">Racial equity will create business value</h1>
+							<p data-aos="fade-up">Racial inequity is deeply rooted in American history and still pervades American society.
+								While businesses are not solely responsible for upholding the legacy of racism, the
+								business world has long failed Black people.
+								
+								</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section> 
 </div>
 
 
@@ -153,7 +432,243 @@
 		AOS.init({
 		duration: 800,
 		})
+		$(function () {
 
+// Define window variables
+
+var winScrollTop = $(window).scrollTop();
+var winHeight = window.innerHeight;
+var winWidth = window.innerWidth;
+
+// Define scene classes.
+var sceneClass = 'scene';
+var sceneActiveClass = sceneClass + '--active';
+var sceneEndedClass = sceneClass + '--ended';
+
+$(window).on('resize', function () {
+	winHeight = window.innerHeight;
+	winWidth = window.innerWidth;
+});
+
+// Scene classes function.
+function setScene($el) {
+
+	// Get bounding values from section.
+	var bounding = $el.data('elDom').getBoundingClientRect();
+
+	if (bounding.top > winHeight) {
+
+		// Section is below the viewport.
+		// Section has not ended or started, therefore remove classes.
+		$el.find('.scene').removeClass(sceneActiveClass);
+		$el.find('.scene').removeClass(sceneEndedClass);
+
+	} else if (bounding.bottom < 0) {
+
+		// Section is above the viewport.
+		// Section has ended, therefore remove classes.
+		$el.find('.scene').addClass(sceneEndedClass);
+		$el.find('.scene').removeClass(sceneActiveClass);
+
+	} else {
+
+		// We're now inside the section, not below or above.
+		// If top of section is at top of viewport, add class active.
+		if (bounding.top <= 0) {
+			$el.find('.scene').addClass(sceneActiveClass);
+		}
+
+		// If top of section is below top of viewport, remove class active.
+		if (bounding.top > 0) {
+			$el.find('.scene').removeClass(sceneActiveClass);
+		}
+
+		// If bottom of section is at bottom of viewport, add class ended.
+		if (bounding.bottom <= (winHeight)) {
+			$el.find('.scene').addClass(sceneEndedClass);
+		}
+
+		// If bottom of section is not at bottom of viewport, remove class ended.
+		if (bounding.bottom > (winHeight)) {
+			$el.find('.scene').removeClass(sceneEndedClass);
+		}
+	}
+}
+
+// This function sets up the horizontal scroll. This applies data attributes to the section for later use.
+function setUpHorizontalScroll($el) {
+
+	var sectionClass = $el.attr('class');
+
+	// Set content wrapper variables & data attributes.
+	var $contentWrapper = $el.find('.' + sectionClass + '__content-wrapper');
+	var contentWrapperDom = $contentWrapper.get(0);
+	$el.data('contentWrapper', $contentWrapper);
+	$el.data('contentWrapperDom', contentWrapperDom);
+
+	// Set content wrapper scroll width variables & data attributes.
+	var contentWrapperScrollWidth = $el.data('contentWrapperDom').scrollWidth;
+	$el.data('contentWrapperScrollWidth', contentWrapperScrollWidth);
+
+	// Set right max variables & data attributes.
+	var rightMax = $el.data('contentWrapperScrollWidth') - winWidth;
+	var rightMaxMinus = -(rightMax);
+	$el.data('rightMax', Number(rightMaxMinus));
+
+	// Set initialized data variable to false do incidate scrolling functionality doesn't work yet.
+	$el.data('initalized', false);
+
+	// Set height of section to the scroll width of content wrapper.
+	$el.css('height', $el.data('contentWrapperScrollWidth'));
+
+	// Set data attribute for outerHeight.
+	$el.data('outerHeight', $el.outerHeight());
+
+	// Set data attribute for offset top.
+	$el.data('offsetTop', $el.offset().top);
+
+	// Set data initialized data variable to true to indicate ready for functionality.
+	$el.data('initalized', true);
+
+	// Set data variable for transform X (0 by default)
+	$el.data('transformX', '0');
+
+	// Add class of init
+	$el.addClass($el.attr('class') + '--init');
+}
+
+function resetHorizontalScroll($el) {
+  
+  
+	// Update data attribute for content wrapper scroll width.
+
+  var contentWrapperScrollWidth = $el.data('contentWrapperDom').scrollWidth;
+	$el.data('contentWrapperScrollWidth', contentWrapperScrollWidth);
+  
+
+	// Update rightMax variables & data attributes.
+	rightMax = $el.data('contentWrapperScrollWidth') - winWidth;
+	rightMaxMinus = -(rightMax);
+	$el.data('rightMax', Number(rightMaxMinus));
+
+	// Update height of section to the scroll width of content wrapper.
+	$el.css('height', $el.data('contentWrapperScrollWidth'));
+
+	// Update data attribute for outerHeight.
+	$el.data('outerHeight', $el.outerHeight());
+
+	// Update data attribute for offset top.
+	$el.data('offsetTop', $el.offset().top);
+
+	// If transform is smaller than rightmax, make it rightmax.
+	if ($el.data('transformX') <= $el.data('rightMax')) {
+		$el.data('contentWrapper').css({
+			'transform': 'translate3d(' + $el.data('rightMax') + 'px, 0, 0)',
+		});
+	}
+}
+
+var $horizontalScrollSections = $('.horizontal-scroll-section');
+var $horizontalScrollSectionsTriggers = $horizontalScrollSections.find('.trigger');
+
+// Each function - set variables ready for scrolling functionality. Call horizontal scroll functions on load and resize.
+$horizontalScrollSections.each(function (i, el) {
+  
+	var $thisSection = $(this);
+
+	$(this).data('elDom', $(this).get(0));
+
+	// Set up horizontal scrolling data attributes and show section all have been computed.
+	setUpHorizontalScroll($(this));
+
+	// Now we're ready, call setScene on load that adds classes based on scroll position.
+	setScene($(this));
+
+	// Resize function
+	$(window).on('resize', function () {
+		// Reset horizontal scrolling data attributes and transform content wrapper if transform is bigger than scroll width.
+		resetHorizontalScroll($thisSection);
+		// Reset scene positioning.
+		setScene($thisSection);
+	});
+
+});
+
+function setupHorizontalTriggers($el, section) {
+	var parent = $el.parent();
+	var positionLeft = parent.position().left;
+	var positionLeftMinus = -(positionLeft);
+	var triggerOffset = $el.data('triggerOffset');
+	triggerOffset = !triggerOffset ? 0.5 : triggerOffset = triggerOffset;
+	$el.data('triggerOffset', triggerOffset);
+	$el.data('triggerPositionLeft', positionLeftMinus);
+	$el.data('triggerSection', section);
+}
+
+function useHorizontalTriggers($el) {
+	if ($el.data('triggerSection').data('transformX') <= ($el.data('triggerPositionLeft') * $el.data('triggerOffset'))) {
+		$el.data('triggerSection').addClass($el.data('class'));
+	} else {
+		if ($el.data('remove-class') !== false) {
+			$el.data('triggerSection').removeClass($el.data('class'));
+		}
+	}
+}
+
+$horizontalScrollSectionsTriggers.each(function (i, el) {
+	setupHorizontalTriggers($(this), $(this).closest('.horizontal-scroll-section'));
+});
+
+function transformBasedOnScrollHorizontalScroll($el) {
+
+	// Get amount scrolled variables.
+	var amountScrolledContainer = winScrollTop - $el.data('offsetTop');
+	var amountScrolledThrough = (amountScrolledContainer / ($el.data('outerHeight') - (winHeight - winWidth)));
+
+	// Add transform value variable based on amount scrolled through multiplied by scroll width of content.
+	var toTransform = (amountScrolledThrough * $el.data('contentWrapperScrollWidth'));
+
+	// Add transform value for minus (as we're transforming opposite direction).
+	var toTransformMinus = -(toTransform);
+
+	// If transform value is bigger or equal than 0, set value to 0.
+	toTransformMinus = Math.min(0, toTransformMinus);
+
+	// If transform value is smaller or equal than rightMax, set value to rightMax.
+	toTransformMinus = Math.max(toTransformMinus, $el.data('rightMax'));
+
+	// Update transformX data variable for section.
+	$el.data('transformX', Number(toTransformMinus));
+
+	// If section has been initalized, apply transform.
+	if ($el.data('initalized') == true) {
+		$el.data('contentWrapper').css({
+			'transform': 'translate3d(' + $el.data('transformX') + 'px, 0, 0)'
+		});
+	}
+}
+
+// 
+$(window).on('scroll', function(){
+ 
+	// Get window scroll top.
+	winScrollTop = $(window).scrollTop();
+
+	// Each function in horizontal scroll sections.
+	$horizontalScrollSections.each(function (i, el) {
+		transformBasedOnScrollHorizontalScroll($(this));
+		setScene($(this));
+	});
+
+	// Each function for horizontal scroll section triggers.
+	$horizontalScrollSectionsTriggers.each(function (i, el) {
+		useHorizontalTriggers($(this));
+	});
+			 
+});
+
+});
 	</script>
+
 </body>
 </html>
