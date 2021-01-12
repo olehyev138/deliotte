@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- bootstrap 3.3.4 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <!-- Font-Awesome.css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
   <!-- Animation on Scroll.css -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
@@ -60,30 +62,19 @@
     .deloitte-report.reflect .group-67 h1 { font-size: 28px; color: #ffffff; font-weight: 300; margin-top:0 ;}
     .deloitte-report.reflect .group-67 p { font-size: 16px; color: #ffffff; padding: 10px 0; margin-bottom: 0; font-style: italic; font-weight: 300;}
     
-    .deloitte-report.reflect .group-68 { background: #EBEBEB; padding: 50px 0 100px 0;  }
+    .deloitte-report.reflect .group-68 { background: #EBEBEB; padding: 50px 0 0px 0;  }
     .deloitte-report.reflect .group-68 .group_wrapper h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;}
     .deloitte-report.reflect .group-68 .group_wrapper p { font-size: 16px; padding-right: 30px; line-height: 28px;}
-    /* Horizontal Scrolling */
-    .trigger {position: absolute;}
-    .trigger--one {left: 0;}
-    .scene {position: absolute;height: auto;top: 0;left: 0;right: 0;} 
-    .scene--active {position: fixed;}
-    .scene--ended {position: absolute;bottom: 0;top: auto;}
-    .horizontal-scroll-section {position: relative;height: auto;opacity: 0;transition: 0.2s opacity;}
-    /* .horizontal-scroll-section img {
-      display: block;
-      height: auto;
-      width: 100%;
-    } */
-    .horizontal-scroll-section--init { opacity: 1;}
-    .horizontal-scroll-section__content {  display: flex;  align-items: center;}
-    .deloitte-report.reflect .group-68 .horizontal-scroll-section__content-wrapper { display: flex; height: auto; position: relative; width: 3500px; padding: 25px 0;}
+
+    .deloitte-report.reflect .group-68 .horizontal-scroll-section__content-wrapper { display: flex;
+  height: 100%;
+  align-items: center;
+  position: relative;}
     .deloitte-report.reflect .group-68 .horizontal-scroll-section__content-section {position: relative;padding: 0 40px;height: 100%;display: flex;align-items: center;}
-    .deloitte-report.reflect .group-68 .horizontal-scroll-section__content-section.scroll_wrapper0 { width: 7.2%; }
-    .deloitte-report.reflect .group-68 .horizontal-scroll-section__content-section.scroll_wrapper1 { width: 35%; }
-    .deloitte-report.reflect .group-68 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 45%; }
-    .deloitte-report.reflect .group-68 .horizontal-scroll-section__content-section .content_wrapper { width: 85%;
-      text-align: left; }
+    .deloitte-report.reflect .group-68 .horizontal-scroll-section__content-section.scroll_wrapper0 { min-width: 17vw; }
+    .deloitte-report.reflect .group-68 .horizontal-scroll-section__content-section.scroll_wrapper00 { min-width: 7vw; }
+	.deloitte-report.reflect .group-68 .horizontal-scroll-section__content-section.scroll_wrapper1 { min-width: 48vw; }
+	.deloitte-report.reflect .group-68 .horizontal-scroll-section__content-section.scroll_wrapper2 { min-width: 60vw; }
     /* .horizontal-scroll-section__image {
       display: flex;
       align-items: center;
@@ -93,7 +84,7 @@
     .deloitte-report.reflect .group-68  .horizontal-scroll-section__content-section .content_wrapper2 h2{ font-size: 24px; text-align: left; font-weight: 300;  line-height: 30px; margin-top: 0;}
     .deloitte-report.reflect .group-68  .horizontal-scroll-section__content-section .content_wrapper1 .number { font-size: 150px; font-weight: 300;margin-top: -30px;}
     .deloitte-report.reflect .group-68  .horizontal-scroll-section__content-section .content_wrapper2 .number { font-size: 150px; font-weight: 300;margin-top: -30px;}
-    .deloitte-report.reflect .group-68  .horizontal-scroll-section__content-section .content_wrapper1 .num_text { font-size: 24px; font-weight: 300; font-style: italic; margin-top: 95px; padding-right: 180px;}
+    .deloitte-report.reflect .group-68  .horizontal-scroll-section__content-section .content_wrapper1 .num_text { font-size: 24px; font-weight: 300; font-style: italic; margin-top: 95px; padding-right: 100px;}
     .deloitte-report.reflect .group-68  .horizontal-scroll-section__content-section .content_wrapper2 .num_text { font-size: 24px; font-weight: 300;  margin-top: 95px;}
     .deloitte-report.reflect .group-68  .horizontal-scroll-section__content-section .content_wrapper2 .num_text .italic { font-style: italic;}
     
@@ -104,40 +95,177 @@
     /* Horizontal scrolling 2 */
     .deloitte-report.reflect .group-70 { background: #EBEBEB; padding: 50px 0 100px 0;  }
     .deloitte-report.reflect .group-70 .group_wrapper p { font-size: 16px; padding-right: 30px; line-height: 28px;}
-    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-wrapper { display: flex; height: auto; position: relative; width: 3500px; padding: 25px 0;}
-    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section {position: relative;padding: 0 40px;height: 100%;display: flex;align-items: center;}
-    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper0 { width: 6.5%; }
-    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 { width: 25%; }
+    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-wrapper {display: flex; height: 100%;position: relative;}
+    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section {position: relative;padding: 0 40px;height: 100%;display: flex;}
+    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper0 { min-width: 17vw; }
+    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper00 { min-width: 7vw; }
+    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 { min-width: 48vw; }
     .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 .img { height: 150px; background-color: #CCCCCC; width: 100%; margin: 25px 0;}
-    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 h2 { font-size: 36px; }
-    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 p { font-size: 16px; line-height: 25px;padding-right: 25px;}
-    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 30%; }
+    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 h2 { font-size: 36px; text-align: left;}
+    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 p { font-size: 16px; line-height: 25px;padding-right: 25px;text-align: left;}
+    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 { min-width: 60vw; }
     .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 .img { height: 150px; background-color: #CCCCCC; width: 100%; margin: 25px 0;}
-    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 h2 { font-size: 36px; }
+    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 h2 { font-size: 36px; text-align: left;}
     .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 p { font-size: 16px; line-height: 25px;padding-right: 25px;}
-    .deloitte-report.reflect .group-70 .horizontal-scroll-section__content-section .content_wrapper { width: 85%;
-      text-align: left; }
+   
     .deloitte-report.reflect .group-71 { padding: 60px 0; background-color: #ffffff; }
     .deloitte-report.reflect .group-71 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;}
     .deloitte-report.reflect .group-71 p { font-size: 16px; padding-right: 30px; line-height: 28px;}
     .deloitte-report.reflect .group-71 .img { height: 400px; width: 200px; background-color: #CCCCCC; margin: 50px auto 0;}
 
     /* Horizontal scrolling 3 */
-    .deloitte-report.reflect .group-72 { background: #EBEBEB; padding: 50px 0 100px 0;  }
+    .deloitte-report.reflect .group-72 { background: #EBEBEB; padding: 0px 0 0px 0;  }
     .deloitte-report.reflect .group-72 .container-fluid{ padding: 0; }
     .deloitte-report.reflect .group-72 .group_wrapper p { font-size: 16px; padding-right: 30px; line-height: 28px;}
-    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-wrapper { display: flex; height: auto; position: relative; width: 8500px; padding: 25px 0;}
-    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section {position: relative;padding: 0 40px;height: 100%;display: flex;align-items: center;}
-    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 { width: 35%; padding-left: 0;}
+    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-wrapper { display: flex;
+  height: 100%;
+  position: relative;}
+	.deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section {position: relative;padding: 0 40px;height: 100%;display: flex;}
+	.deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper0 { min-width: 17vw; }
+    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper00 { min-width: 7vw; }
+	.deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 { min-width: 76vw;padding-left: 0; }
+	.deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 { min-width: 76vw;margin-left: 154px; }
     .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 h2.opacity_num{ color: rgba(216, 209, 216, 0.58); font-size: 425px; font-weight: 900; margin-top: -50px; margin-left: -55px; }
+    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 h2.opacity_num{ color: rgba(216, 209, 216, 0.58); font-size: 425px; font-weight: 900; margin-top: -50px; margin-left: -55px; }
     .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 h2{ font-size: 75px; margin: 100px 0 50px;}
+    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 h2{ font-size: 75px; margin: 100px 0 50px;}
     .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 p { font-size: 16px; line-height: 25px;padding-right: 25px;}
-    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 30%; }
-    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 .img { height: 150px; background-color: #CCCCCC; width: 100%; margin: 25px 0;}
-    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 h2 { font-size: 36px; }
     .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 p { font-size: 16px; line-height: 25px;padding-right: 25px;}
-    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section .content_wrapper { width: 85%;
-      text-align: left; }
+    /* .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 30%; } */
+    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 .img { height: 150px; background-color: #CCCCCC; width: 100%; margin: 25px 0;}
+    .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 p { font-size: 16px; line-height: 25px;padding-right: 25px;}
+    /* .deloitte-report.reflect .group-72 .horizontal-scroll-section__content-section .content_wrapper { width: 85%; */
+    
+    .deloitte-report.reflect .group-73 { padding: 60px 0; background-color: #ffffff; }
+    .deloitte-report.reflect .group-73 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;}
+    .deloitte-report.reflect .group-73 p { font-size: 16px; padding-right: 0px; line-height: 28px;}
+    #accordion .panel {
+        border-radius: 0;
+        border: 0;
+        margin-top: 0px;
+        background: #EBEBEB;
+      }
+      #accordion a {
+        display: block;
+        padding: 40px 15px;
+        text-decoration: none;
+        font-weight: 800;
+        letter-spacing: 2px;
+      }
+      #accordion .panel-heading a.collapsed:hover,
+      #accordion .panel-heading a.collapsed:focus {
+        background-color: #EBEBEB;
+        transition: all 0.2s ease-in;
+      }
+      #accordion .panel-heading a.collapsed:hover::before,
+      #accordion .panel-heading a.collapsed:focus::before {
+        color: #000000;
+      }
+      #accordion .panel-body {padding:20px 20px 40px ;}
+      #accordion .panel-body p{font-size: 12px;}
+      #accordion .panel-heading {
+        padding: 0;
+        border-radius: 0px;
+        text-align: center;
+      }
+      #accordion img { margin: -5px 0px 0px 10px; }
+      #accordion .panel-heading a:not(.collapsed) {  transition: all 0.2s ease-in;}
+      .rotate_img{
+        transform: rotate(-135deg);
+        transition: all 0.2s ease-in;
+      }
+      .panel-group .panel-heading+.panel-collapse>.panel-body { border: none;; }
+      
+      .deloitte-report .group-74 .row { padding: 32px 0; }
+      .deloitte-report .group-74 a.read1 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding: 20px 25px; background: #000000; border-radius: 0;}
+      .deloitte-report .group-74 a.read2 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding: 20px 25px; background: #000000;  border-radius: 0;}
+      .deloitte-report .group-74 .read1::after { font-family: Dcom-EDE; font-weight: normal; content: "\e8d6";    margin-left: 5px; }
+      .deloitte-report .group-74 .read2::after { font-family: Dcom-EDE; font-weight: normal; content: "\f019";    margin-left: 5px; }
+      .deloitte-report .group-74 .part_5 .image-555{  background-color: #C5C6C3; width: 100%; height: 128px; margin-bottom: 13px; }
+      .deloitte-report .group-74 .part_6 h1 { margin-bottom: 0; }   
+      
+	  
+/* Scrolling */
+.wrapper {
+  margin: 0 auto;
+}
+
+.trigger {
+  position: absolute;
+}
+.trigger--one {
+  left: 0;
+}
+
+.scene {position: absolute;height: auto;top: 0;left: 0;right: 0; padding: 100px 0;} 
+/* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) */
+.scene--active {
+  position: fixed;
+}
+.scene--ended {
+  position: absolute;
+  bottom: 0;
+  top: auto;
+}
+
+.horizontal-scroll-section {
+  position: relative;
+  min-height: 100vh;
+  opacity: 0;
+  transition: 0.2s opacity;
+}
+/* .horizontal-scroll-section img {
+  display: block;
+  max-height: 80%;
+  width: auto;
+} */
+.horizontal-scroll-section--init {
+  opacity: 1;
+}
+.horizontal-scroll-section__content {
+  display: flex;
+  /* align-items: center; */
+}
+.horizontal-scroll-section__content-wrapper {
+  display: flex;
+  height: 100%;
+  /* align-items: center; */
+  position: relative;
+}
+.horizontal-scroll-section__content-section {
+  position: relative;
+  
+  /* text-align: center; */
+  padding: 0 40px;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+}
+/* .horizontal-scroll-section__image {
+  display: flex;
+  align-items: center;
+} */
+/* .horizontal-scroll-section__image h2 {
+  margin-left: 20px;
+  width: 250px;
+  text-align: left;
+  flex-shrink: 0;
+} */
+/* .horizontal-scroll-section__image--two img {
+  max-width: 400px;
+} */
+/* .horizontal-scroll-section__image--four img {
+  max-width: 400px;
+} */
+.horizontal-scroll-section--animation-one .horizontal-scroll-section__image--two {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
     /* Tablet */
     @media only screen 
       and (min-device-width: 992px) 
@@ -499,7 +627,17 @@
 											</div>
 										</div>
 									</div>
-									
+									<div class="horizontal-scroll-section__content-section scroll_wrapper00">
+										<div class="content_wrapper2">
+											
+											<div class="row">
+												<div class="col-lg-12">
+												</div>
+												
+											</div>
+											
+										</div>
+									</div>
 									
 								  </div>
 							  </div>
@@ -571,7 +709,7 @@
 											
 										</div>
 									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
+									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
 										<div class="content_wrapper1">
 											<div class="row">
 												<div class="col-lg-3 col-md-3">
@@ -603,7 +741,7 @@
 											
 										</div>
 									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
+									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
 										<div class="content_wrapper1">
 											<div class="row">
 												<div class="col-lg-3 col-md-3">
@@ -635,7 +773,7 @@
 											
 										</div>
 									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
+									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
 										<div class="content_wrapper1">
 											<div class="row">
 												<div class="col-lg-3 col-md-3">
@@ -667,7 +805,7 @@
 											
 										</div>
 									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
+									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
 										<div class="content_wrapper1">
 											<div class="row">
 												<div class="col-lg-3 col-md-3">
@@ -699,7 +837,7 @@
 											
 										</div>
 									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
+									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
 										<div class="content_wrapper1">
 											<div class="row">
 												<div class="col-lg-3 col-md-3">
@@ -731,7 +869,7 @@
 											
 										</div>
 									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
+									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
 										<div class="content_wrapper1">
 											<div class="row">
 												<div class="col-lg-3 col-md-3">
@@ -771,6 +909,136 @@
 						  </div>
 						</div>
 					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="group-73">
+		<div class="container">
+			<div class="group_wrapper">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="text_wrapper">
+							<h1 data-aos="fade-up">A call for collective action</h1>
+							<p>It’s clear that the status quo within organizations is not working. That’s why every organization needs to rethink its DEI efforts – from development through implementation to measurement – and continually update and adapt actions to enable equitable outcomes. Every person must challenge their own assumptions about what works, and try new, possibly courageous approaches. Most importantly, every leader must shift their focus to equity, treating it the same way they would any other business outcome—with careful planning, clear metrics, and continuous actions to meet the objective. 
+								<br>
+								<br>
+							
+							As we all embark on this journey together, there will inevitably be roadblocks. We may be tempted to take shortcuts—to settle for one-off efforts or focus on superficial actions. And there may come a point where the benefits seem intangible, the work seems formidable, and willpower seems to wane. 
+							<br>
+							<br>
+							But the future of racial equity hinges on whether businesses will leverage their immense power—both individually and collectively—to make progress. A more equitable future is possible. And it will be determined by the actions we take now.
+								</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<section class="group-74">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="group_wrapper_2 grey">
+						<div id="accordion" class="panel-group">
+							<div class="panel">
+							  <div class="panel-heading">
+							  <h4 class="panel-title">
+								<a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">DEFINITION OF KEY TERMS <img src="plus.png" alt="" class=""></a>
+								
+								</h4>
+							  </div>
+							  <div id="panelBodyOne" class="panel-collapse collapse">
+							  <div class="panel-body">
+								<div class="group_wrapper">
+									<p><b>Anti-oppression:</b> The theory, strategy, and active practice of confronting individual and institutional power and privilege to consistently challenge and dismantle exclusionary and oppressive systems, policies, practices, and organizational values. Anti-oppression recognizes the pervasiveness and seriousness of oppression and actively seeks to challenge, eliminate, and prevent it. More broadly, anti-racism is a type of anti-oppression.
+										<br>
+										<br>
+									<b>DEI:</b> The acronym DEI (for Diversity, Equity, and Inclusion) represents the summation of activities and/or the formal function within an organization that focuses on supporting diversity, anti-oppression, inclusion, belonging, and equity aspirations and outcomes. Diversity, inclusion, and anti-racism are distinct, but related—they can each exist without the others, but are mutually reinforcing.
+									<br>
+									<br>
+									<b>Diversity:</b> The representation, in a group, of various facets of identity, including (but not limited to) race, ethnicity, nationality, gender identity, LGBTQ+ status, socioeconomic status, ability, religion, and age.
+									<br>
+									<br>
+									<b>Equity:</b> The outcome of diversity, inclusion, and anti-oppression actions wherein all people have fair access, opportunity, resources, and power to thrive, with consideration for and elimination of historical and systemic barriers and privileges that cause oppression. Equality, by comparison, is when all people are treated identically, without consideration for historical and systemic barriers and privileges.
+									<br> 
+										<br>
+									<i><b>Equitable enterprise:</b> An organization that works to remove systemic disparities internally and externally to promote equally high outcomes for different groups regardless of their respective privileges.
+									</i>
+									<br>
+									<br>
+									<b>Inclusion:</b> <i>The actions taken to understand, embrace, and leverage the unique strengths and facets of identity for all individuals so that all feel welcomed, valued, and supported.</i>
+									<br> 
+									<br>
+									<b>PEER:</b> <i>Acronym for Persons Excluded due to Ethnicity or Race, a term used to unite people who have been historically oppressed without insinuating that those individuals are less than or that their sole identity is one of exclusion or oppression (includes people who identify as Black, Latinx, and people indigenous to the U.S. and its territories). This term shifts the focus to the acts of exclusion and oppression, while enabling individuals to disentangle their identity from it, unlike the terms “underrepresented minority (URM)” or “oppressed people.”</i>
+										<br> 
+										<br> 
+									<b>Systemic racism:</b> <i>A form of racism expressed in the practice of social and political institutions. It is reflected in disparities regarding wealth, income, employment, housing, health care, political power, education, and the criminal legal system, among other factors. Individual, interpersonal, institutional, and structural racism together form a system, referred to herein as “systemic racism” or “racism.”</i>
+										</p>
+								</div>
+								</div>
+							  </div>
+							</div>
+							
+						  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="group-74">
+		<div class="container">
+			<div class="group_wrapper">
+				
+				<div class="row part_4">
+					<div class="col-lg-6 col-md-6 col-xs-12">
+						<a class="btn btn-default read1" data-aos="fade-right">SUBSCRIBE TO NEW CONTENT</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-xs-12">
+						<a class="btn btn-default read2" data-aos="fade-left">Download the full report</a>
+					</div>
+					
+				</div>
+				<div class="row part_6">
+					<div class="col-lg-12">
+						<h1 data-aos="fade-up">H1 Deloitte leader/sponsor bios</h1>
+					</div>
+				</div>
+				<div class="row part_5">
+					<div class="col-lg-2 col-md-2 col-xs-6" data-aos="fade-right">
+						<div class="image-555"></div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-xs-6" data-aos="fade-right">
+						<p>
+							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
+						</p>
+					</div>
+					<div class="col-lg-2 col-md-2 col-xs-6" data-aos="fade-left">
+						<div class="image-555"></div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-xs-6" data-aos="fade-left">
+						<p>
+							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
+						</p>
+					</div>
+				</div>
+				<div class="row part_5">
+					<div class="col-lg-2 col-md-2 col-xs-6" data-aos="fade-right">
+						<div class="image-555"></div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-xs-6" data-aos="fade-right">
+						<p>
+							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
+						</p>
+					</div>
+					<div class="col-lg-2 col-md-2 col-xs-6" data-aos="fade-left">
+						<div class="image-555"></div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-xs-6" data-aos="fade-left">
+						<p>
+							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1029,6 +1297,11 @@ $(window).on('scroll', function(){
 
 
 
+$(function(){
+    $('.panel-title').on('click', function(){
+        $('.panel-title img').toggleClass('rotate_img')
+   });
+});
 
 	</script>
 
