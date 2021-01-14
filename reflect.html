@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- bootstrap 3.3.4 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/css/animate.css">
   <!-- Owl Carousel.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- Animation on Scroll.css -->
@@ -202,7 +203,7 @@
   and (max-device-width: 1195px) 
   and (-webkit-min-device-pixel-ratio: 1){
     .deloitte-report.reflect .group-63 .row:nth-of-type(1){ padding: 25px 0 120px 0; }
-    .deloitte-report.reflect .group-63 h1 { margin-top: 110px; }
+    .deloitte-report.reflect .group-63 h1 { margin-top: 80px; }
     .deloitte-report.reflect .group-63 .image-530 { width: 450px; height: 450px; }
     .deloitte-report.reflect .group-63 .col-lg-5{ padding-right: 15px; }
     .scene {
@@ -369,7 +370,7 @@
 	<section class="group-67">
 		<div class="container">
 			<div class="owl-carousel owl_2">
-				<div class="group_wrapper_2" data-aos="fade-left">
+				<div class="group_wrapper_2" >
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="text_wrapper">
@@ -380,7 +381,7 @@
 						</div>
 					</div>	
 				</div>
-				<div class="group_wrapper_2" data-aos="fade-left">
+				<div class="group_wrapper_2">
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="text_wrapper">
@@ -391,7 +392,7 @@
 						</div>
 					</div>	
 				</div>
-				<div class="group_wrapper_2" data-aos="fade-left">
+				<div class="group_wrapper_2">
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="text_wrapper">
@@ -1419,14 +1420,16 @@ $(function(){
    });
 });
 
-//Owl carousel
+
 $('.owl_1').owlCarousel({
+	animateOut: 'fadeOutRight',
+	animateIn: 'fadeInLeft',
   loop: true,
   autoplay: true,
-  autoplayHoverPause: true,
+   autoplayHoverPause: true,
   navigation: false,
   slideSpeed: 100,
-  paginationSpeed: 800,
+  paginationSpeed: 100,
   responsive: {
     0: {
       items: 1
@@ -1437,15 +1440,19 @@ $('.owl_1').owlCarousel({
     1000: {
       items: 1
     }
-  }
+   }
 });
+
+
 $('.owl_2').owlCarousel({
-	loop: true,
+	animateOut: 'fadeOutRight',
+	animateIn: 'fadeInLeft',
+  loop: true,
   autoplay: true,
-  autoplayHoverPause: true,
+   autoplayHoverPause: true,
   navigation: false,
   slideSpeed: 100,
-  paginationSpeed: 800,
+  paginationSpeed: 100,
   responsive: {
     0: {
       items: 1
@@ -1456,8 +1463,8 @@ $('.owl_2').owlCarousel({
     1000: {
       items: 1
     }
-  }
-})
+   }
+});
 
 	</script>
 
