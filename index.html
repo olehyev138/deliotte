@@ -29,21 +29,26 @@
 @media (min-width: 1200px) {
   .deloitte-report .group_wrapper{ width: 720px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
 .deloitte-report .container { max-width: 1200px;  } 
-.deloitte-report .group-55 .letter { left: 200px; right: -36px; }
+.deloitte-report .group-55 .letter { left: 200px;}
 }
+a.read { text-decoration: none; }
+a.read:hover>.read::after { margin-left: 15px; }
+a.read::after { transition-duration: 300ms; }
 .deloitte-report section {  overflow: hidden;  } 
 
 .img-resposive { max-width: 100%; }
 .deloitte-report .group-63 { background-color: black; color: white; }
 .deloitte-report .group-63 .row{ padding: 25px 0 45px 0;  }
 .deloitte-report .group-63 .col-lg-5 { padding-right: 60px; }
-.deloitte-report .group-63 h1 { font-size: 50px; font-weight: 300; margin-top: 90px; }
+.deloitte-report .group-63 h1 { font-size: 50px; font-weight: 300; margin-top: 45px; }
 .deloitte-report .group-63 h2 { font-size: 32px; font-weight: bold; margin-top: 40px; color: #86BC25;}
 .deloitte-report .group-63 p { font-size: 18px; font-weight: 300; margin: 35px 0 25px 0; }
 .deloitte-report .group-63 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer; }
 .deloitte-report .group-63 .read::after { font-family: Dcom-EDE; font-weight: normal; content: "\f019";    margin-left: 5px; }
-.deloitte-report .group-63 .image-530 { background-color: #707070; width: 530px; height: 530px; border-radius: 50%; margin: 70px 0 30px 60px; }
-.deloitte-report .group-64 { background-color: white; color: black; padding: 25px 0;}
+.deloitte-report .group-63 .image-530 { background-color: #707070; width: 530px; height: 530px; border-radius: 50%; margin: 35px 0 30px 60px; }
+.deloitte-report .group-64 { background-color: white; color: black; padding: 25px 0; position: sticky; 
+  top:0;right:0;left:0;
+  z-index: 1; border-bottom: 1px solid #ccc;}
 .deloitte-report .group-64 .sec_nav { padding: 0px; margin: 0px; text-align: right; }
 .deloitte-report .group-64 .sec_nav li{ list-style: none; margin-left: 43px; display: inline;}
 .deloitte-report .group-64 .sec_nav li a{ color: #000000; font-weight: bold; text-decoration: none; font-size: 16px;}
@@ -53,11 +58,12 @@
 .deloitte-report .group-55 h1 { font-size: 32px; font-weight: 300; margin-top: 0; margin-bottom: 40px; }
 .deloitte-report .group-55 p { font-size: 16px; }
 .deloitte-report .group-55 .group-55_left p{ padding-right: 90px; line-height: 25px;}
-.deloitte-report .group-55 .image-242 { margin-left: -100px; position: relative; top: -35px; width: 395px;} 
+.deloitte-report .group-55 .image-242 { margin-left: -100px; position: relative; top: 9px;
+    width: 350px;} 
 .deloitte-report .group-55 .image-242 img{ position: absolute; top: 0;} 
 .deloitte-report .group-55 .letter { background-color: #161618; padding: 14px 22px; position: absolute; top: 77px;  }
 .deloitte-report .group-55 .letter span { margin-left: -14px;}
-.deloitte-report .group-55 .letter p { font-size: 25px; /* pretend to be even thinner? */ -webkit-text-stroke: .015em #161618;}
+.deloitte-report .group-55 .letter p { font-size: 22px; /* pretend to be even thinner? */ -webkit-text-stroke: .015em #161618;}
 .deloitte-report .group-55 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer; }
 .deloitte-report .group-55 .read::after { font-family: Dcom-EDE; font-weight: normal; content: "\f067"; margin-left: 10px; }
 
@@ -67,7 +73,7 @@
     
 .deloitte-report .group-135 .row { padding: 32px 0; }
 .deloitte-report .group-135 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px; }
-.deloitte-report .group-135 p { font-size: 16px; }
+.deloitte-report .group-135 p { font-size: 16px; margin-top: 20px;}
 .deloitte-report .group-135 .part_2 p { padding-right: 145px; }
 .deloitte-report .group-135 .part_4 .btn_custom { background-color: #000; width: 100%; margin-bottom: 13px; }
 .deloitte-report .group-135 .part_3 img{ width: 100%; }
@@ -115,7 +121,7 @@
   and (max-device-width: 1195px) 
   and (-webkit-min-device-pixel-ratio: 1){
     .deloitte-report .group-63 .row:nth-of-type(1){ padding: 25px 0 120px 0; }
-    .deloitte-report .group-63 h1 { margin-top: 110px; }
+    .deloitte-report .group-63 h1 { margin-top: 80px; }
     .deloitte-report .group-63 .image-530 { width: 450px; height: 450px; }
     .deloitte-report .group-63 .col-lg-5{ padding-right: 15px; }
     .deloitte-report .group-55 .group-55_left p { padding-right: 0; }
@@ -182,13 +188,13 @@
     <section class="group-64">
         <div class="container">
             <div class="row">
-				<div class="col-lg-7 col-md-6">&nbsp;</div>
+				<div class="col-lg-7 col-md-6 visible-lg">&nbsp;</div>
 				<div class="col-lg-5 col-md-6">
 					<ul class="sec_nav" data-aos="fade-left">
 						<li><a href="#" class="active">Home</a></li>
 						<li><a href="#">Reflect</a></li>
-						<li><a href="#">Look Ahead</a></li>
-						<li><a href="#">Act Now</a></li>
+						<li><a href="#">Look ahead</a></li>
+						<li><a href="#">Act now</a></li>
 					</ul>
 				</div>
 			</div>
@@ -233,29 +239,29 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-4">
 					<div class="card1">
-					<div class="image-345" data-aos="fade-right"></div>
-						<p class="title" data-aos="fade-right">reflect</p>
-						<h1 data-aos="fade-right">Chapter I: What is racial equity and why should you care about it?</h1>
-						<p class="body_p" data-aos="fade-right">We break down the problem of systemic racism by the numbers and explain why businesses must take the lead in dismantling it.</p>
-						<a class="read" data-aos="fade-right">Read the chapter</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="card2">
 					<div class="image-345" data-aos="fade-up"></div>
-						<p class="title" data-aos="fade-up">Look ahead</p>
-						<h1 data-aos="fade-up">Chapter II: How can future-focused scenarios help business leaders drive change?</h1>
-						<p class="body_p" data-aos="fade-up">We provide a scenarios-based view of racial equity in the United States, designed to spark the imagination for how the future may unfold in potentially surprising ways.</p>
+						<p class="title" data-aos="fade-up">reflect</p>
+						<h1 data-aos="fade-up">Chapter I: What is racial equity and why should you care about it?</h1>
+						<p class="body_p" data-aos="fade-up">We break down the problem of systemic racism by the numbers and explain why businesses must take the lead in dismantling it.</p>
 						<a class="read" data-aos="fade-up">Read the chapter</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4">
+					<div class="card2">
+					<div class="image-345" data-aos="fade-up" data-aos-delay="500"></div>
+						<p class="title" data-aos="fade-up" data-aos-delay="500">Look ahead</p>
+						<h1 data-aos="fade-up" data-aos-delay="500">Chapter II: How can future-focused scenarios help business leaders drive change?</h1>
+						<p class="body_p" data-aos="fade-up" data-aos-delay="500">We provide a scenarios-based view of racial equity in the United States, designed to spark the imagination for how the future may unfold in potentially surprising ways.</p>
+						<a class="read" data-aos="fade-up" data-aos-delay="500">Read the chapter</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
 					<div class="card3">
-					<div class="image-345" data-aos="fade-left"></div>
-						<p class="title" data-aos="fade-left">act now</p>
-						<h1 data-aos="fade-left">Chapter III: What can you do now to drive measurable, meaningful, and sustainable change toward racial equity?</h1>
-						<p class="body_p" data-aos="fade-left">We take an expansive view of the choices leaders face to drive meaningful progress toward racial equity both in the workplace and outside their organization.</p>
-						<a class="read" data-aos="fade-left">Read the chapter</a>
+					<div class="image-345" data-aos="fade-up" data-aos-delay="1000"></div>
+						<p class="title" data-aos="fade-up" data-aos-delay="1000">act now</p>
+						<h1 data-aos="fade-up" data-aos-delay="1000">Chapter III: What can you do now to drive measurable, meaningful, and sustainable change toward racial equity?</h1>
+						<p class="body_p" data-aos="fade-up" data-aos-delay="1000">We take an expansive view of the choices leaders face to drive meaningful progress toward racial equity both in the workplace and outside their organization.</p>
+						<a class="read" data-aos="fade-up" data-aos-delay="1000">Read the chapter</a>
 					</div>
 				</div>
 			</div>
@@ -386,7 +392,7 @@
 		AOS.init({
 		duration: 800,
 		})
-
+		
 	</script>
 </body>
 </html>
