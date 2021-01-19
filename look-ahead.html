@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- bootstrap 3.3.4 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   <!-- Animation on Scroll.css -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- <link href="style.css" rel="stylesheet"> -->
@@ -23,7 +24,7 @@
 	<!-- our stuff for them to copy-paste -->
 	
 <style>
-	/* font-weight: 300 */
+/* font-weight: 300 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .deloitte-report.look h1, .deloitte-report.look h2, .deloitte-report.look h3, .deloitte-report.look p, .deloitte-report.look a{ font-family: 'Open Sans', sans-serif; }
@@ -128,16 +129,20 @@ a.read { text-decoration: none; }
 .deloitte-report.look .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 p { font-size: 16px; line-height: 25px;padding-right: 25px;}
 .deloitte-report.look .group-70 .horizontal-scroll-section__content-section .content_wrapper { width: 85%;text-align: left; }
 .deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_top .active{ background-color: #ffffff;border-top: 0px solid #EBEBEB;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_top .active:after {  content: " "; position: absolute; right: 88px; bottom: 0px; border-top: none; border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid #000000;}
+.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_top .active:after {  content: " "; position: absolute; right: 88px; bottom: 5px; border-top: none; border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid #000000;}
 .deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_top .non_active{ border-top: 1px solid #EBEBEB;}
 .deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_top .active p{ color: #000000;}
 .deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_top p{ color: #ffffff; font-size: 17px; line-height: 24px; text-align: center; padding: 20px 0;}
 .deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box{ height: 250px; width: auto;}
 .deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner{ height: 125px; border: 1px solid #FFFFFF; width: auto;}
 
+.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner .active{ background: #012068 !important;}
+
+
 .deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner_inner1{ height: 60px;  text-align: center; width: 135px;    position: relative;top: 52px;}
 .deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner_inner1 span{ color: #ffffff; font-size: 12px; font-style: italic;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_inner_small_box1{ height: 40px;  text-align: center; background: #012068; width: 45px;    margin: 0px auto;}
+.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_inner_small_box1{ height: 40px;  text-align: center; background: #A8A8A8; width: 45px;    margin: 0px auto;}
+
 .deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_inner_small_box1 span{ color: #ffffff; line-height: 45px; font-size: 20px; font-weight: bold;}
 
 
@@ -182,68 +187,62 @@ a.read { text-decoration: none; }
 
 
 
-.deloitte-report.look .group-71 { padding: 60px 0; background-color: #ffffff; }
-.deloitte-report.look .group-71 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;}
+.deloitte-report.look .group-71 { padding: 60px 0; background-color: #EBEBEB; }
+.deloitte-report.look .group-71 h2 { font-size: 14px; margin-top: 0; }
+.deloitte-report.look .group-71 h1 { font-size: 24px; font-style: italic; margin-bottom: 37px;}
 .deloitte-report.look .group-71 p { font-size: 16px; padding-right: 30px; line-height: 28px;}
-.deloitte-report.look .group-71 .img { height: 400px; width: 200px; background-color: #CCCCCC; margin: 50px auto 0;}
+.deloitte-report.look .group-71 .custom_btn { font-size: 16px; background-color: #ffffff; color: #000000;font-weight: 600;
+  letter-spacing: 2px;
+  padding: 20px 25px;
+  border-radius: 0; margin-top: 50px;}
 
-/* Horizontal scrolling 3 */
-.deloitte-report.look .group-72 { background: #EBEBEB; padding: 50px 0 100px 0;  }
-.deloitte-report.look .group-72 .container-fluid{ padding: 0; }
-.deloitte-report.look .group-72 .group_wrapper p { font-size: 16px; padding-right: 30px; line-height: 28px;}
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-wrapper { display: flex; height: auto; position: relative; width: 8500px; padding: 25px 0;}
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-section {position: relative;padding: 0 40px;height: 100%;display: flex;align-items: center;}
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 { width: 35%; padding-left: 0;}
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 h2.opacity_num{ color: rgba(216, 209, 216, 0.58); font-size: 425px; font-weight: 900; margin-top: -50px; margin-left: -55px; }
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 h2{ font-size: 75px; margin: 100px 0 50px;}
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 p { font-size: 16px; line-height: 25px;padding-right: 25px;}
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 30%; }
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 .img { height: 150px; background-color: #CCCCCC; width: 100%; margin: 25px 0;}
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 h2{ font-size: 75px; margin: 100px 0 50px;}
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 h2.opacity_num{ color: rgba(216, 209, 216, 0.58); font-size: 425px; font-weight: 900; margin-top: -50px; margin-left: -55px; }
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 p { font-size: 16px; line-height: 25px;padding-right: 25px;}
-.deloitte-report.look .group-72 .horizontal-scroll-section__content-section .content_wrapper { width: 85%;
-  text-align: left; }
 
 .deloitte-report.look .group-73 { padding: 60px 0; background-color: #ffffff; }
 .deloitte-report.look .group-73 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;}
 .deloitte-report.look .group-73 p { font-size: 16px; padding-right: 0px; line-height: 28px;}
-#accordion .panel {
+.deloitte-report .group-73 #accordion .panel {
     border-radius: 0;
     border: 0;
     margin-top: 0px;
-    background: #EBEBEB;
+    margin-top: 20px;
+    
   }
-  #accordion a {
+  .deloitte-report .group-73 #accordion a {
     display: block;
-    padding: 40px 15px;
+    padding: 20px 0px;
     text-decoration: none;
     font-weight: 800;
-    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: bold;
   }
-  #accordion .panel-heading a.collapsed:hover,
-  #accordion .panel-heading a.collapsed:focus {
+  .deloitte-report .group-73 #accordion .panel-heading a.collapsed:hover,
+  .deloitte-report .group-73 #accordion .panel-heading a.collapsed:focus {
     background-color: #EBEBEB;
     transition: all 0.2s ease-in;
   }
-  #accordion .panel-heading a.collapsed:hover::before,
-  #accordion .panel-heading a.collapsed:focus::before {
+  .deloitte-report .group-73 #accordion .panel-heading a.collapsed:hover::before,
+  .deloitte-report .group-73 #accordion .panel-heading a.collapsed:focus::before {
     color: #000000;
   }
-  #accordion .panel-body {padding:20px 20px 40px ;}
-  #accordion .panel-body p{font-size: 12px;}
-  #accordion .panel-heading {
+  .deloitte-report .group-73 #accordion .panel-body {padding:20px 20px 40px ;}
+  .deloitte-report .group-73 #accordion .panel-body p{font-size: 14px; line-height: 22px;}
+  .deloitte-report .group-73 #accordion .panel-heading {
     padding: 0;
     border-radius: 0px;
     text-align: center;
+    background: #EBEBEB;
   }
-  #accordion img { margin: -5px 0px 0px 10px; }
-  #accordion .panel-heading a:not(.collapsed) {  transition: all 0.2s ease-in;}
+
+ 
+
+  .deloitte-report .group-73 #accordion .icon_wrapper { height: 25px; width: 25px; border-radius: 50px; background-color: #ffffff; position: absolute; display: inline-block;      right: 250px;}
+  .deloitte-report .group-73 #accordion i { line-height: 25px; }
+  .deloitte-report .group-73 #accordion .panel-heading a:not(.collapsed) {  transition: all 0.2s ease-in;}
   .rotate_img{
     transform: rotate(-135deg);
     transition: all 0.2s ease-in;
   }
-  .panel-group .panel-heading+.panel-collapse>.panel-body { border: none;; }
+  .deloitte-report .group-73 .panel-group .panel-heading+.panel-collapse>.panel-body { border: none;  }
   
   .deloitte-report .group-74 .row { padding: 32px 0; }
   .deloitte-report .group-74 a.read1 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding: 20px 25px; background: #000000; border-radius: 0;}
@@ -274,6 +273,7 @@ a.read { text-decoration: none; }
       padding: 20% 2%;
   }
   .deloitte-report.look .group-68 .horizontal-scroll-section__content-section, .deloitte-report.look .group-70 .horizontal-scroll-section__content-section{ margin-top: 5%; }
+  .deloitte-report .group-73 #accordion .icon_wrapper { right: 110px; }
   .deloitte-report.look .group-72 .horizontal-scroll-section__content-section { margin-top: 3%; }
   }
 /* Mobile */
@@ -288,6 +288,32 @@ a.read { text-decoration: none; }
     .deloitte-report.look .group-65 h2 { font-size: 28px; }
     .deloitte-report.look .group-66 p { padding-right: 0;}
     .scene { padding: 50px 0;}
+    .deloitte-report.look .group-66 .box_arrow { height: 100px;
+      width: 190px;
+      margin: 69px auto;
+  }
+    .deloitte-report.look .group-66 .box_arrow:before {
+      content: " ";
+      position: absolute;
+      left: 58px;
+      top: -88px;
+      border-top: 55px solid transparent;
+      border-right: 75px solid #ECECEC;
+      border-left: none;
+      border-bottom: 55px solid transparent;
+      transform: rotate(90deg);
+  }
+  .deloitte-report.look .group-66 .box_arrow:after {
+    content: " ";
+    position: absolute;
+    right: 56px;
+    top: 80px;
+    border-top: 55px solid transparent;
+    border-right: none;
+    border-left: 75px solid #ECECEC;
+    border-bottom: 55px solid transparent;
+    transform: rotate(90deg);
+}
     .deloitte-report.look .group-71 p { padding-right: 0;}
     a.read1 { width: 100%;}
     a.read2 { width: 100%; margin-top: 20px; }
@@ -309,6 +335,18 @@ a.read { text-decoration: none; }
 }
 .deloitte-report.look .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1, .deloitte-report.look .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 {
   width: 14%;
+}
+
+.deloitte-report .group-73 #accordion a { padding: 20px 45px 20px 13px; }
+.deloitte-report .group-73 #accordion .icon_wrapper {
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  position: absolute;
+  display: inline-block;
+  right: 27px;
+  margin-top: -14px;
 }
    
 }
@@ -606,7 +644,7 @@ a.read { text-decoration: none; }
 		</div>
 	</section>
 	
-	<section class="group-70">
+	<section class="group-70" id="group_70">
 		<div class="container">
 			
 			<div class="row">
@@ -629,22 +667,22 @@ a.read { text-decoration: none; }
 										<div class="content_wrapper1">
 											<div class="middle_top">
 												<div class="row no-gutters">
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_right">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_right">
 														<div class="active">
 															<p>Scenario 1: The great unraveling</p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
 														<div class="non_active">
 															<p>Scenario 2: <br>Waves of change</p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
 														<div class="non_active">
 															<p>Scenario 3: <br>American dream 2.0 </p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_left">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_left">
 														<div class="non_active">
 															<p>Scenario 4: <br>Winner take all </p>
 														</div>
@@ -652,25 +690,25 @@ a.read { text-decoration: none; }
 												</div>
 											</div>
 											<div class="row middle_row">
-												<div class="col-lg-1">
+												<div class="col-lg-1 col-md-1 col-xs-1">
 													<div class="middle_rec">
 														<div class="row">
-															<div class="col-lg-3">
+															<div class="col-lg-3 col-md-3 col-xs-3">
 																<p>Limited/ fragmented/ tribal </p>
 															</div>
-															<div class="col-lg-6">
+															<div class="col-lg-6 col-md-6 col-xs-6">
 																<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
 															</div>
-															<div class="col-lg-3">
+															<div class="col-lg-3 col-md-3 col-xs-3">
 																<p>Extensive/ broad-based																</p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-lg-6">
+												<div class="col-lg-6 col-md-6 col-xs-6">
 													<div class="middle_box">
 														<div class="row no-gutters">
-															<div class="col-lg-6 padding_right">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
 																<div class="middle_box_inner">
 																	<div class="middle_box_inner_inner2">
 																		<div class="middle_inner_small_box2">
@@ -680,7 +718,7 @@ a.read { text-decoration: none; }
 																	</div>
 																</div>
 															</div>
-															<div class="col-lg-6 padding_left">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
 																<div class="middle_box_inner no_left_margin">
 																	<div class="middle_box_inner_inner3">
 																		<div class="middle_inner_small_box3">
@@ -693,10 +731,10 @@ a.read { text-decoration: none; }
 															</div>
 														</div>
 														<div class="row no-gutters">
-															<div class="col-lg-6 padding_right">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
 																<div class="middle_box_inner no_top_margin">
 																	<div class="middle_box_inner_inner1">
-																		<div class="middle_inner_small_box1">
+																		<div class="middle_inner_small_box1 active">
 																			<span>1</span>
 																		</div>
 																		<span>The great unraveling</span>
@@ -704,7 +742,7 @@ a.read { text-decoration: none; }
 																</div>
 		
 															</div>
-															<div class="col-lg-6 padding_left">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
 																<div class="middle_box_inner no_top_margin no_left_margin">
 																	<div class="middle_box_inner_inner4">
 																		<div class="middle_inner_small_box4">
@@ -719,19 +757,19 @@ a.read { text-decoration: none; }
 													</div>
 													<div class="middle_box_bellow">
 														<div class="row">
-															<div class="col-lg-1">
+															<div class="col-lg-1 col-md-1 col-xs-1">
 																<p>Low</p>
 															</div>
-															<div class="col-lg-9">
+															<div class="col-lg-9 col-md-9 col-xs-9">
 																<p class="p_mid"><b>Degree of economic growth</b></p>
 															</div>
-															<div class="col-lg-2">
+															<div class="col-lg-2 col-md-2 col-xs-2">
 																<p class="p_mid_last">High</p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-lg-5">
+												<div class="col-lg-5 col-md-5 col-xs-5">
 													<div class="middle_text">
 														<h2>The great unraveling:</h2>
 														<p>Economic decline and periodic outbreaks of deadly violence, combined with populism and partisanship, create a house divided against itself. Police power and surveillance are increasingly deployed in the name of public safety. While some companies make strides to advance Black individuals and other PEERs, there is less urgency for racial equity. Progress across business and government is fragmented and inconsistent.</p>
@@ -739,7 +777,7 @@ a.read { text-decoration: none; }
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-lg-12"><img class="sen_img" src="sen1.jpg" alt=""></div>
+												<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
 											</div>
 											
 										</div>
@@ -748,22 +786,22 @@ a.read { text-decoration: none; }
 										<div class="content_wrapper1">
 											<div class="middle_top">
 												<div class="row no-gutters">
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_right">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_right">
 														<div class="active">
 															<p>Scenario 1: The great unraveling</p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
 														<div class="non_active">
 															<p>Scenario 2: <br>Waves of change</p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
 														<div class="non_active">
 															<p>Scenario 3: <br>American dream 2.0 </p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_left">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_left">
 														<div class="non_active">
 															<p>Scenario 4: <br>Winner take all </p>
 														</div>
@@ -771,25 +809,25 @@ a.read { text-decoration: none; }
 												</div>
 											</div>
 											<div class="row middle_row">
-												<div class="col-lg-1">
+												<div class="col-lg-1 col-md-1 col-xs-1">
 													<div class="middle_rec">
 														<div class="row">
-															<div class="col-lg-3">
+															<div class="col-lg-3 col-md-3 col-xs-3">
 																<p>Limited/ fragmented/ tribal </p>
 															</div>
-															<div class="col-lg-6">
+															<div class="col-lg-6 col-md-6 col-xs-6">
 																<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
 															</div>
-															<div class="col-lg-3">
+															<div class="col-lg-3 col-md-3 col-xs-3">
 																<p>Extensive/ broad-based																</p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-lg-6">
+												<div class="col-lg-6 col-md-6 col-xs-6">
 													<div class="middle_box">
 														<div class="row no-gutters">
-															<div class="col-lg-6 padding_right">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
 																<div class="middle_box_inner">
 																	<div class="middle_box_inner_inner2">
 																		<div class="middle_inner_small_box2">
@@ -799,7 +837,7 @@ a.read { text-decoration: none; }
 																	</div>
 																</div>
 															</div>
-															<div class="col-lg-6 padding_left">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
 																<div class="middle_box_inner no_left_margin">
 																	<div class="middle_box_inner_inner3">
 																		<div class="middle_inner_small_box3">
@@ -812,10 +850,10 @@ a.read { text-decoration: none; }
 															</div>
 														</div>
 														<div class="row no-gutters">
-															<div class="col-lg-6 padding_right">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
 																<div class="middle_box_inner no_top_margin">
 																	<div class="middle_box_inner_inner1">
-																		<div class="middle_inner_small_box1">
+																		<div class="middle_inner_small_box1 active">
 																			<span>1</span>
 																		</div>
 																		<span>The great unraveling</span>
@@ -823,7 +861,7 @@ a.read { text-decoration: none; }
 																</div>
 		
 															</div>
-															<div class="col-lg-6 padding_left">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
 																<div class="middle_box_inner no_top_margin no_left_margin">
 																	<div class="middle_box_inner_inner4">
 																		<div class="middle_inner_small_box4">
@@ -838,19 +876,19 @@ a.read { text-decoration: none; }
 													</div>
 													<div class="middle_box_bellow">
 														<div class="row">
-															<div class="col-lg-1">
+															<div class="col-lg-1 col-md-1 col-xs-1">
 																<p>Low</p>
 															</div>
-															<div class="col-lg-9">
+															<div class="col-lg-9 col-md-9 col-xs-9">
 																<p class="p_mid"><b>Degree of economic growth</b></p>
 															</div>
-															<div class="col-lg-2">
+															<div class="col-lg-2 col-md-2 col-xs-2">
 																<p class="p_mid_last">High</p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-lg-5">
+												<div class="col-lg-5 col-md-5 col-xs-5">
 													<div class="middle_text">
 														<h2>The great unraveling:</h2>
 														<p>Economic decline and periodic outbreaks of deadly violence, combined with populism and partisanship, create a house divided against itself. Police power and surveillance are increasingly deployed in the name of public safety. While some companies make strides to advance Black individuals and other PEERs, there is less urgency for racial equity. Progress across business and government is fragmented and inconsistent.</p>
@@ -858,7 +896,7 @@ a.read { text-decoration: none; }
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-lg-12"><img class="sen_img" src="sen1.jpg" alt=""></div>
+												<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
 											</div>
 											
 										</div>
@@ -867,22 +905,22 @@ a.read { text-decoration: none; }
 										<div class="content_wrapper1">
 											<div class="middle_top">
 												<div class="row no-gutters">
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_right">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_right">
 														<div class="active">
 															<p>Scenario 1: The great unraveling</p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
 														<div class="non_active">
 															<p>Scenario 2: <br>Waves of change</p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
 														<div class="non_active">
 															<p>Scenario 3: <br>American dream 2.0 </p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_left">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_left">
 														<div class="non_active">
 															<p>Scenario 4: <br>Winner take all </p>
 														</div>
@@ -890,25 +928,25 @@ a.read { text-decoration: none; }
 												</div>
 											</div>
 											<div class="row middle_row">
-												<div class="col-lg-1">
+												<div class="col-lg-1 col-md-1 col-xs-1">
 													<div class="middle_rec">
 														<div class="row">
-															<div class="col-lg-3">
+															<div class="col-lg-3 col-md-3 col-xs-3">
 																<p>Limited/ fragmented/ tribal </p>
 															</div>
-															<div class="col-lg-6">
+															<div class="col-lg-6 col-md-6 col-xs-6">
 																<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
 															</div>
-															<div class="col-lg-3">
+															<div class="col-lg-3 col-md-3 col-xs-3">
 																<p>Extensive/ broad-based																</p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-lg-6">
+												<div class="col-lg-6 col-md-6 col-xs-6">
 													<div class="middle_box">
 														<div class="row no-gutters">
-															<div class="col-lg-6 padding_right">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
 																<div class="middle_box_inner">
 																	<div class="middle_box_inner_inner2">
 																		<div class="middle_inner_small_box2">
@@ -918,7 +956,7 @@ a.read { text-decoration: none; }
 																	</div>
 																</div>
 															</div>
-															<div class="col-lg-6 padding_left">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
 																<div class="middle_box_inner no_left_margin">
 																	<div class="middle_box_inner_inner3">
 																		<div class="middle_inner_small_box3">
@@ -931,10 +969,10 @@ a.read { text-decoration: none; }
 															</div>
 														</div>
 														<div class="row no-gutters">
-															<div class="col-lg-6 padding_right">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
 																<div class="middle_box_inner no_top_margin">
 																	<div class="middle_box_inner_inner1">
-																		<div class="middle_inner_small_box1">
+																		<div class="middle_inner_small_box1 active">
 																			<span>1</span>
 																		</div>
 																		<span>The great unraveling</span>
@@ -942,7 +980,7 @@ a.read { text-decoration: none; }
 																</div>
 		
 															</div>
-															<div class="col-lg-6 padding_left">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
 																<div class="middle_box_inner no_top_margin no_left_margin">
 																	<div class="middle_box_inner_inner4">
 																		<div class="middle_inner_small_box4">
@@ -957,19 +995,19 @@ a.read { text-decoration: none; }
 													</div>
 													<div class="middle_box_bellow">
 														<div class="row">
-															<div class="col-lg-1">
+															<div class="col-lg-1 col-md-1 col-xs-1">
 																<p>Low</p>
 															</div>
-															<div class="col-lg-9">
+															<div class="col-lg-9 col-md-9 col-xs-9">
 																<p class="p_mid"><b>Degree of economic growth</b></p>
 															</div>
-															<div class="col-lg-2">
+															<div class="col-lg-2 col-md-2 col-xs-2">
 																<p class="p_mid_last">High</p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-lg-5">
+												<div class="col-lg-5 col-md-5 col-xs-5">
 													<div class="middle_text">
 														<h2>The great unraveling:</h2>
 														<p>Economic decline and periodic outbreaks of deadly violence, combined with populism and partisanship, create a house divided against itself. Police power and surveillance are increasingly deployed in the name of public safety. While some companies make strides to advance Black individuals and other PEERs, there is less urgency for racial equity. Progress across business and government is fragmented and inconsistent.</p>
@@ -977,7 +1015,7 @@ a.read { text-decoration: none; }
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-lg-12"><img class="sen_img" src="sen1.jpg" alt=""></div>
+												<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
 											</div>
 											
 										</div>
@@ -986,22 +1024,22 @@ a.read { text-decoration: none; }
 										<div class="content_wrapper1">
 											<div class="middle_top">
 												<div class="row no-gutters">
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_right">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_right">
 														<div class="active">
 															<p>Scenario 1: The great unraveling</p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
 														<div class="non_active">
 															<p>Scenario 2: <br>Waves of change</p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
 														<div class="non_active">
 															<p>Scenario 3: <br>American dream 2.0 </p>
 														</div>
 													</div>
-													<div class="col-lg-3 col-md-3 col-xs-6 padding_left">
+													<div class="col-lg-3 col-md-3 col-xs-3 padding_left">
 														<div class="non_active">
 															<p>Scenario 4: <br>Winner take all </p>
 														</div>
@@ -1009,25 +1047,25 @@ a.read { text-decoration: none; }
 												</div>
 											</div>
 											<div class="row middle_row">
-												<div class="col-lg-1">
+												<div class="col-lg-1 col-md-1 col-xs-1">
 													<div class="middle_rec">
 														<div class="row">
-															<div class="col-lg-3">
+															<div class="col-lg-3 col-md-3 col-xs-3">
 																<p>Limited/ fragmented/ tribal </p>
 															</div>
-															<div class="col-lg-6">
+															<div class="col-lg-6 col-md-6 col-xs-6">
 																<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
 															</div>
-															<div class="col-lg-3">
+															<div class="col-lg-3 col-md-3 col-xs-3">
 																<p>Extensive/ broad-based																</p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-lg-6">
+												<div class="col-lg-6 col-md-6 col-xs-6">
 													<div class="middle_box">
 														<div class="row no-gutters">
-															<div class="col-lg-6 padding_right">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
 																<div class="middle_box_inner">
 																	<div class="middle_box_inner_inner2">
 																		<div class="middle_inner_small_box2">
@@ -1037,7 +1075,7 @@ a.read { text-decoration: none; }
 																	</div>
 																</div>
 															</div>
-															<div class="col-lg-6 padding_left">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
 																<div class="middle_box_inner no_left_margin">
 																	<div class="middle_box_inner_inner3">
 																		<div class="middle_inner_small_box3">
@@ -1050,10 +1088,10 @@ a.read { text-decoration: none; }
 															</div>
 														</div>
 														<div class="row no-gutters">
-															<div class="col-lg-6 padding_right">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
 																<div class="middle_box_inner no_top_margin">
 																	<div class="middle_box_inner_inner1">
-																		<div class="middle_inner_small_box1">
+																		<div class="middle_inner_small_box1 active">
 																			<span>1</span>
 																		</div>
 																		<span>The great unraveling</span>
@@ -1061,7 +1099,7 @@ a.read { text-decoration: none; }
 																</div>
 		
 															</div>
-															<div class="col-lg-6 padding_left">
+															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
 																<div class="middle_box_inner no_top_margin no_left_margin">
 																	<div class="middle_box_inner_inner4">
 																		<div class="middle_inner_small_box4">
@@ -1076,19 +1114,19 @@ a.read { text-decoration: none; }
 													</div>
 													<div class="middle_box_bellow">
 														<div class="row">
-															<div class="col-lg-1">
+															<div class="col-lg-1 col-md-1 col-xs-1">
 																<p>Low</p>
 															</div>
-															<div class="col-lg-9">
+															<div class="col-lg-9 col-md-9 col-xs-9">
 																<p class="p_mid"><b>Degree of economic growth</b></p>
 															</div>
-															<div class="col-lg-2">
+															<div class="col-lg-2 col-md-2 col-xs-2">
 																<p class="p_mid_last">High</p>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="col-lg-5">
+												<div class="col-lg-5 col-md-5 col-xs-5">
 													<div class="middle_text">
 														<h2>The great unraveling:</h2>
 														<p>Economic decline and periodic outbreaks of deadly violence, combined with populism and partisanship, create a house divided against itself. Police power and surveillance are increasingly deployed in the name of public safety. While some companies make strides to advance Black individuals and other PEERs, there is less urgency for racial equity. Progress across business and government is fragmented and inconsistent.</p>
@@ -1096,11 +1134,13 @@ a.read { text-decoration: none; }
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-lg-12"><img class="sen_img" src="blob:https://imgur.com/1e4e37b1-5260-42cf-9631-8d74cb983105" alt=""></div>
+												<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
 											</div>
 											
 										</div>
 									</div>
+									
+									
 									<div class="horizontal-scroll-section__content-section scroll_wrapper00">
 										<div class="content_wrapper2">
 											
@@ -1122,345 +1162,249 @@ a.read { text-decoration: none; }
 			</div>
 		</div>
 	</section>
-	<!-- 
+	
 	<section class="group-71">
 		<div class="container">
 			<div class="group_wrapper">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="text_wrapper">
-							<h1>Racial equity will create business value</h1>
-							<p>Achieving equitable outcomes will require coordinated and sustained effort across the business community—as well as a mindset shift. While past DEI initiatives have made progress for some people in some places, the data speaks volumes, and it tells us that American business still has a long way to go on the road to equity.  
-							<br>
-							<br>
-							<b>These seven Equity Imperative Principles can guide the way:</b>
+							<h2>Scenario 1: The great unraveling</h2>
+							<h1>Imagine a future in which…</h1>
+							<p>…some of the most challenging and divisive tensions of 2020 accelerate over next decade, spreading further and entrenching more deeply into American life. Economic decline and hardened partisan divides create sustained political turmoil and periodic outbreaks of deadly violence in communities across the country. 
+								<br>
+								<br>
+								Widespread doubts about the electoral system mean a growing number of Americans question the legitimacy of their political opponents. High levels of populism and partisanship lead to political swings as groups fight for dominance every election cycle, but no faction stays in charge for long. The country feels ever more like a house divided against itself. 
+								Tension and distrust pushes government spending toward expanded law enforcement and increased domestic surveillance, while the social safety net is seen as an unaffordable luxury at best and an undeserved handout at worst. 
+								<br>
+								<br>
+								Black activists and other PEERs protest deepening inequities in their communities but are fragmented in their calls to action. 
+								<br>
+								<br>
+								Some companies have advanced opportunities for Black individuals and other PEERs, but economic inequality has worsened steadily, in part due to the lasting effects of the COVID-19 pandemic that hit Black households, communities, and businesses especially hard. Many people withdraw to focus on security for their family and those closest to them. Money is scarce; trust is even scarcer. 
+								<br>
+								<br>
+								Many big urban centers contract as people look for safety in smaller, more homogenous communities they recognize as “their own,” further cementing division. 
+								<br>
+								<br>
+								The urgency and energy for greater racial equity seen at the beginning of the decade is a distant memory, and the frustration many feel about the lack of progress threatens to boil over at any time. 
 							</p>
+							<h1 style="margin-top: 37px;">The path that leads to this future…</h1>
+							<p>• Conspiracy theories fuel divides, making it all but impossible for groups to find common ground, and putting compromise permanently out of reach.
+								<br>
+								<br>
+								• The movement for racial justice fragments around different strategies and different priorities.
+								<br>
+								<br>
+								• Social media exacerbates tensions as legacy platforms struggle to rein in the spread of misinformation, disinformation, and extremist messages. Meanwhile, new platforms emerge for communities that believe the legacy platforms are censoring their views.
+								<br>
+								<br>
+								• Armed groups resort to extreme measures and violence, motivated by frustration with normal politics and a sense that the stakes for their survival justify extraordinary action. 
+								<br>
+								<br>
+								• Emigration—particularly of high-net-worth individuals—grows, as those with the ability to find safe havens for their family and their fortunes go offshore. At the same time, immigration of talented students and skilled workers drops to its lowest level in a century.
+								
+							</p>
+							<center><a href="#group_70" class="btn custom_btn">READ SCENARIO 2</a></center>
 						</div>
-						<div class="img"></div>
 					</div>
 				</div>	
 			</div>
 		</div>
 	</section>
-	<section class="group-72">
-		<div class="container-fluid">
-			
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="horizontal-scroll-section">
-						<div class="scene">
-						  <div class="row">
-							  <div class="col-lg-12">
-								<div class="horizontal-scroll-section__content-wrapper wrapper">
-									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
-										<div class="content_wrapper1">
-											<div class="row">
-												<div class="col-lg-3 col-md-3">
-													<h2 class="opacity_num">01</h2>
-												</div>
-												<div class="col-lg-9 col-md-9">
-													<div class="row">
-														<div class="col-lg-12">
-															<h2 class="top_h2">Imperative title up to two lines</h2>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-lg-6 col-md-6">
-															<p>
-																Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sapien sodales, semper lectus vel, aliquet velit. In sed pharetra ligula, a auctor tortor. Duis volutpat odio sed posuere mattis. Fusce sed mauris in sem interdum interdum. Nunc mi mi, tristique a suscipit vel, maximus sed est. Integer scelerisque quam.
-															</p>
-														</div>
-														<div class="col-lg-6 col-md-6">
-															<p><b>“Mauris varius feugiat sollicitudin.   
-																Suspendisse vestibulum orci et ante port
-																titor pharetra. Integer eget purus eget ante 
-																porttitor tincidunt. Aenean nec nisl eget diam 
-																pellentesque tristique.”</b> </p>
-															<p style="font-size: 14px;">Name, Title, Company</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
-										<div class="content_wrapper1">
-											<div class="row">
-												<div class="col-lg-3 col-md-3">
-													<h2 class="opacity_num">02</h2>
-												</div>
-												<div class="col-lg-9 col-md-9">
-													<div class="row">
-														<div class="col-lg-12">
-															<h2 class="top_h2">Imperative title up to two lines</h2>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-lg-6 col-md-6">
-															<p>
-																Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sapien sodales, semper lectus vel, aliquet velit. In sed pharetra ligula, a auctor tortor. Duis volutpat odio sed posuere mattis. Fusce sed mauris in sem interdum interdum. Nunc mi mi, tristique a suscipit vel, maximus sed est. Integer scelerisque quam.
-															</p>
-														</div>
-														<div class="col-lg-6 col-md-6">
-															<p><b>“Mauris varius feugiat sollicitudin.   
-																Suspendisse vestibulum orci et ante port
-																titor pharetra. Integer eget purus eget ante 
-																porttitor tincidunt. Aenean nec nisl eget diam 
-																pellentesque tristique.”</b> </p>
-															<p style="font-size: 14px;">Name, Title, Company</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
-										<div class="content_wrapper1">
-											<div class="row">
-												<div class="col-lg-3 col-md-3">
-													<h2 class="opacity_num">03</h2>
-												</div>
-												<div class="col-lg-9 col-md-9">
-													<div class="row">
-														<div class="col-lg-12">
-															<h2 class="top_h2">Imperative title up to two lines</h2>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-lg-6 col-md-6">
-															<p>
-																Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sapien sodales, semper lectus vel, aliquet velit. In sed pharetra ligula, a auctor tortor. Duis volutpat odio sed posuere mattis. Fusce sed mauris in sem interdum interdum. Nunc mi mi, tristique a suscipit vel, maximus sed est. Integer scelerisque quam.
-															</p>
-														</div>
-														<div class="col-lg-6 col-md-6">
-															<p><b>“Mauris varius feugiat sollicitudin.   
-																Suspendisse vestibulum orci et ante port
-																titor pharetra. Integer eget purus eget ante 
-																porttitor tincidunt. Aenean nec nisl eget diam 
-																pellentesque tristique.”</b> </p>
-															<p style="font-size: 14px;">Name, Title, Company</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
-										<div class="content_wrapper1">
-											<div class="row">
-												<div class="col-lg-3 col-md-3">
-													<h2 class="opacity_num">04</h2>
-												</div>
-												<div class="col-lg-9 col-md-9">
-													<div class="row">
-														<div class="col-lg-12">
-															<h2 class="top_h2">Imperative title up to two lines</h2>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-lg-6 col-md-6">
-															<p>
-																Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sapien sodales, semper lectus vel, aliquet velit. In sed pharetra ligula, a auctor tortor. Duis volutpat odio sed posuere mattis. Fusce sed mauris in sem interdum interdum. Nunc mi mi, tristique a suscipit vel, maximus sed est. Integer scelerisque quam.
-															</p>
-														</div>
-														<div class="col-lg-6 col-md-6">
-															<p><b>“Mauris varius feugiat sollicitudin.   
-																Suspendisse vestibulum orci et ante port
-																titor pharetra. Integer eget purus eget ante 
-																porttitor tincidunt. Aenean nec nisl eget diam 
-																pellentesque tristique.”</b> </p>
-															<p style="font-size: 14px;">Name, Title, Company</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
-										<div class="content_wrapper1">
-											<div class="row">
-												<div class="col-lg-3 col-md-3">
-													<h2 class="opacity_num">05</h2>
-												</div>
-												<div class="col-lg-9 col-md-9">
-													<div class="row">
-														<div class="col-lg-12">
-															<h2 class="top_h2">Imperative title up to two lines</h2>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-lg-6 col-md-6">
-															<p>
-																Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sapien sodales, semper lectus vel, aliquet velit. In sed pharetra ligula, a auctor tortor. Duis volutpat odio sed posuere mattis. Fusce sed mauris in sem interdum interdum. Nunc mi mi, tristique a suscipit vel, maximus sed est. Integer scelerisque quam.
-															</p>
-														</div>
-														<div class="col-lg-6 col-md-6">
-															<p><b>“Mauris varius feugiat sollicitudin.   
-																Suspendisse vestibulum orci et ante port
-																titor pharetra. Integer eget purus eget ante 
-																porttitor tincidunt. Aenean nec nisl eget diam 
-																pellentesque tristique.”</b> </p>
-															<p style="font-size: 14px;">Name, Title, Company</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
-										<div class="content_wrapper1">
-											<div class="row">
-												<div class="col-lg-3 col-md-3">
-													<h2 class="opacity_num">06</h2>
-												</div>
-												<div class="col-lg-9 col-md-9">
-													<div class="row">
-														<div class="col-lg-12">
-															<h2 class="top_h2">Imperative title up to two lines</h2>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-lg-6 col-md-6">
-															<p>
-																Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sapien sodales, semper lectus vel, aliquet velit. In sed pharetra ligula, a auctor tortor. Duis volutpat odio sed posuere mattis. Fusce sed mauris in sem interdum interdum. Nunc mi mi, tristique a suscipit vel, maximus sed est. Integer scelerisque quam.
-															</p>
-														</div>
-														<div class="col-lg-6 col-md-6">
-															<p><b>“Mauris varius feugiat sollicitudin.   
-																Suspendisse vestibulum orci et ante port
-																titor pharetra. Integer eget purus eget ante 
-																porttitor tincidunt. Aenean nec nisl eget diam 
-																pellentesque tristique.”</b> </p>
-															<p style="font-size: 14px;">Name, Title, Company</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
-										<div class="content_wrapper1">
-											<div class="row">
-												<div class="col-lg-3 col-md-3">
-													<h2 class="opacity_num">07</h2>
-												</div>
-												<div class="col-lg-9 col-md-9">
-													<div class="row">
-														<div class="col-lg-12">
-															<h2 class="top_h2">Imperative title up to two lines</h2>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-lg-6 col-md-6">
-															<p>
-																Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sapien sodales, semper lectus vel, aliquet velit. In sed pharetra ligula, a auctor tortor. Duis volutpat odio sed posuere mattis. Fusce sed mauris in sem interdum interdum. Nunc mi mi, tristique a suscipit vel, maximus sed est. Integer scelerisque quam.
-															</p>
-														</div>
-														<div class="col-lg-6 col-md-6">
-															<p><b>“Mauris varius feugiat sollicitudin.   
-																Suspendisse vestibulum orci et ante port
-																titor pharetra. Integer eget purus eget ante 
-																porttitor tincidunt. Aenean nec nisl eget diam 
-																pellentesque tristique.”</b> </p>
-															<p style="font-size: 14px;">Name, Title, Company</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-								
-									
-									
-								  </div>
-							  </div>
-						  </div>
-						</div>
-					</div>	
-				</div>
-			</div>
-		</div>
-	</section>
+
 	<section class="group-73">
 		<div class="container">
-			<div class="group_wrapper">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="text_wrapper">
-							<h1 data-aos="fade-up">A call for collective action</h1>
-							<p data-aos="fade-up">It’s clear that the status quo within organizations is not working. That’s why every organization needs to rethink its DEI efforts – from development through implementation to measurement – and continually update and adapt actions to enable equitable outcomes. Every person must challenge their own assumptions about what works, and try new, possibly courageous approaches. Most importantly, every leader must shift their focus to equity, treating it the same way they would any other business outcome—with careful planning, clear metrics, and continuous actions to meet the objective. 
-								<br>
-								<br>
-							
-							As we all embark on this journey together, there will inevitably be roadblocks. We may be tempted to take shortcuts—to settle for one-off efforts or focus on superficial actions. And there may come a point where the benefits seem intangible, the work seems formidable, and willpower seems to wane. 
-							<br>
-							<br>
-							But the future of racial equity hinges on whether businesses will leverage their immense power—both individually and collectively—to make progress. A more equitable future is possible. And it will be determined by the actions we take now.
-								</p>
-						</div>
-					</div>
-				</div>	
-			</div>
-		</div>
-	</section>
-	<section class="group-74">
-		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
+					<div class="group_wrapper">
+						<h1>Ten lessons from the scenarios </h1>
+					</div>
 					<div class="group_wrapper_2 grey">
+						
 						<div id="accordion" class="panel-group">
 							<div class="panel">
 							  <div class="panel-heading">
 							  <h4 class="panel-title">
-								<a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">DEFINITION OF KEY TERMS <img src="https://i.imgur.com/KmQ75cx.png" alt="" class=""></a>
+								<a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">There are no guarantees that the future will be better than today <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
 								
 								</h4>
 							  </div>
 							  <div id="panelBodyOne" class="panel-collapse collapse">
 							  <div class="panel-body">
 								<div class="group_wrapper">
-									<p><b>Anti-oppression:</b> The theory, strategy, and active practice of confronting individual and institutional power and privilege to consistently challenge and dismantle exclusionary and oppressive systems, policies, practices, and organizational values. Anti-oppression recognizes the pervasiveness and seriousness of oppression and actively seeks to challenge, eliminate, and prevent it. More broadly, anti-racism is a type of anti-oppression.
-										<br>
-										<br>
-									<b>DEI:</b> The acronym DEI (for Diversity, Equity, and Inclusion) represents the summation of activities and/or the formal function within an organization that focuses on supporting diversity, anti-oppression, inclusion, belonging, and equity aspirations and outcomes. Diversity, inclusion, and anti-racism are distinct, but related—they can each exist without the others, but are mutually reinforcing.
-									<br>
-									<br>
-									<b>Diversity:</b> The representation, in a group, of various facets of identity, including (but not limited to) race, ethnicity, nationality, gender identity, LGBTQ+ status, socioeconomic status, ability, religion, and age.
-									<br>
-									<br>
-									<b>Equity:</b> The outcome of diversity, inclusion, and anti-oppression actions wherein all people have fair access, opportunity, resources, and power to thrive, with consideration for and elimination of historical and systemic barriers and privileges that cause oppression. Equality, by comparison, is when all people are treated identically, without consideration for historical and systemic barriers and privileges.
-									<br> 
-										<br>
-									<i><b>Equitable enterprise:</b> An organization that works to remove systemic disparities internally and externally to promote equally high outcomes for different groups regardless of their respective privileges.
-									</i>
-									<br>
-									<br>
-									<b>Inclusion:</b> <i>The actions taken to understand, embrace, and leverage the unique strengths and facets of identity for all individuals so that all feel welcomed, valued, and supported.</i>
-									<br> 
-									<br>
-									<b>PEER:</b> <i>Acronym for Persons Excluded due to Ethnicity or Race, a term used to unite people who have been historically oppressed without insinuating that those individuals are less than or that their sole identity is one of exclusion or oppression (includes people who identify as Black, Latinx, and people indigenous to the U.S. and its territories). This term shifts the focus to the acts of exclusion and oppression, while enabling individuals to disentangle their identity from it, unlike the terms “underrepresented minority (URM)” or “oppressed people.”</i>
-										<br> 
-										<br> 
-									<b>Systemic racism:</b> <i>A form of racism expressed in the practice of social and political institutions. It is reflected in disparities regarding wealth, income, employment, housing, health care, political power, education, and the criminal legal system, among other factors. Individual, interpersonal, institutional, and structural racism together form a system, referred to herein as “systemic racism” or “racism.”</i>
-										</p>
+									<p>
+										Despite the energy, urgency, and commitment expressed by many companies today, there are plausible futures in which few real gains are made toward greater equity. Today’s hopes could easily become tomorrow’s disappointments.
+									</p>
 								</div>
 								</div>
 							  </div>
 							</div>
-							
+							<div class="panel">
+								<div class="panel-heading">
+								<h4 class="panel-title">
+								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  
+								  </h4>
+								</div>
+								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div class="panel-body">
+								  <div class="group_wrapper">
+									  <p>
+										  Despite the energy, urgency, and commitment expressed by many companies today, there are plausible futures in which few real gains are made toward greater equity. Today’s hopes could easily become tomorrow’s disappointments.
+									  </p>
+								  </div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="panel">
+								<div class="panel-heading">
+								<h4 class="panel-title">
+								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  
+								  </h4>
+								</div>
+								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div class="panel-body">
+								  <div class="group_wrapper">
+									  <p>
+										  Despite the energy, urgency, and commitment expressed by many companies today, there are plausible futures in which few real gains are made toward greater equity. Today’s hopes could easily become tomorrow’s disappointments.
+									  </p>
+								  </div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="panel">
+								<div class="panel-heading">
+								<h4 class="panel-title">
+								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  
+								  </h4>
+								</div>
+								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div class="panel-body">
+								  <div class="group_wrapper">
+									  <p>
+										  Despite the energy, urgency, and commitment expressed by many companies today, there are plausible futures in which few real gains are made toward greater equity. Today’s hopes could easily become tomorrow’s disappointments.
+									  </p>
+								  </div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="panel">
+								<div class="panel-heading">
+								<h4 class="panel-title">
+								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  
+								  </h4>
+								</div>
+								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div class="panel-body">
+								  <div class="group_wrapper">
+									  <p>
+										  Despite the energy, urgency, and commitment expressed by many companies today, there are plausible futures in which few real gains are made toward greater equity. Today’s hopes could easily become tomorrow’s disappointments.
+									  </p>
+								  </div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="panel">
+								<div class="panel-heading">
+								<h4 class="panel-title">
+								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  
+								  </h4>
+								</div>
+								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div class="panel-body">
+								  <div class="group_wrapper">
+									  <p>
+										  Despite the energy, urgency, and commitment expressed by many companies today, there are plausible futures in which few real gains are made toward greater equity. Today’s hopes could easily become tomorrow’s disappointments.
+									  </p>
+								  </div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="panel">
+								<div class="panel-heading">
+								<h4 class="panel-title">
+								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  
+								  </h4>
+								</div>
+								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div class="panel-body">
+								  <div class="group_wrapper">
+									  <p>
+										  Despite the energy, urgency, and commitment expressed by many companies today, there are plausible futures in which few real gains are made toward greater equity. Today’s hopes could easily become tomorrow’s disappointments.
+									  </p>
+								  </div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="panel">
+								<div class="panel-heading">
+								<h4 class="panel-title">
+								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  
+								  </h4>
+								</div>
+								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div class="panel-body">
+								  <div class="group_wrapper">
+									  <p>
+										  Despite the energy, urgency, and commitment expressed by many companies today, there are plausible futures in which few real gains are made toward greater equity. Today’s hopes could easily become tomorrow’s disappointments.
+									  </p>
+								  </div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="panel">
+								<div class="panel-heading">
+								<h4 class="panel-title">
+								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  
+								  </h4>
+								</div>
+								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div class="panel-body">
+								  <div class="group_wrapper">
+									  <p>
+										  Despite the energy, urgency, and commitment expressed by many companies today, there are plausible futures in which few real gains are made toward greater equity. Today’s hopes could easily become tomorrow’s disappointments.
+									  </p>
+								  </div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="panel">
+								<div class="panel-heading">
+								<h4 class="panel-title">
+								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  
+								  </h4>
+								</div>
+								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div class="panel-body">
+								  <div class="group_wrapper">
+									  <p>
+										  Despite the energy, urgency, and commitment expressed by many companies today, there are plausible futures in which few real gains are made toward greater equity. Today’s hopes could easily become tomorrow’s disappointments.
+									  </p>
+								  </div>
+								  </div>
+								</div>
+							  </div>
 						  </div>
+						  
+						  
+					</div>
+					<div class="group_wrapper">
+						<h1 style="margin-top: 50px;">From commitment to collective action</h1>
+						<p>Organizations may hope for, and voice their commitments to, a more equitable future. But in order to set the path towards that future in motion, businesses must consider the competitive dynamics governing the private sector today and step up to take powerful, courageous, collective action. Only then can they to accelerate the kind of positive, systemic change no one individual company can create alone.</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section> 
 	<section class="group-74">
 		<div class="container">
 			<div class="group_wrapper">
@@ -1881,59 +1825,20 @@ $(window).on('scroll', function(){
 
 
 
-$(function(){
-    $('.panel-title').on('click', function(){
-        $('.panel-title img').toggleClass('rotate_img')
-   });
+// $(function(){
+//     $('.panel-title').on('click', function(){
+//         $('.panel-title .acc_icon').toggleClass('fa-plus fa-minus')
+//    });
+// });
+
+$("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
+  $(e.target)
+    .prev()
+    .find("i:last-child")
+    .toggleClass("fa-minus fa-plus");
 });
 
 
-$('.owl_1').owlCarousel({
-	animateOut: 'fadeOutRight',
-	animateIn: 'fadeInLeft',
-  loop: true,
-  autoplay: true,
-   autoplayHoverPause: true,
-  navigation: false,
-  slideSpeed : 7000,
-	paginationSpeed : 800,
-    autoplayTimeout:10000, 
-  responsive: {
-    0: {
-      items: 1
-    },
-    600: {
-      items: 1
-    },
-    1000: {
-      items: 1
-    }
-   }
-});
-
-
-$('.owl_2').owlCarousel({
-	animateOut: 'fadeOutRight',
-	animateIn: 'fadeInLeft',
-  loop: true,
-  autoplay: true,
-   autoplayHoverPause: true,
-  navigation: false,
-  slideSpeed : 7000,
-	paginationSpeed : 800,
-    autoplayTimeout:10000, 
-  responsive: {
-    0: {
-      items: 1
-    },
-    600: {
-      items: 1
-    },
-    1000: {
-      items: 1
-    }
-   }
-});
 
 	</script>
 
