@@ -24,7 +24,7 @@
 	<!-- our stuff for them to copy-paste -->
 	
 <style>
-/* font-weight: 300 */
+	/* font-weight: 300 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .deloitte-report.look h1, .deloitte-report.look h2, .deloitte-report.look h3, .deloitte-report.look p, .deloitte-report.look a{ font-family: 'Open Sans', sans-serif; }
@@ -62,6 +62,9 @@ a.read { text-decoration: none; }
 .deloitte-report.look .group-66 { padding: 60px 0; background-color: #ffffff; }
 .deloitte-report.look .group-66 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;}
 .deloitte-report.look .group-66 p { font-size: 16px; padding-right: 30px; line-height: 28px;}
+.deloitte-report.look .group-66 ol { font-size: 16px;  padding-left: 15px; line-height: 28px;}
+.deloitte-report.look .group-66 ol li{ font-family: Arial, Helvetica, sans-serif; line-height: 28px; font-size: 16px; color: #333;}
+.deloitte-report.look .group-66 ol li p{ line-height: 28px; font-size: 16px; color: #333;margin-bottom: 0;}
 .deloitte-report.look .group-66 .box_arrow { width: 80%; height: 50px; background-color: #ECECEC; color: #000000;padding: 20px;position: relative; display: flex;
     align-items: center;
     margin: 5px auto;}
@@ -114,74 +117,79 @@ a.read { text-decoration: none; }
 .deloitte-report.look .group-69 .group_wrapper { padding: 50px 0 0 0;}
 .deloitte-report.look .group-69 .group_wrapper p { margin-top: 0; font-size: 16px; color: #000000; line-height: 28px;}
 /* Horizontal scrolling 2 */
-.deloitte-report.look .group-70 { background: #000000; padding: 50px 0 100px 0;  }
+.deloitte-report.look .group-70 { background: #000000; padding: 50px 0 50px 0;  }
 .deloitte-report.look .group-70 .group_wrapper .top_p { font-size: 14px;  color: #ffffff;}
 .deloitte-report.look .group-70 .group_wrapper h1 { font-size: 28px;  color: #ffffff;margin-top: 0;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-wrapper { display: flex; height: auto; position: relative; width: 3500px; padding: 25px 0;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section {position: relative;padding: 0 40px;height: 100%;display: flex;align-items: center;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section.scroll_wrapper0 { width: 6.5%; }
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 { width: 32%; }
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 .img { height: 150px; background-color: #CCCCCC; width: 100%; margin: 25px 0;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 h2 { font-size: 36px; }
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 30%; }
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 .img { height: 150px; background-color: #CCCCCC; width: 100%; margin: 25px 0;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 h2 { font-size: 36px; }
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 p { font-size: 16px; line-height: 25px;padding-right: 25px;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .content_wrapper { width: 85%;text-align: left; }
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_top .active{ background-color: #ffffff;border-top: 0px solid #EBEBEB;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_top .active:after {  content: " "; position: absolute; right: 88px; bottom: 5px; border-top: none; border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid #000000;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_top .non_active{ border-top: 1px solid #EBEBEB;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_top .active p{ color: #000000;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_top p{ color: #ffffff; font-size: 17px; line-height: 24px; text-align: center; padding: 20px 0;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box{ height: 250px; width: auto;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner{ height: 125px; border: 1px solid #FFFFFF; width: auto;}
+/* .deloitte-report.look .group-70 .horizontal-scroll-section__content-wrapper { display: flex; height: auto; position: relative; width: 3500px; padding: 25px 0;} */
+/* .deloitte-report.look .group-70 .black_tabs {position: relative;padding: 0 40px;height: 100%;display: flex;align-items: center;}
+.deloitte-report.look .group-70 .black_tabs.scroll_wrapper0 { width: 6.5%; }
+.deloitte-report.look .group-70 .black_tabs.scroll_wrapper1 { width: 32%; }
+.deloitte-report.look .group-70 .black_tabs.scroll_wrapper1 .img { height: 150px; background-color: #CCCCCC; width: 100%; margin: 25px 0;} */
+.deloitte-report.look .group-70 .black_tabs h2 { font-size: 36px; }
+/* .deloitte-report.look .group-70 .black_tabs.scroll_wrapper2 { width: 30%; }
+.deloitte-report.look .group-70 .black_tabs.scroll_wrapper2 .img { height: 150px; background-color: #CCCCCC; width: 100%; margin: 25px 0;}
+.deloitte-report.look .group-70 .black_tabs.scroll_wrapper2 h2 { font-size: 36px; }
+.deloitte-report.look .group-70 .black_tabs.scroll_wrapper2 p { font-size: 16px; line-height: 25px;padding-right: 25px;}
+.deloitte-report.look .group-70 .black_tabs .content_wrapper { width: 85%;text-align: left; } */
+.deloitte-report.look .group-70 .black_tabs .middle_top .active .activebk{ background-color: #ffffff;border-top: 0px solid #EBEBEB;}
+.deloitte-report.look .group-70 .black_tabs .middle_top a{ text-decoration: none;}
+.deloitte-report.look .group-70 .black_tabs .middle_top .active .activebk:after {  content: " "; position: absolute; right: 88px; bottom: 5px; border-top: none; border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid #000000;}
+.deloitte-report.look .group-70 .black_tabs .middle_top .non_active{ border-top: 1px solid #EBEBEB;}
+.deloitte-report.look .group-70 .black_tabs .middle_top .active p{ color: #000000;}
+.deloitte-report.look .group-70 .black_tabs .middle_top p{ color: #ffffff; font-size: 17px; line-height: 24px; text-align: center; padding: 20px 0;}
+.deloitte-report.look .group-70 .black_tabs .middle_box{ height: 250px; width: auto;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner{ height: 125px; border: 1px solid #FFFFFF; width: auto;}
 
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner .active{ background: #012068 !important;}
-
-
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner_inner1{ height: 60px;  text-align: center; width: 135px;    position: relative;top: 52px;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner_inner1 span{ color: #ffffff; font-size: 12px; font-style: italic;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_inner_small_box1{ height: 40px;  text-align: center; background: #A8A8A8; width: 45px;    margin: 0px auto;}
-
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_inner_small_box1 span{ color: #ffffff; line-height: 45px; font-size: 20px; font-weight: bold;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner1 .newactive{ background: #012068 !important;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner2 .newactive{ background: #0197A8 !important;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner3 .newactive{ background: #62B4E4 !important;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner4 .newactive{ background: #026938 !important;}
 
 
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner_inner2{ height: 60px;  text-align: center; width: 108px;    position: relative;top: 79px; float: right;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner_inner2 span{ color: #ffffff; font-size: 12px; font-style: italic;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_inner_small_box2{ height: 40px;  text-align: center; background: #A8A8A8; width: 45px;    margin: 0px auto;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_inner_small_box2 span{ color: #ffffff; line-height: 45px; font-size: 20px; font-weight: bold;}
+
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner1{ height: 60px;  text-align: center; width: 135px;    position: relative;top: 52px;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner1 span{ color: #ffffff; font-size: 12px; font-style: italic;}
+.deloitte-report.look .group-70 .black_tabs .middle_inner_small_box1{ height: 40px;  text-align: center; background: #A8A8A8; width: 45px;    margin: 0px auto;}
+
+.deloitte-report.look .group-70 .black_tabs .middle_inner_small_box1 span{ color: #ffffff; line-height: 45px; font-size: 20px; font-weight: bold;}
 
 
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner_inner3{ height: 60px;  text-align: center; width: 115px;    position: relative;top: 10px;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner_inner3 span{ color: #ffffff; font-size: 12px; font-style: italic;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_inner_small_box3{ height: 40px;  text-align: center; background: #A8A8A8; width: 45px;    margin: 0px auto;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_inner_small_box3 span{ color: #ffffff; line-height: 45px; font-size: 20px; font-weight: bold;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner2{ height: 60px;  text-align: center; width: 108px;    position: relative;top: 79px; float: right;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner2 span{ color: #ffffff; font-size: 12px; font-style: italic;}
+.deloitte-report.look .group-70 .black_tabs .middle_inner_small_box2{ height: 40px;  text-align: center; background: #A8A8A8; width: 45px;    margin: 0px auto;}
+.deloitte-report.look .group-70 .black_tabs .middle_inner_small_box2 span{ color: #ffffff; line-height: 45px; font-size: 20px; font-weight: bold;}
 
 
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner_inner4{ height: 60px;  text-align: center; width: 95px;    position: relative;top: 8px;    float: right;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_inner_inner4 span{ color: #ffffff; font-size: 12px; font-style: italic;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_inner_small_box4{ height: 40px;  text-align: center; background: #A8A8A8; width: 45px;    margin: 0px auto;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_inner_small_box4 span{ color: #ffffff; line-height: 45px; font-size: 20px; font-weight: bold;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner3{ height: 60px;  text-align: center; width: 115px;    position: relative;top: 10px;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner3 span{ color: #ffffff; font-size: 12px; font-style: italic;}
+.deloitte-report.look .group-70 .black_tabs .middle_inner_small_box3{ height: 40px;  text-align: center; background: #A8A8A8; width: 45px;    margin: 0px auto;}
+.deloitte-report.look .group-70 .black_tabs .middle_inner_small_box3 span{ color: #ffffff; line-height: 45px; font-size: 20px; font-weight: bold;}
 
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_row { margin-top: 20px;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_text h2{ font-size: 20px; font-weight: bold; color: #ffffff; margin-top: 0;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_text p{ font-size: 11px; color: #ffffff; line-height: 20px;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_rec{ width: 250px;transform: rotate(270deg);
+
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner4{ height: 60px;  text-align: center; width: 95px;    position: relative;top: 8px;    float: right;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_inner_inner4 span{ color: #ffffff; font-size: 12px; font-style: italic;}
+.deloitte-report.look .group-70 .black_tabs .middle_inner_small_box4{ height: 40px;  text-align: center; background: #A8A8A8; width: 45px;    margin: 0px auto;}
+.deloitte-report.look .group-70 .black_tabs .middle_inner_small_box4 span{ color: #ffffff; line-height: 45px; font-size: 20px; font-weight: bold;}
+
+.deloitte-report.look .group-70 .black_tabs .middle_row { margin-top: 20px;}
+.deloitte-report.look .group-70 .black_tabs .middle_text h2{ font-size: 20px; font-weight: bold; color: #ffffff; margin-top: 0;}
+.deloitte-report.look .group-70 .black_tabs .middle_text p{ font-size: 11px; color: #ffffff; line-height: 20px;}
+.deloitte-report.look .group-70 .black_tabs .middle_rec{ width: 250px;transform: rotate(270deg);
   position: relative;
   left: -88px;
   top: 97px;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_rec p{ color: #ffffff; font-size:9px;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_rec .p_mid{ text-align: center; font-size:10px;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_bellow{ width: 100%;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_bellow p{ color: #ffffff; font-size:9px;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_bellow .p_mid{ text-align: center; font-size:10px;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .middle_box_bellow .p_mid_last{ margin-left:10px;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .sen_img { width: 100%; margin-top: 20px;}
+.deloitte-report.look .group-70 .black_tabs .middle_rec p{ color: #ffffff; font-size:9px;}
+.deloitte-report.look .group-70 .black_tabs .middle_rec .p_mid{ text-align: center; font-size:10px;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_bellow{ width: 100%;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_bellow p{ color: #ffffff; font-size:9px;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_bellow .p_mid{ text-align: center; font-size:10px;}
+.deloitte-report.look .group-70 .black_tabs .middle_box_bellow .p_mid_last{ margin-left:10px;}
+.deloitte-report.look .group-70 .black_tabs .sen_img { width: 100%; margin-top: 20px;}
 
 
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .padding_{ padding: 0;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .padding_right{ padding-right: 0;}
-.deloitte-report.look .group-70 .horizontal-scroll-section__content-section .padding_left{ padding-left: 0;}
+.deloitte-report.look .group-70 .black_tabs .padding_{ padding: 0;}
+.deloitte-report.look .group-70 .black_tabs .padding_right{ padding-right: 0;}
+.deloitte-report.look .group-70 .black_tabs .padding_left{ padding-left: 0;}
 .no_top_margin {border-top: none !important;}
 .no_left_margin {border-left: none !important;}
 
@@ -191,10 +199,8 @@ a.read { text-decoration: none; }
 .deloitte-report.look .group-71 h2 { font-size: 14px; margin-top: 0; }
 .deloitte-report.look .group-71 h1 { font-size: 24px; font-style: italic; margin-bottom: 37px;}
 .deloitte-report.look .group-71 p { font-size: 16px; padding-right: 30px; line-height: 28px;}
-.deloitte-report.look .group-71 .custom_btn { font-size: 16px; background-color: #ffffff; color: #000000;font-weight: 600;
-  letter-spacing: 2px;
-  padding: 20px 25px;
-  border-radius: 0; margin-top: 50px;}
+.deloitte-report.look .group-71 .custom_btn { font-size: 16px; background-color: #ffffff; color: #000000 font-weight: 600;letter-spacing: 2px;padding: 20px 25px;border-radius: 0; margin-top: 50px;}
+.deloitte-report.look .group-71 .display_none { display: none;}
 
 
 .deloitte-report.look .group-73 { padding: 60px 0; background-color: #ffffff; }
@@ -224,7 +230,7 @@ a.read { text-decoration: none; }
   .deloitte-report .group-73 #accordion .panel-heading a.collapsed:focus::before {
     color: #000000;
   }
-  .deloitte-report .group-73 #accordion .panel-body {padding:20px 20px 40px ;}
+  .deloitte-report .group-73 #accordion .panel-body {padding:20px 20px 0px ;}
   .deloitte-report .group-73 #accordion .panel-body p{font-size: 14px; line-height: 22px;}
   .deloitte-report .group-73 #accordion .panel-heading {
     padding: 0;
@@ -272,7 +278,7 @@ a.read { text-decoration: none; }
     .scene {
       padding: 20% 2%;
   }
-  .deloitte-report.look .group-68 .horizontal-scroll-section__content-section, .deloitte-report.look .group-70 .horizontal-scroll-section__content-section{ margin-top: 5%; }
+  .deloitte-report.look .group-68 .horizontal-scroll-section__content-section, .deloitte-report.look .group-70 .black_tabs{ margin-top: 5%; }
   .deloitte-report .group-73 #accordion .icon_wrapper { right: 110px; }
   .deloitte-report.look .group-72 .horizontal-scroll-section__content-section { margin-top: 3%; }
   }
@@ -348,6 +354,13 @@ a.read { text-decoration: none; }
   right: 27px;
   margin-top: -14px;
 }
+.deloitte-report.look .group-70 .black_tabs .middle_top p {
+    font-size: 10px;line-height: 16px;}
+    .deloitte-report.look .group-70 .black_tabs .middle_top .active .activebk:after { right: 31px;}
+    .deloitte-report.look .group-70 .black_tabs .middle_top .active #scene4link .activebk:after { right: 45px;}
+      .deloitte-report.look .group-70 .black_tabs .middle_box_bellow .p_mid_last {
+        margin-left: 0px;
+    }
    
 }
 </style>
@@ -376,8 +389,8 @@ a.read { text-decoration: none; }
 					<ul class="sec_nav" data-aos="fade-up">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Assess</a></li>
-						<li><a href="#" class="active">Look Ahead</a></li>
-						<li><a href="#">Act Now</a></li>
+						<li><a href="#" class="active">Look ahead</a></li>
+						<li><a href="#">Act now</a></li>
 					</ul>
 				</div>
 			</div>
@@ -488,13 +501,14 @@ a.read { text-decoration: none; }
 							<p data-aos="fade-up">Understanding the implications of either one of these uncertainties on its own could illuminate useful stories about the conditions for increasing or decreasing racial equity in the future. But combining these uncertainties allows for richer, more varied, and, in some ways, more challenging narratives about the journey toward equity over the next decade—especially when a handful of other important uncertainties are woven into the scenarios, too, including:
 							<br>	
 							<br>	
-							<span>1.</span>	Public expectation of organizational/corporate behavior
-							<br>
-							<span>2.</span>	Primary measure of business performance (value for shareholders vs. value for all stakeholders) 
-							<br>
-							<span>3.</span>	Ambition and efficacy of public policies addressing inequity
-								<br>
-								<span>4.</span>	Deployment of and access to digital technologies and skills
+							<ol>
+								<li><p>Public expectation of organizational/corporate behavior</p> </li>
+								<li><p>Primary measure of business performance (value for shareholders vs. value for all stakeholders)</p> </li>
+								<li><p>Ambition and efficacy of public policies addressing inequity</p> </li>
+								<li><p>Deployment of and access to digital technologies and skills</p> </li>
+							</ol>
+							
+							
 								
 								</p>
 						</div>
@@ -645,527 +659,443 @@ a.read { text-decoration: none; }
 	</section>
 	
 	<section class="group-70" id="group_70">
-		<div class="container">
-			
+		<div class="container">	
+			<div class="group_wrapper">
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="horizontal-scroll-section">
-						<div class="scene">
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="group_wrapper">
-										<p class="top_p">FUTURE OF RACIAL EQUITY IN THE US (2030-2035)</p>	
-										<h1>Scenarios overview</h1>
+					
+						<p class="top_p">FUTURE OF RACIAL EQUITY IN THE US (2030-2035)</p>	
+						<h1>Scenarios overview</h1>
+					
+				</div>
+			</div>		
+			<div class="row black_tabs">
+				<div class="col-lg-12">
+					<ul class="nav nav-tabs middle_top" id="myTab" role="tablist">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-xs-3 padding_right">
+								<li class="nav-item">
+									<a class="nav-link active" id="scene1link" data-toggle="tab" href="#scene1" role="tab" aria-controls="home" aria-selected="true">
+									  <div class="activebk">
+										  <p>Scenario 1: The great unraveling</p>
+									  </div>
+									</a>
+								  </li>
+							</div>
+							<div class="col-lg-3 col-md-3 col-xs-3 padding_">
+								<li class="nav-item">
+									<a class="nav-link" id="scene2link" data-toggle="tab" href="#scene2" role="tab" aria-controls="profile" aria-selected="false">
+									  <div class="activebk">
+										  <p>Scenario 2: <br>Waves of change</p>
+									  </div>
+									</a>
+								  </li>
+							</div>
+							<div class="col-lg-3 col-md-3 col-xs-3 padding_">
+								<li class="nav-item">
+									<a class="nav-link" id="scene3link" data-toggle="tab" href="#scene3" role="tab" aria-controls="contact" aria-selected="false">
+									  <div class="activebk">
+										  <p>Scenario 3: <br>American dream 2.0 </p>
+									  </div>
+									</a>
+								  </li>
+							</div>
+							<div class="col-lg-3 col-md-3 col-xs-3 padding_left">
+								<li class="nav-item">
+									<a class="nav-link" id="scene4link" data-toggle="tab" href="#scene4" role="tab" aria-controls="contact" aria-selected="false">
+									  <div class="activebk">
+										  <p>Scenario 4: <br>Winner take all </p>
+									  </div>
+									</a>
+								  </li>
+							</div>
+						</div>
+						
+						
+						
+						
+					  </ul>
+					  <div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade active in" id="scene1" role="tabpanel" aria-labelledby="home-tab">
+							<div class="row middle_row">
+								<div class="col-lg-1 col-md-1 col-xs-2">
+									<div class="middle_rec">
+										<div class="row">
+											<div class="col-lg-3 col-md-3 col-xs-3">
+												<p>Limited/ fragmented/ tribal </p>
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6">
+												<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
+											</div>
+											<div class="col-lg-3 col-md-3 col-xs-3">
+												<p>Extensive/ broad-based																</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-10">
+									<div class="middle_box">
+										<div class="row no-gutters">
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
+												<div class="middle_box_inner">
+													<div class="middle_box_inner_inner2">
+														<div class="middle_inner_small_box2">
+															<span>2</span>
+														</div>
+														<span>Waves of change</span>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
+												<div class="middle_box_inner no_left_margin">
+													<div class="middle_box_inner_inner3">
+														<div class="middle_inner_small_box3">
+															<span>3</span>
+														</div>
+														<span>American dream 2.0</span>
+													</div>
+												</div>
+
+											</div>
+										</div>
+										<div class="row no-gutters">
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
+												<div class="middle_box_inner no_top_margin">
+													<div class="middle_box_inner_inner1">
+														<div class="middle_inner_small_box1 newactive">
+															<span>1</span>
+														</div>
+														<span>The great unraveling</span>
+													</div>
+												</div>
+
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
+												<div class="middle_box_inner no_top_margin no_left_margin">
+													<div class="middle_box_inner_inner4">
+														<div class="middle_inner_small_box4">
+															<span>4</span>
+														</div>
+														<span>Winner take all</span>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<div class="middle_box_bellow">
+										<div class="row">
+											<div class="col-lg-1 col-md-1 col-xs-2">
+												<p>Low</p>
+											</div>
+											<div class="col-lg-9 col-md-9 col-xs-8">
+												<p class="p_mid"><b>Degree of economic growth</b></p>
+											</div>
+											<div class="col-lg-2 col-md-2 col-xs-2">
+												<p class="p_mid_last">High</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5 col-md-5 col-xs-12">
+									<div class="middle_text">
+										<h2>The great unraveling:</h2>
+										<p>Economic decline and periodic outbreaks of deadly violence, combined with populism and partisanship, create a house divided against itself. Police power and surveillance are increasingly deployed in the name of public safety. While some companies make strides to advance Black individuals and other PEERs, there is less urgency for racial equity. Progress across business and government is fragmented and inconsistent.</p>
 									</div>
 								</div>
 							</div>
-						  <div class="row">
-							  <div class="col-lg-12">
-								<div class="horizontal-scroll-section__content-wrapper wrapper">
-									<div class="horizontal-scroll-section__content-section scroll_wrapper0"></div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
-										<div class="content_wrapper1">
-											<div class="middle_top">
-												<div class="row no-gutters">
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_right">
-														<div class="active">
-															<p>Scenario 1: The great unraveling</p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
-														<div class="non_active">
-															<p>Scenario 2: <br>Waves of change</p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
-														<div class="non_active">
-															<p>Scenario 3: <br>American dream 2.0 </p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_left">
-														<div class="non_active">
-															<p>Scenario 4: <br>Winner take all </p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row middle_row">
-												<div class="col-lg-1 col-md-1 col-xs-1">
-													<div class="middle_rec">
-														<div class="row">
-															<div class="col-lg-3 col-md-3 col-xs-3">
-																<p>Limited/ fragmented/ tribal </p>
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6">
-																<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
-															</div>
-															<div class="col-lg-3 col-md-3 col-xs-3">
-																<p>Extensive/ broad-based																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-6 col-md-6 col-xs-6">
-													<div class="middle_box">
-														<div class="row no-gutters">
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
-																<div class="middle_box_inner">
-																	<div class="middle_box_inner_inner2">
-																		<div class="middle_inner_small_box2">
-																			<span>2</span>
-																		</div>
-																		<span>Waves of change</span>
-																	</div>
-																</div>
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
-																<div class="middle_box_inner no_left_margin">
-																	<div class="middle_box_inner_inner3">
-																		<div class="middle_inner_small_box3">
-																			<span>3</span>
-																		</div>
-																		<span>American dream 2.0</span>
-																	</div>
-																</div>
-		
-															</div>
-														</div>
-														<div class="row no-gutters">
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
-																<div class="middle_box_inner no_top_margin">
-																	<div class="middle_box_inner_inner1">
-																		<div class="middle_inner_small_box1 active">
-																			<span>1</span>
-																		</div>
-																		<span>The great unraveling</span>
-																	</div>
-																</div>
-		
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
-																<div class="middle_box_inner no_top_margin no_left_margin">
-																	<div class="middle_box_inner_inner4">
-																		<div class="middle_inner_small_box4">
-																			<span>4</span>
-																		</div>
-																		<span>Winner take all</span>
-																	</div>
-																</div>
-		
-															</div>
-														</div>
-													</div>
-													<div class="middle_box_bellow">
-														<div class="row">
-															<div class="col-lg-1 col-md-1 col-xs-1">
-																<p>Low</p>
-															</div>
-															<div class="col-lg-9 col-md-9 col-xs-9">
-																<p class="p_mid"><b>Degree of economic growth</b></p>
-															</div>
-															<div class="col-lg-2 col-md-2 col-xs-2">
-																<p class="p_mid_last">High</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-5 col-md-5 col-xs-5">
-													<div class="middle_text">
-														<h2>The great unraveling:</h2>
-														<p>Economic decline and periodic outbreaks of deadly violence, combined with populism and partisanship, create a house divided against itself. Police power and surveillance are increasingly deployed in the name of public safety. While some companies make strides to advance Black individuals and other PEERs, there is less urgency for racial equity. Progress across business and government is fragmented and inconsistent.</p>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
-											</div>
-											
-										</div>
-									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
-										<div class="content_wrapper1">
-											<div class="middle_top">
-												<div class="row no-gutters">
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_right">
-														<div class="active">
-															<p>Scenario 1: The great unraveling</p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
-														<div class="non_active">
-															<p>Scenario 2: <br>Waves of change</p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
-														<div class="non_active">
-															<p>Scenario 3: <br>American dream 2.0 </p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_left">
-														<div class="non_active">
-															<p>Scenario 4: <br>Winner take all </p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row middle_row">
-												<div class="col-lg-1 col-md-1 col-xs-1">
-													<div class="middle_rec">
-														<div class="row">
-															<div class="col-lg-3 col-md-3 col-xs-3">
-																<p>Limited/ fragmented/ tribal </p>
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6">
-																<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
-															</div>
-															<div class="col-lg-3 col-md-3 col-xs-3">
-																<p>Extensive/ broad-based																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-6 col-md-6 col-xs-6">
-													<div class="middle_box">
-														<div class="row no-gutters">
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
-																<div class="middle_box_inner">
-																	<div class="middle_box_inner_inner2">
-																		<div class="middle_inner_small_box2">
-																			<span>2</span>
-																		</div>
-																		<span>Waves of change</span>
-																	</div>
-																</div>
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
-																<div class="middle_box_inner no_left_margin">
-																	<div class="middle_box_inner_inner3">
-																		<div class="middle_inner_small_box3">
-																			<span>3</span>
-																		</div>
-																		<span>American dream 2.0</span>
-																	</div>
-																</div>
-		
-															</div>
-														</div>
-														<div class="row no-gutters">
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
-																<div class="middle_box_inner no_top_margin">
-																	<div class="middle_box_inner_inner1">
-																		<div class="middle_inner_small_box1 active">
-																			<span>1</span>
-																		</div>
-																		<span>The great unraveling</span>
-																	</div>
-																</div>
-		
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
-																<div class="middle_box_inner no_top_margin no_left_margin">
-																	<div class="middle_box_inner_inner4">
-																		<div class="middle_inner_small_box4">
-																			<span>4</span>
-																		</div>
-																		<span>Winner take all</span>
-																	</div>
-																</div>
-		
-															</div>
-														</div>
-													</div>
-													<div class="middle_box_bellow">
-														<div class="row">
-															<div class="col-lg-1 col-md-1 col-xs-1">
-																<p>Low</p>
-															</div>
-															<div class="col-lg-9 col-md-9 col-xs-9">
-																<p class="p_mid"><b>Degree of economic growth</b></p>
-															</div>
-															<div class="col-lg-2 col-md-2 col-xs-2">
-																<p class="p_mid_last">High</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-5 col-md-5 col-xs-5">
-													<div class="middle_text">
-														<h2>The great unraveling:</h2>
-														<p>Economic decline and periodic outbreaks of deadly violence, combined with populism and partisanship, create a house divided against itself. Police power and surveillance are increasingly deployed in the name of public safety. While some companies make strides to advance Black individuals and other PEERs, there is less urgency for racial equity. Progress across business and government is fragmented and inconsistent.</p>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
-											</div>
-											
-										</div>
-									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
-										<div class="content_wrapper1">
-											<div class="middle_top">
-												<div class="row no-gutters">
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_right">
-														<div class="active">
-															<p>Scenario 1: The great unraveling</p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
-														<div class="non_active">
-															<p>Scenario 2: <br>Waves of change</p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
-														<div class="non_active">
-															<p>Scenario 3: <br>American dream 2.0 </p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_left">
-														<div class="non_active">
-															<p>Scenario 4: <br>Winner take all </p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row middle_row">
-												<div class="col-lg-1 col-md-1 col-xs-1">
-													<div class="middle_rec">
-														<div class="row">
-															<div class="col-lg-3 col-md-3 col-xs-3">
-																<p>Limited/ fragmented/ tribal </p>
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6">
-																<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
-															</div>
-															<div class="col-lg-3 col-md-3 col-xs-3">
-																<p>Extensive/ broad-based																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-6 col-md-6 col-xs-6">
-													<div class="middle_box">
-														<div class="row no-gutters">
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
-																<div class="middle_box_inner">
-																	<div class="middle_box_inner_inner2">
-																		<div class="middle_inner_small_box2">
-																			<span>2</span>
-																		</div>
-																		<span>Waves of change</span>
-																	</div>
-																</div>
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
-																<div class="middle_box_inner no_left_margin">
-																	<div class="middle_box_inner_inner3">
-																		<div class="middle_inner_small_box3">
-																			<span>3</span>
-																		</div>
-																		<span>American dream 2.0</span>
-																	</div>
-																</div>
-		
-															</div>
-														</div>
-														<div class="row no-gutters">
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
-																<div class="middle_box_inner no_top_margin">
-																	<div class="middle_box_inner_inner1">
-																		<div class="middle_inner_small_box1 active">
-																			<span>1</span>
-																		</div>
-																		<span>The great unraveling</span>
-																	</div>
-																</div>
-		
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
-																<div class="middle_box_inner no_top_margin no_left_margin">
-																	<div class="middle_box_inner_inner4">
-																		<div class="middle_inner_small_box4">
-																			<span>4</span>
-																		</div>
-																		<span>Winner take all</span>
-																	</div>
-																</div>
-		
-															</div>
-														</div>
-													</div>
-													<div class="middle_box_bellow">
-														<div class="row">
-															<div class="col-lg-1 col-md-1 col-xs-1">
-																<p>Low</p>
-															</div>
-															<div class="col-lg-9 col-md-9 col-xs-9">
-																<p class="p_mid"><b>Degree of economic growth</b></p>
-															</div>
-															<div class="col-lg-2 col-md-2 col-xs-2">
-																<p class="p_mid_last">High</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-5 col-md-5 col-xs-5">
-													<div class="middle_text">
-														<h2>The great unraveling:</h2>
-														<p>Economic decline and periodic outbreaks of deadly violence, combined with populism and partisanship, create a house divided against itself. Police power and surveillance are increasingly deployed in the name of public safety. While some companies make strides to advance Black individuals and other PEERs, there is less urgency for racial equity. Progress across business and government is fragmented and inconsistent.</p>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
-											</div>
-											
-										</div>
-									</div>
-									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
-										<div class="content_wrapper1">
-											<div class="middle_top">
-												<div class="row no-gutters">
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_right">
-														<div class="active">
-															<p>Scenario 1: The great unraveling</p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
-														<div class="non_active">
-															<p>Scenario 2: <br>Waves of change</p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_">
-														<div class="non_active">
-															<p>Scenario 3: <br>American dream 2.0 </p>
-														</div>
-													</div>
-													<div class="col-lg-3 col-md-3 col-xs-3 padding_left">
-														<div class="non_active">
-															<p>Scenario 4: <br>Winner take all </p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row middle_row">
-												<div class="col-lg-1 col-md-1 col-xs-1">
-													<div class="middle_rec">
-														<div class="row">
-															<div class="col-lg-3 col-md-3 col-xs-3">
-																<p>Limited/ fragmented/ tribal </p>
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6">
-																<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
-															</div>
-															<div class="col-lg-3 col-md-3 col-xs-3">
-																<p>Extensive/ broad-based																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-6 col-md-6 col-xs-6">
-													<div class="middle_box">
-														<div class="row no-gutters">
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
-																<div class="middle_box_inner">
-																	<div class="middle_box_inner_inner2">
-																		<div class="middle_inner_small_box2">
-																			<span>2</span>
-																		</div>
-																		<span>Waves of change</span>
-																	</div>
-																</div>
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
-																<div class="middle_box_inner no_left_margin">
-																	<div class="middle_box_inner_inner3">
-																		<div class="middle_inner_small_box3">
-																			<span>3</span>
-																		</div>
-																		<span>American dream 2.0</span>
-																	</div>
-																</div>
-		
-															</div>
-														</div>
-														<div class="row no-gutters">
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
-																<div class="middle_box_inner no_top_margin">
-																	<div class="middle_box_inner_inner1">
-																		<div class="middle_inner_small_box1 active">
-																			<span>1</span>
-																		</div>
-																		<span>The great unraveling</span>
-																	</div>
-																</div>
-		
-															</div>
-															<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
-																<div class="middle_box_inner no_top_margin no_left_margin">
-																	<div class="middle_box_inner_inner4">
-																		<div class="middle_inner_small_box4">
-																			<span>4</span>
-																		</div>
-																		<span>Winner take all</span>
-																	</div>
-																</div>
-		
-															</div>
-														</div>
-													</div>
-													<div class="middle_box_bellow">
-														<div class="row">
-															<div class="col-lg-1 col-md-1 col-xs-1">
-																<p>Low</p>
-															</div>
-															<div class="col-lg-9 col-md-9 col-xs-9">
-																<p class="p_mid"><b>Degree of economic growth</b></p>
-															</div>
-															<div class="col-lg-2 col-md-2 col-xs-2">
-																<p class="p_mid_last">High</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-5 col-md-5 col-xs-5">
-													<div class="middle_text">
-														<h2>The great unraveling:</h2>
-														<p>Economic decline and periodic outbreaks of deadly violence, combined with populism and partisanship, create a house divided against itself. Police power and surveillance are increasingly deployed in the name of public safety. While some companies make strides to advance Black individuals and other PEERs, there is less urgency for racial equity. Progress across business and government is fragmented and inconsistent.</p>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
-											</div>
-											
-										</div>
-									</div>
-									
-									
-									<div class="horizontal-scroll-section__content-section scroll_wrapper00">
-										<div class="content_wrapper2">
-											
-											<div class="row">
-												<div class="col-lg-12">
-												</div>
-												
-											</div>
-											
-										</div>
-									</div>
-									
-								  </div>
-							  </div>
-						  </div>
+							<div class="row">
+								<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
+							</div>
 						</div>
-					</div>	
+						<div class="tab-pane fade" id="scene2" role="tabpanel" aria-labelledby="profile-tab">
+							<div class="row middle_row">
+								<div class="col-lg-1 col-md-1 col-xs-2">
+									<div class="middle_rec">
+										<div class="row">
+											<div class="col-lg-3 col-md-3 col-xs-3">
+												<p>Limited/fragmented/tribal </p>
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6">
+												<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
+											</div>
+											<div class="col-lg-3 col-md-3 col-xs-3">
+												<p>Extensive/ broad-based																</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-10">
+									<div class="middle_box">
+										<div class="row no-gutters">
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
+												<div class="middle_box_inner">
+													<div class="middle_box_inner_inner2">
+														<div class="middle_inner_small_box2 newactive">
+															<span>2</span>
+														</div>
+														<span>Waves of change</span>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
+												<div class="middle_box_inner no_left_margin">
+													<div class="middle_box_inner_inner3">
+														<div class="middle_inner_small_box3">
+															<span>3</span>
+														</div>
+														<span>American dream 2.0</span>
+													</div>
+												</div>
+
+											</div>
+										</div>
+										<div class="row no-gutters">
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
+												<div class="middle_box_inner no_top_margin">
+													<div class="middle_box_inner_inner1">
+														<div class="middle_inner_small_box1">
+															<span>1</span>
+														</div>
+														<span>The great unraveling</span>
+													</div>
+												</div>
+
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
+												<div class="middle_box_inner no_top_margin no_left_margin">
+													<div class="middle_box_inner_inner4">
+														<div class="middle_inner_small_box4">
+															<span>4</span>
+														</div>
+														<span>Winner take all</span>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<div class="middle_box_bellow">
+										<div class="row">
+											<div class="col-lg-1 col-md-1 col-xs-2">
+												<p>Low</p>
+											</div>
+											<div class="col-lg-9 col-md-9 col-xs-8">
+												<p class="p_mid"><b>Degree of economic growth</b></p>
+											</div>
+											<div class="col-lg-2 col-md-2 col-xs-2">
+												<p class="p_mid_last">High</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5 col-md-5 col-xs-12">
+									<div class="middle_text">
+										<h2>Waves of change:</h2>
+										<p>Climate stress is felt everywhere, affecting business operations and dragging down the economy. The impacts are most pronounced for low-income individuals and communities of PEERs, leading to a greater resolve from political leaders to strengthen the economy and restore communities with a focus on equity. A growing, diverse cohort of Gen Z and Millennials demand investment in sustainable energy sources, new infrastructure, and a wider social safety net. </p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="scene3" role="tabpanel" aria-labelledby="contact-tab">
+							<div class="row middle_row">
+								<div class="col-lg-1 col-md-1 col-xs-2">
+									<div class="middle_rec">
+										<div class="row">
+											<div class="col-lg-3 col-md-3 col-xs-3">
+												<p>Limited/ fragmented/ tribal </p>
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6">
+												<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
+											</div>
+											<div class="col-lg-3 col-md-3 col-xs-3">
+												<p>Extensive/ broad-based																</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-10">
+									<div class="middle_box">
+										<div class="row no-gutters">
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
+												<div class="middle_box_inner">
+													<div class="middle_box_inner_inner2">
+														<div class="middle_inner_small_box2">
+															<span>2</span>
+														</div>
+														<span>Waves of change</span>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
+												<div class="middle_box_inner no_left_margin">
+													<div class="middle_box_inner_inner3">
+														<div class="middle_inner_small_box3 newactive">
+															<span>3</span>
+														</div>
+														<span>American dream 2.0</span>
+													</div>
+												</div>
+
+											</div>
+										</div>
+										<div class="row no-gutters">
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
+												<div class="middle_box_inner no_top_margin">
+													<div class="middle_box_inner_inner1">
+														<div class="middle_inner_small_box1">
+															<span>1</span>
+														</div>
+														<span>The great unraveling</span>
+													</div>
+												</div>
+
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
+												<div class="middle_box_inner no_top_margin no_left_margin">
+													<div class="middle_box_inner_inner4">
+														<div class="middle_inner_small_box4">
+															<span>4</span>
+														</div>
+														<span>Winner take all</span>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<div class="middle_box_bellow">
+										<div class="row">
+											<div class="col-lg-1 col-md-1 col-xs-2">
+												<p>Low</p>
+											</div>
+											<div class="col-lg-9 col-md-9 col-xs-8">
+												<p class="p_mid"><b>Degree of economic growth</b></p>
+											</div>
+											<div class="col-lg-2 col-md-2 col-xs-2">
+												<p class="p_mid_last">High</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5 col-md-5 col-xs-12">
+									<div class="middle_text">
+										<h2>American dream 2.0: </h2>
+										<p>Public awareness of systemic inequity reaches a tipping point, with sustained demand for change and accountability within institutions. While political gridlock at the federal level impedes progress, businesses lead the change towards racial equity. Companies adopt new standards of transparency and are ranked on their equitable outcomes. Talent, consumers, and investors migrate to companies that “walk the walk” by focusing on all stakeholders over a few shareholders. Powerful new alliances form to drive collective impact.</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="scene4" role="tabpanel" aria-labelledby="contact-tab">
+							<div class="row middle_row">
+								<div class="col-lg-1 col-md-1 col-xs-2">
+									<div class="middle_rec">
+										<div class="row">
+											<div class="col-lg-3 col-md-3 col-xs-3">
+												<p>Limited/ fragmented/ tribal </p>
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6">
+												<p class="p_mid"><b>Extent and characteristics of social cooperation </b></p>
+											</div>
+											<div class="col-lg-3 col-md-3 col-xs-3">
+												<p>Extensive/ broad-based																</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-10">
+									<div class="middle_box">
+										<div class="row no-gutters">
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
+												<div class="middle_box_inner">
+													<div class="middle_box_inner_inner2">
+														<div class="middle_inner_small_box2">
+															<span>2</span>
+														</div>
+														<span>Waves of change</span>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
+												<div class="middle_box_inner no_left_margin">
+													<div class="middle_box_inner_inner3">
+														<div class="middle_inner_small_box3">
+															<span>3</span>
+														</div>
+														<span>American dream 2.0</span>
+													</div>
+												</div>
+
+											</div>
+										</div>
+										<div class="row no-gutters">
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_right">
+												<div class="middle_box_inner no_top_margin">
+													<div class="middle_box_inner_inner1">
+														<div class="middle_inner_small_box1">
+															<span>1</span>
+														</div>
+														<span>The great unraveling</span>
+													</div>
+												</div>
+
+											</div>
+											<div class="col-lg-6 col-md-6 col-xs-6 padding_left">
+												<div class="middle_box_inner no_top_margin no_left_margin">
+													<div class="middle_box_inner_inner4">
+														<div class="middle_inner_small_box4 newactive">
+															<span>4</span>
+														</div>
+														<span>Winner take all</span>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<div class="middle_box_bellow">
+										<div class="row">
+											<div class="col-lg-1 col-md-1 col-xs-2">
+												<p>Low</p>
+											</div>
+											<div class="col-lg-9 col-md-9 col-xs-8">
+												<p class="p_mid"><b>Degree of economic growth</b></p>
+											</div>
+											<div class="col-lg-2 col-md-2 col-xs-2">
+												<p class="p_mid_last">High</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5 col-md-5 col-xs-12">
+									<div class="middle_text">
+										<h2>Winner take all:</h2>
+										<p>Public awareness of systemic inequity reaches a tipping point, with sustained demand for change and accountability within institutions. While political gridlock at the federal level impedes progress, businesses lead the change towards racial equity. Companies adopt new standards of transparency and are ranked on their equitable outcomes. Talent, consumers, and investors migrate to companies that “walk the walk” by focusing on all stakeholders over a few shareholders. Powerful new alliances form to drive collective impact.</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12"><img class="sen_img" src="https://i.imgur.com/B4Uut4q.jpeg" alt=""></div>
+							</div> 
+						</div>
+					  </div>
+					
+						
+					</div>
 				</div>
 			</div>
-		</div>
+			</div>
 	</section>
 	
 	<section class="group-71">
 		<div class="container">
-			<div class="group_wrapper">
+			<div class="group_wrapper scenetext1">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="text_wrapper">
@@ -1210,6 +1140,141 @@ a.read { text-decoration: none; }
 					</div>
 				</div>	
 			</div>
+			<div class="group_wrapper scenetext2 display_none">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="text_wrapper">
+							<h2>Scenario 2: Waves of change</h2>
+							<h1>Imagine a future in which…</h1>
+							<p>…some of the most challenging and divisive tensions of 2020 accelerate over next decade, spreading further and entrenching more deeply into American life. Economic decline and hardened partisan divides create sustained political turmoil and periodic outbreaks of deadly violence in communities across the country. 
+								<br>
+								<br>
+								Widespread doubts about the electoral system mean a growing number of Americans question the legitimacy of their political opponents. High levels of populism and partisanship lead to political swings as groups fight for dominance every election cycle, but no faction stays in charge for long. The country feels ever more like a house divided against itself. 
+								Tension and distrust pushes government spending toward expanded law enforcement and increased domestic surveillance, while the social safety net is seen as an unaffordable luxury at best and an undeserved handout at worst. 
+								<br>
+								<br>
+								Black activists and other PEERs protest deepening inequities in their communities but are fragmented in their calls to action. 
+								<br>
+								<br>
+								Some companies have advanced opportunities for Black individuals and other PEERs, but economic inequality has worsened steadily, in part due to the lasting effects of the COVID-19 pandemic that hit Black households, communities, and businesses especially hard. Many people withdraw to focus on security for their family and those closest to them. Money is scarce; trust is even scarcer. 
+								<br>
+								<br>
+								Many big urban centers contract as people look for safety in smaller, more homogenous communities they recognize as “their own,” further cementing division. 
+								<br>
+								<br>
+								The urgency and energy for greater racial equity seen at the beginning of the decade is a distant memory, and the frustration many feel about the lack of progress threatens to boil over at any time. 
+							</p>
+							<h1 style="margin-top: 37px;">The path that leads to this future…</h1>
+							<p>• Conspiracy theories fuel divides, making it all but impossible for groups to find common ground, and putting compromise permanently out of reach.
+								<br>
+								<br>
+								• The movement for racial justice fragments around different strategies and different priorities.
+								<br>
+								<br>
+								• Social media exacerbates tensions as legacy platforms struggle to rein in the spread of misinformation, disinformation, and extremist messages. Meanwhile, new platforms emerge for communities that believe the legacy platforms are censoring their views.
+								<br>
+								<br>
+								• Armed groups resort to extreme measures and violence, motivated by frustration with normal politics and a sense that the stakes for their survival justify extraordinary action. 
+								<br>
+								<br>
+								• Emigration—particularly of high-net-worth individuals—grows, as those with the ability to find safe havens for their family and their fortunes go offshore. At the same time, immigration of talented students and skilled workers drops to its lowest level in a century.
+								
+							</p>
+							<center><a href="#group_70" class="btn custom_btn">READ SCENARIO 3</a></center>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="group_wrapper scenetext3 display_none">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="text_wrapper">
+							<h2>Scenario 3: American dream 2.0 </h2>
+							<h1>Imagine a future in which…</h1>
+							<p>…some of the most challenging and divisive tensions of 2020 accelerate over next decade, spreading further and entrenching more deeply into American life. Economic decline and hardened partisan divides create sustained political turmoil and periodic outbreaks of deadly violence in communities across the country. 
+								<br>
+								<br>
+								Widespread doubts about the electoral system mean a growing number of Americans question the legitimacy of their political opponents. High levels of populism and partisanship lead to political swings as groups fight for dominance every election cycle, but no faction stays in charge for long. The country feels ever more like a house divided against itself. 
+								Tension and distrust pushes government spending toward expanded law enforcement and increased domestic surveillance, while the social safety net is seen as an unaffordable luxury at best and an undeserved handout at worst. 
+								<br>
+								<br>
+								Black activists and other PEERs protest deepening inequities in their communities but are fragmented in their calls to action. 
+								<br>
+								<br>
+								Some companies have advanced opportunities for Black individuals and other PEERs, but economic inequality has worsened steadily, in part due to the lasting effects of the COVID-19 pandemic that hit Black households, communities, and businesses especially hard. Many people withdraw to focus on security for their family and those closest to them. Money is scarce; trust is even scarcer. 
+								<br>
+								<br>
+								Many big urban centers contract as people look for safety in smaller, more homogenous communities they recognize as “their own,” further cementing division. 
+								<br>
+								<br>
+								The urgency and energy for greater racial equity seen at the beginning of the decade is a distant memory, and the frustration many feel about the lack of progress threatens to boil over at any time. 
+							</p>
+							<h1 style="margin-top: 37px;">The path that leads to this future…</h1>
+							<p>• Conspiracy theories fuel divides, making it all but impossible for groups to find common ground, and putting compromise permanently out of reach.
+								<br>
+								<br>
+								• The movement for racial justice fragments around different strategies and different priorities.
+								<br>
+								<br>
+								• Social media exacerbates tensions as legacy platforms struggle to rein in the spread of misinformation, disinformation, and extremist messages. Meanwhile, new platforms emerge for communities that believe the legacy platforms are censoring their views.
+								<br>
+								<br>
+								• Armed groups resort to extreme measures and violence, motivated by frustration with normal politics and a sense that the stakes for their survival justify extraordinary action. 
+								<br>
+								<br>
+								• Emigration—particularly of high-net-worth individuals—grows, as those with the ability to find safe havens for their family and their fortunes go offshore. At the same time, immigration of talented students and skilled workers drops to its lowest level in a century.
+								
+							</p>
+							<center><a href="#group_70" class="btn custom_btn">READ SCENARIO 4</a></center>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="group_wrapper scenetext4 display_none">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="text_wrapper">
+							<h2>Scenario 4: Winner take all </h2>
+							<h1>Imagine a future in which…</h1>
+							<p>…some of the most challenging and divisive tensions of 2020 accelerate over next decade, spreading further and entrenching more deeply into American life. Economic decline and hardened partisan divides create sustained political turmoil and periodic outbreaks of deadly violence in communities across the country. 
+								<br>
+								<br>
+								Widespread doubts about the electoral system mean a growing number of Americans question the legitimacy of their political opponents. High levels of populism and partisanship lead to political swings as groups fight for dominance every election cycle, but no faction stays in charge for long. The country feels ever more like a house divided against itself. 
+								Tension and distrust pushes government spending toward expanded law enforcement and increased domestic surveillance, while the social safety net is seen as an unaffordable luxury at best and an undeserved handout at worst. 
+								<br>
+								<br>
+								Black activists and other PEERs protest deepening inequities in their communities but are fragmented in their calls to action. 
+								<br>
+								<br>
+								Some companies have advanced opportunities for Black individuals and other PEERs, but economic inequality has worsened steadily, in part due to the lasting effects of the COVID-19 pandemic that hit Black households, communities, and businesses especially hard. Many people withdraw to focus on security for their family and those closest to them. Money is scarce; trust is even scarcer. 
+								<br>
+								<br>
+								Many big urban centers contract as people look for safety in smaller, more homogenous communities they recognize as “their own,” further cementing division. 
+								<br>
+								<br>
+								The urgency and energy for greater racial equity seen at the beginning of the decade is a distant memory, and the frustration many feel about the lack of progress threatens to boil over at any time. 
+							</p>
+							<h1 style="margin-top: 37px;">The path that leads to this future…</h1>
+							<p>• Conspiracy theories fuel divides, making it all but impossible for groups to find common ground, and putting compromise permanently out of reach.
+								<br>
+								<br>
+								• The movement for racial justice fragments around different strategies and different priorities.
+								<br>
+								<br>
+								• Social media exacerbates tensions as legacy platforms struggle to rein in the spread of misinformation, disinformation, and extremist messages. Meanwhile, new platforms emerge for communities that believe the legacy platforms are censoring their views.
+								<br>
+								<br>
+								• Armed groups resort to extreme measures and violence, motivated by frustration with normal politics and a sense that the stakes for their survival justify extraordinary action. 
+								<br>
+								<br>
+								• Emigration—particularly of high-net-worth individuals—grows, as those with the ability to find safe havens for their family and their fortunes go offshore. At the same time, immigration of talented students and skilled workers drops to its lowest level in a century.
+								
+							</p>
+							<center><a href="#group_70" class="btn custom_btn">READ SCENARIO 1</a></center>
+						</div>
+					</div>
+				</div>	
+			</div>
 		</div>
 	</section>
 
@@ -1243,11 +1308,11 @@ a.read { text-decoration: none; }
 							<div class="panel">
 								<div class="panel-heading">
 								<h4 class="panel-title">
-								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  <a class="" href="#panelBody2" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
 								  
 								  </h4>
 								</div>
-								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div id="panelBody2" class="panel-collapse collapse">
 								<div class="panel-body">
 								  <div class="group_wrapper">
 									  <p>
@@ -1260,11 +1325,11 @@ a.read { text-decoration: none; }
 							  <div class="panel">
 								<div class="panel-heading">
 								<h4 class="panel-title">
-								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  <a class="" href="#panelBody3" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
 								  
 								  </h4>
 								</div>
-								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div id="panelBody3" class="panel-collapse collapse">
 								<div class="panel-body">
 								  <div class="group_wrapper">
 									  <p>
@@ -1277,11 +1342,11 @@ a.read { text-decoration: none; }
 							  <div class="panel">
 								<div class="panel-heading">
 								<h4 class="panel-title">
-								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  <a class="" href="#panelBody4" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
 								  
 								  </h4>
 								</div>
-								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div id="panelBody4" class="panel-collapse collapse">
 								<div class="panel-body">
 								  <div class="group_wrapper">
 									  <p>
@@ -1294,11 +1359,11 @@ a.read { text-decoration: none; }
 							  <div class="panel">
 								<div class="panel-heading">
 								<h4 class="panel-title">
-								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  <a class="" href="#panelBody5" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
 								  
 								  </h4>
 								</div>
-								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div id="panelBody5" class="panel-collapse collapse">
 								<div class="panel-body">
 								  <div class="group_wrapper">
 									  <p>
@@ -1311,11 +1376,11 @@ a.read { text-decoration: none; }
 							  <div class="panel">
 								<div class="panel-heading">
 								<h4 class="panel-title">
-								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  <a class="" href="#panelBody6" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
 								  
 								  </h4>
 								</div>
-								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div id="panelBody6" class="panel-collapse collapse">
 								<div class="panel-body">
 								  <div class="group_wrapper">
 									  <p>
@@ -1328,11 +1393,11 @@ a.read { text-decoration: none; }
 							  <div class="panel">
 								<div class="panel-heading">
 								<h4 class="panel-title">
-								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  <a class="" href="#panelBody7" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
 								  
 								  </h4>
 								</div>
-								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div id="panelBody7" class="panel-collapse collapse">
 								<div class="panel-body">
 								  <div class="group_wrapper">
 									  <p>
@@ -1345,11 +1410,11 @@ a.read { text-decoration: none; }
 							  <div class="panel">
 								<div class="panel-heading">
 								<h4 class="panel-title">
-								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  <a class="" href="#panelBody8" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
 								  
 								  </h4>
 								</div>
-								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div id="panelBody8" class="panel-collapse collapse">
 								<div class="panel-body">
 								  <div class="group_wrapper">
 									  <p>
@@ -1362,11 +1427,11 @@ a.read { text-decoration: none; }
 							  <div class="panel">
 								<div class="panel-heading">
 								<h4 class="panel-title">
-								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  <a class="" href="#panelBody9" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
 								  
 								  </h4>
 								</div>
-								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div id="panelBody9" class="panel-collapse collapse">
 								<div class="panel-body">
 								  <div class="group_wrapper">
 									  <p>
@@ -1379,11 +1444,11 @@ a.read { text-decoration: none; }
 							  <div class="panel">
 								<div class="panel-heading">
 								<h4 class="panel-title">
-								  <a class="" href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
+								  <a class="" href="#panelBody10" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Change at the pace of democracy won’t deliver transformative results this decade <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
 								  
 								  </h4>
 								</div>
-								<div id="panelBodyOne" class="panel-collapse collapse">
+								<div id="panelBody10" class="panel-collapse collapse">
 								<div class="panel-body">
 								  <div class="group_wrapper">
 									  <p>
@@ -1838,7 +1903,34 @@ $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
     .toggleClass("fa-minus fa-plus");
 });
 
-
+$(".nav-tabs li.nav-item a.nav-link").click(function() {
+  $(".nav-tabs li.nav-item").removeClass('active');
+  $(".nav-tabs li.nav-item a.nav-link").removeClass('active');
+});
+$(".group-70 #scene1link").click(function() {
+  $(".group-71 .scenetext1").removeClass('display_none');
+  $(".group-71 .scenetext2").addClass('display_none');
+  $(".group-71 .scenetext3").addClass('display_none');
+  $(".group-71 .scenetext4").addClass('display_none');
+});
+$(".group-70 #scene2link").click(function() {
+	$(".group-71 .scenetext2").removeClass('display_none');
+  $(".group-71 .scenetext1").addClass('display_none');
+  $(".group-71 .scenetext3").addClass('display_none');
+  $(".group-71 .scenetext4").addClass('display_none');
+});
+$(".group-70 #scene3link").click(function() {
+	$(".group-71 .scenetext3").removeClass('display_none');
+  $(".group-71 .scenetext1").addClass('display_none');
+  $(".group-71 .scenetext2").addClass('display_none');
+  $(".group-71 .scenetext4").addClass('display_none');
+});
+$(".group-70 #scene4link").click(function() {
+	$(".group-71 .scenetext4").removeClass('display_none');
+  $(".group-71 .scenetext1").addClass('display_none');
+  $(".group-71 .scenetext2").addClass('display_none');
+  $(".group-71 .scenetext3").addClass('display_none');
+});
 
 	</script>
 
