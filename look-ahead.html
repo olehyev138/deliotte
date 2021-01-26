@@ -666,7 +666,7 @@ a.read { text-decoration: none; }
 					<ul class="nav nav-tabs middle_top" id="myTab" role="tablist">
 						<div class="row">
 							<div class="col-lg-3 col-md-3 col-xs-3 padding_right">
-								<li class="nav-item">
+								<li class="nav-item bk_nav_item1">
 									<a class="nav-link active" id="scene1link" data-toggle="tab" href="#scene1" role="tab" aria-controls="home" aria-selected="true">
 									  <div class="activebk">
 										  <p>Scenario 1: The great unraveling</p>
@@ -675,7 +675,7 @@ a.read { text-decoration: none; }
 								  </li>
 							</div>
 							<div class="col-lg-3 col-md-3 col-xs-3 padding_">
-								<li class="nav-item">
+								<li class="nav-item bk_nav_item2">
 									<a class="nav-link" id="scene2link" data-toggle="tab" href="#scene2" role="tab" aria-controls="profile" aria-selected="false">
 									  <div class="activebk">
 										  <p>Scenario 2: <br>Waves of change</p>
@@ -684,7 +684,7 @@ a.read { text-decoration: none; }
 								  </li>
 							</div>
 							<div class="col-lg-3 col-md-3 col-xs-3 padding_">
-								<li class="nav-item">
+								<li class="nav-item bk_nav_item3">
 									<a class="nav-link" id="scene3link" data-toggle="tab" href="#scene3" role="tab" aria-controls="contact" aria-selected="false">
 									  <div class="activebk">
 										  <p>Scenario 3: <br>American dream 2.0 </p>
@@ -693,7 +693,7 @@ a.read { text-decoration: none; }
 								  </li>
 							</div>
 							<div class="col-lg-3 col-md-3 col-xs-3 padding_left">
-								<li class="nav-item">
+								<li class="nav-item bk_nav_item4">
 									<a class="nav-link" id="scene4link" data-toggle="tab" href="#scene4" role="tab" aria-controls="contact" aria-selected="false">
 									  <div class="activebk">
 										  <p>Scenario 4: <br>Winner take all </p>
@@ -1127,7 +1127,7 @@ a.read { text-decoration: none; }
 								• Emigration—particularly of high-net-worth individuals—grows, as those with the ability to find safe havens for their family and their fortunes go offshore. At the same time, immigration of talented students and skilled workers drops to its lowest level in a century.
 								
 							</p>
-							<center><a href="#group_70" class="btn custom_btn">READ SCENARIO 2</a></center>
+							<center><a href="#group_70" class="btn custom_btn read_sce_2">READ SCENARIO 2</a></center>
 						</div>
 					</div>
 				</div>	
@@ -1172,7 +1172,7 @@ a.read { text-decoration: none; }
 								• Emigration—particularly of high-net-worth individuals—grows, as those with the ability to find safe havens for their family and their fortunes go offshore. At the same time, immigration of talented students and skilled workers drops to its lowest level in a century.
 								
 							</p>
-							<center><a href="#group_70" class="btn custom_btn">READ SCENARIO 3</a></center>
+							<center><a href="#group_70" class="btn custom_btn read_sce_3">READ SCENARIO 3</a></center>
 						</div>
 					</div>
 				</div>	
@@ -1217,7 +1217,7 @@ a.read { text-decoration: none; }
 								• Emigration—particularly of high-net-worth individuals—grows, as those with the ability to find safe havens for their family and their fortunes go offshore. At the same time, immigration of talented students and skilled workers drops to its lowest level in a century.
 								
 							</p>
-							<center><a href="#group_70" class="btn custom_btn">READ SCENARIO 4</a></center>
+							<center><a href="#group_70" class="btn custom_btn read_sce_4">READ SCENARIO 4</a></center>
 						</div>
 					</div>
 				</div>	
@@ -1262,7 +1262,7 @@ a.read { text-decoration: none; }
 								• Emigration—particularly of high-net-worth individuals—grows, as those with the ability to find safe havens for their family and their fortunes go offshore. At the same time, immigration of talented students and skilled workers drops to its lowest level in a century.
 								
 							</p>
-							<center><a href="#group_70" class="btn custom_btn">READ SCENARIO 1</a></center>
+							<center><a href="#group_70" class="btn custom_btn read_sce_1">READ SCENARIO 1</a></center>
 						</div>
 					</div>
 				</div>	
@@ -1922,6 +1922,44 @@ $(".group-70 #scene4link").click(function() {
   $(".group-71 .scenetext1").addClass('display_none');
   $(".group-71 .scenetext2").addClass('display_none');
   $(".group-71 .scenetext3").addClass('display_none');
+});
+
+
+
+$(".group-71 .read_sce_2").click(function() {
+	$(".group-70 .bk_nav_item1 a").removeClass('active');
+	$(".group-70 .bk_nav_item1").removeClass('active');
+	$(".group-70 .bk_nav_item2 ").addClass('active');
+	$(".group-71 .scenetext2").removeClass('display_none');
+  $(".group-71 .scenetext1").addClass('display_none');
+  $(".group-71 .scenetext3").addClass('display_none');
+  $(".group-71 .scenetext4").addClass('display_none');
+  
+});
+$(".group-71 .read_sce_3").click(function() {
+	$(".group-70 .bk_nav_item2 ").removeClass('active');
+	$(".group-70 .bk_nav_item3 ").addClass('active');
+	$(".group-71 .scenetext3").removeClass('display_none');
+  $(".group-71 .scenetext1").addClass('display_none');
+  $(".group-71 .scenetext2").addClass('display_none');
+  $(".group-71 .scenetext4").addClass('display_none');
+});
+$(".group-71 .read_sce_4").click(function() {
+	$(".group-70 .bk_nav_item3 ").removeClass('active');
+	$(".group-70 .bk_nav_item4 ").addClass('active');
+	$(".group-71 .scenetext4").removeClass('display_none');
+  $(".group-71 .scenetext1").addClass('display_none');
+  $(".group-71 .scenetext2").addClass('display_none');
+  $(".group-71 .scenetext3").addClass('display_none');
+  
+});
+$(".group-71 .read_sce_1").click(function() {
+	$(".group-70 .bk_nav_item4").removeClass('active');
+	$(".group-70 .bk_nav_item1 ").addClass('active');
+	$(".group-71 .scenetext1").removeClass('display_none');
+  $(".group-71 .scenetext2").addClass('display_none');
+  $(".group-71 .scenetext3").addClass('display_none');
+  $(".group-71 .scenetext4").addClass('display_none');
 });
 
 	</script>
