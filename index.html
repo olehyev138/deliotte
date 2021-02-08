@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <!-- Animation on Scroll.css -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- <link href="style.css" rel="stylesheet"> -->
 <!-- deloitte fonts -->
 <style>
 @font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'),url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype')}
@@ -22,166 +23,206 @@
     <!-- our stuff for them to copy-paste -->
 <style>
 	/* font-weight: 300 */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-.deloitte-report h1, .deloitte-report h2, .deloitte-report h3, .deloitte-report p, .deloitte-report a{ font-family: 'Open Sans', sans-serif; }
+    .deloitte-report h1, .deloitte-report h2, .deloitte-report h3, .deloitte-report p, .deloitte-report a{ font-family: 'Open Sans', sans-serif; }
+    
+    @media (min-width: 1200px) {
+        .deloitte-report .group_wrapper{ width: 696px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
+        .deloitte-report .container { max-width: 1200px;  } 
+        .deloitte-report .group-55 .letter { right: 30px;}
+        .deloitte-report .group-55 .container {padding-left: 0 !important;}
+    }
+    a.read { text-decoration: none; }
+    a.read:hover>.read::after { margin-left: 15px; }
+    a.read::after { transition-duration: 300ms; }
+    .deloitte-report section {  overflow: hidden;  } 
+    .img-resposive { max-width: 100%; }
+    .deloitte-report .group-63 { background-color: white; }
+    .deloitte-report .group-63 .row{ padding: 0px 0 45px 0;  }
+    .deloitte-report .group-63 .col-lg-5 { padding-right: 60px; }
+    .deloitte-report .group-63 h1 { font-size: 50px; font-weight: 300; margin-top: 130px; }
+    .deloitte-report .group-63 h2 { font-size: 32px; font-weight: bold; margin-top: 40px; color: #86BC25;    line-height: 38px;}
+    .deloitte-report .group-63 p { font-size: 18px; font-weight: 300; margin: 35px 0 25px 0; }
+    .deloitte-report .group-63 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: black; cursor: pointer; }
+    .deloitte-report .group-63 .read::after { content: url(img/download.png); left: 2px; position: relative; top: 10px;}
+    .deloitte-report .group-63 .image-530 { background: url(img/main.png) center center no-repeat; background-size: cover;  width: 530px; height: 530px; border-radius: 50%; margin: 63px 0 30px 60px; }
+    .deloitte-report .group-64 { background-color: white; color: black; padding: 20px 0; position: sticky; top:0; right:0; left:0; z-index: 999; border-top: 1px solid #979797;border-bottom: 1px solid #979797;}
+    .deloitte-report .group-64 .sec_nav { padding: 0px; margin: 0px; text-align: right; }
+    .deloitte-report .group-64 .sec_nav li{ list-style: none; margin-left: 43px; display: inline;}
+    .deloitte-report .group-64 .sec_nav li a{ color: #000000; font-weight: bold; text-decoration: none; font-size: 14px;}
+    .deloitte-report .group-64 .sec_nav li a.active{ color: #707070; }
+    .deloitte-report .group-55 { background-color: #0D8390; color: white; font-weight: 300; padding: 0px 0 0px 0; height: 277px;overflow: visible;}
+    .deloitte-report .group-55 h2 { color: #ffffff;margin-top:47px;font-size: 42px;line-height: 48px; font-weight: 300;}
+      .deloitte-report .group-55 span {
+            margin-left: -5px;
+        }
+    .deloitte-report .group-55 a.read {     font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: white;
+        cursor: pointer;
+        background: #000000;
+        border-radius: 0;
+        width: 400px;
+        height: 55px;
+        line-height: 55px;
+        bottom: 0;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        top: 12px;
+    }
+    .deloitte-report .group-55 .read::after { font-family: Dcom-EDE; font-weight: normal; content: "\f067"; margin-left: 10px; }
 
-@media (min-width: 1200px) {
-	.deloitte-report .group_wrapper{ width: 696px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
-	.deloitte-report .container { max-width: 1200px;  } 
-	.deloitte-report .group-55 .letter { right: 30px;}
-	.deloitte-report .group-55 .container {padding-left: 0 !important;}
-}
-a.read { text-decoration: none; }
-a.read:hover>.read::after { margin-left: 15px; }
-a.read::after { transition-duration: 300ms; }
-.deloitte-report section {  overflow: hidden;  } 
-.img-resposive { max-width: 100%; }
-.deloitte-report .group-63 { background-color: black; color: white; }
-.deloitte-report .group-63 .row{ padding: 0px 0 45px 0;  }
-.deloitte-report .group-63 .col-lg-5 { padding-right: 60px; }
-.deloitte-report .group-63 h1 { font-size: 50px; font-weight: 300; margin-top: 130px; }
-.deloitte-report .group-63 h2 { font-size: 32px; font-weight: bold; margin-top: 40px; color: #86BC25;    line-height: 38px;}
-.deloitte-report .group-63 p { font-size: 18px; font-weight: 300; margin: 35px 0 25px 0; }
-.deloitte-report .group-63 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer; }
-.deloitte-report .group-63 .read::after { content: url(img/download.svg); left: 2px; position: relative; top: 5px;}
-.deloitte-report .group-63 .image-530 { background-color: #707070; width: 530px; height: 530px; border-radius: 50%; margin: 63px 0 30px 60px; }
-.deloitte-report .group-64 { background-color: white; color: black; padding: 20px 0; position: sticky; top:0; right:0; left:0; z-index: 999; border-bottom: 1px solid #ccc;}
-.deloitte-report .group-64 .sec_nav { padding: 0px; margin: 0px; text-align: right; }
-.deloitte-report .group-64 .sec_nav li{ list-style: none; margin-left: 43px; display: inline;}
-.deloitte-report .group-64 .sec_nav li a{ color: #000000; font-weight: bold; text-decoration: none; font-size: 14px;}
-.deloitte-report .group-64 .sec_nav li a.active{ color: #707070; }
-.deloitte-report .group-55 { background-color: #0D8390; color: white; font-weight: 300; padding: 0px 0 0px 0; height: 396px;}
-.deloitte-report .group-55 h1 { font-size: 32px; font-weight: 300; margin: 61px 0 6px 49px;}
-.deloitte-report .group-55 p { font-size: 16px; }
-.deloitte-report .group-55 .group-55_left p{ padding-right: 40px; line-height: 25px; margin-left: 49px;}
-.deloitte-report .group-55 .image-242 { margin-left: -100px; position: relative; top: 0px; width: 380px; margin-top: 24px;} 
-.deloitte-report .group-55 .image-242 img{ position: absolute; top: 0;} 
-.deloitte-report .group-55 .letter { background-color: #161618; padding: 32px 22px; position: absolute; top: 77px; height: 224px; width: 345px; }
-.deloitte-report .group-55 .letter span { margin-left: -5px;}
-.deloitte-report .group-55 .letter p { font-size: 18px; /* pretend to be even thinner? */ -webkit-text-stroke: .015em #161618;}
-.deloitte-report .group-55 a.read { font-size: 15px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer; }
-.deloitte-report .group-55 .read::after { font-family: Dcom-EDE; font-weight: normal; content: "\f067"; margin-left: 10px; }
-.deloitte-report .group-133 { padding: 60px 0; background-color: #ffffff; }
-.deloitte-report .group-133 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;padding-right: 90px;}
-.deloitte-report .group-133 p { font-size: 16px;}
-.deloitte-report .group-135 .part_1 { padding: 0px 0 32px !important; margin-top: 96px;}
-.deloitte-report .group-135 .row { padding: 32px 0; }
-.deloitte-report .group-135 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px; }
-.deloitte-report .group-135 p { font-size: 16px; margin-top: -3px;}
-.deloitte-report .group-135 .part_3 p { margin-top: 15px;}
-.deloitte-report .group-135 .part_2 p { padding-right: 145px; }
-.deloitte-report .group-135 .part_4 .btn_custom { background-color: #000; width: 100%; margin-bottom: 13px; }
-.deloitte-report .group-135 .part_3 img{ width: 216px; height: 135px; }
-.deloitte-report .group-135 .part_3 p{ text-align: center; }
-.deloitte-report .group-135 a.read1 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding-top: 13px;    padding-left: 0; background: #000000; border-radius: 0;    height: 54px;
-    width: 100%;}
-.deloitte-report .group-135 a.read2 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding-top: 13px; background: #000000;  border-radius: 0;    height: 54px;
-    width: 100%;}
-.deloitte-report .group-135 .read1::after {  content: url(img/bell.svg); left: 12px; position: relative; top: 3px;}
-.deloitte-report .group-135 .read2::after {  content: url(img/download.svg); left: 2px; position: relative; top: 5px;}
-.deloitte-report .group-135 .part_5 .image-555{  background-color: #C5C6C3; width: 110px; height: 128px; margin-bottom: 13px; }
-.deloitte-report .group-135 .part_5 p {margin-top: -4px; padding-left: 20px;}
-.deloitte-report .group-135 .part_6 h1 { margin-bottom: 0; }
-.deloitte-report .group-90 { background-color: rgba(167,173,175,0.1); }
-.deloitte-report .group-90 .row { padding: 50px 0; }
-.deloitte-report .group-90 .image-345 { background-color: #707070; width: 345px; height: 345px; margin-bottom: 18px; }
-.deloitte-report .group-90 p.title { text-transform: uppercase; margin-bottom: 2px; }
-.deloitte-report .group-90 h1 { font-size: 16px; font-weight: 800; margin-top: 0; margin-bottom: 20px; line-height: 27px;}
-.deloitte-report .group-90 .card1 h1, .deloitte-report .group-90 .card2 h1 { padding-right: 60px;}
-.deloitte-report .group-90 .body_p { padding-right: 40px;}
-.deloitte-report .group-90 .card3 h1 { padding-right: 0px;}
-.deloitte-report .group-90 p { font-size: 14px; margin-bottom: 20px; }
-.deloitte-report .group-90 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: black; cursor: pointer; }
-.deloitte-report .group-90 .read::after { font-family: Dcom-EDE; font-weight: normal; content: "\f105"; margin-left: 5px;}
 
-/* Model */
-.modal.modal-vcenter .modal-dialog { position: relative; margin: auto; max-width: 100%; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
-.modal.modal-vcenter .modal-dialog .modal-header { border-bottom: 0px solid #e5e5e5; padding: 55px;}
-.modal.modal-vcenter .modal-dialog .modal-header .modal-title{ font-size:32px; font-family: 'Open Sans', sans-serif; }
-.modal.modal-vcenter .modal-header .close { padding: 15px; background: #000000; height: 30px; width: 30px; border-radius: 50%; opacity: 1; position: absolute; top: 25px; right: 15px; text-shadow: 0 0px 0 #fff;}
-.modal.modal-vcenter .modal-header .close:active, .modal.modal-vcenter .modal-header .close:focus{ outline: none !important; box-shadow: none; }
-.modal.modal-vcenter .modal-header .close span { color: #ffffff; opacity: 1; font-size: 30px; position: absolute; top: 0; left: 7px; font-family: 'Open Sans', sans-serif; font-weight: 300;}
-.modal.modal-vcenter .modal-dialog .modal-header .author-name{ font-size:16px; font-family: 'Open Sans', sans-serif; }
-.modal.modal-vcenter .modal-dialog .modal-content{ border-radius: 0; }
-@media screen and (min-width: 576px){
-	.modal.modal-vcenter .modal-dialog {width: 907px; height: 535px;}
-}
-.modal.modal-vcenter .modal-body { max-height: 40vh; overflow-y: auto; padding: 0 55px 55px 55px;}
-.modal.modal-vcenter .modal-body p{ font-family: 'Open Sans', sans-serif; font-size: 16px;}
-@media screen and (min-height:460px){
-    .modal.modal-vcenter .modal-body { max-height: 350px; }
-}
-/* Tablet */
-@media only screen 
-  and (min-device-width: 992px) 
-  and (max-device-width: 1195px) 
-  and (-webkit-min-device-pixel-ratio: 1){
-    .deloitte-report .group-63 .row:nth-of-type(1){ padding: 25px 0 120px 0; }
-    .deloitte-report .group-63 h1 { margin-top: 80px; }
-    .deloitte-report .group-63 .image-530 { width: 450px; height: 450px; }
-    .deloitte-report .group-63 .col-lg-5{ padding-right: 15px; }
-	.deloitte-report .group-55 {height: auto;}
-	.deloitte-report .group-55 h1 {margin-left:0;}
-    .deloitte-report .group-55 .group-55_left p { padding-right: 0; margin-left: 0;}
-    .deloitte-report .group-55 .image-242 { top: 0px; margin-left: 0; width: 100%;}
-    .deloitte-report .group-55 .image-242 img { position: relative; }
-    .deloitte-report .group-55 .letter { position: relative;  top: 0;  left: 0; height: auto; width: 100%;}
-    .deloitte-report .group-133 { padding: 60px 0; background-color: #ffffff; }
-    .deloitte-report .group-133 p { padding: 0px;}
-    .deloitte-report .group-90 .image-345 { height: 312px; width: 312px; }
+    .deloitte-report .group-55 p { font-size: 24px; line-height: 25px; }
+    .deloitte-report .group-55 .group-55_left p{ padding-right: 40px; line-height: 25px; margin-left: 49px;}
+    /* .deloitte-report .group-55 .image-242 { margin-left: -100px; position: relative; top: 0px; width: 380px; margin-top: 24px;}  */
+    /* .deloitte-report .group-55 .image-242 img{ position: absolute; top: 0;}  */
+    /* .deloitte-report .group-55 .letter { background-color: #161618; padding: 32px 22px; position: absolute; top: 77px; height: 224px; width: 345px; } */
+    /* .deloitte-report .group-55 .letter span { margin-left: -5px;} */
+    .deloitte-report .group-55 .letter p { font-size: 18px;}
+    
+    .deloitte-report .group-133 { padding: 60px 0; background-color: #ffffff; overflow: visible;}
+    .deloitte-report .group-133 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;padding-right: 90px;}
+    .deloitte-report .group-133 p { font-size: 16px;}
+    .deloitte-report .group-135 .part_1 { padding: 0px 0 32px !important; margin-top: 96px;}
+    .deloitte-report .group-135 .row { padding: 32px 0; }
+    .deloitte-report .group-135 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px; }
+    .deloitte-report .group-135 p { font-size: 16px; margin-top: -3px;}
+    .deloitte-report .group-135 .part_3 p { margin-top: 15px;}
+    .deloitte-report .group-135 .part_2 p { padding-right: 145px; }
+    .deloitte-report .group-135 .part_4 .btn_custom { background-color: #000; width: 100%; margin-bottom: 13px; }
+    .deloitte-report .group-135 .part_3 img{ width: 216px; height: 135px; }
+    .deloitte-report .group-135 .part_3 p{ text-align: center; }
+    .deloitte-report .group-135 a.read1 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding-top: 13px;    padding-left: 0; background: #000000; border-radius: 0;    height: 54px;
+        width: 100%;}
+    .deloitte-report .group-135 a.read2 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding-top: 13px; background: #000000;  border-radius: 0;    height: 54px;
+        width: 100%;}
+    .deloitte-report .group-135 .read1::after {  content: url(img/bell.svg); left: 12px; position: relative; top: 3px;}
+    .deloitte-report .group-135 .read2::after {  content: url(img/download.svg); left: 2px; position: relative; top: 5px;}
+
+    .deloitte-report .group-135 .part_5 .image-555{ width: 110px; height: 128px; margin-bottom: 13px; background-position: center center !important; }
+    .deloitte-report .group-135 .part_5 p{  font-size: 16px; line-height: 20px; color: #000000;}
+    .deloitte-report .group-135 .part_5 .Blau_Andrew{  background: url(img/Contributors/Blau_Andrew\,\ Jan\ 2021.jpg); background-size:cover ;}
+    .deloitte-report .group-135 .part_5 .Stephane{  background: url(img/Contributors/Stephane\,\ Joanne-9595edit2HAIREDIT.jpg); background-size:cover ;}
+    .deloitte-report .group-135 .part_5 .Foutty{  background: url(img/Contributors/Foutty\,\ Janet_Deloitte\ copy.jpg); background-size:cover ;}
+    .deloitte-report .group-135 .part_5 .Prabhakar{  background: url(img/Contributors/Prabhakar\,\ Kavitha_KP.jpg); background-size:cover ;}
+    .deloitte-report .group-135 .part_7 {  border-top: 0.5px solid #707070;}
+    .deloitte-report .group-135 .part_8 p{  font-size: 12px; line-height: 16px; color: #000000;}
+    .deloitte-report .group-135 .part_8 .image-555{ width: 91px; height: 107px; margin-bottom: 13px; background-position: center center !important; }
+    .deloitte-report .group-135 .part_8 .Lubetsky{  background: url(img/Contributors/Lubetsky.jpg); background-size:cover ;}
+    .deloitte-report .group-135 .part_8 .Trevino{  background: url(img/Contributors/Trevino\,\ Ale.jpg); background-size:cover ;}
+    .deloitte-report .group-135 .part_8 .Dickau{  background: url(img/Contributors/Dickau\,\ Devon\ -\ D\ Headshot\ 2020.png); background-size:cover ;}
+    .deloitte-report .group-135 .part_8 .Adams{  background: url(img/Contributors/Adams\,\ Deshawn\ -\ DA\ Final\ Headshot.jpg); background-size:cover ;}
+    .deloitte-report .group-135 .part_8 .Tilwa{  background: url(img/Contributors/Tilwa\,\ Raj\ -\ Cropped.jpg); background-size:cover ;}
+    .deloitte-report .group-135 .part_8 .Jucks{  background: url(img/Contributors/Jucks\,\ Richard\ LINKEDIN.jpg); background-size:cover ;}
+
+
+
+    .deloitte-report .group-135 .part_6 h1 { margin-bottom: 0; }
+    .deloitte-report .group-90 { background-color: rgba(167,173,175,0.1); }
+    .deloitte-report .group-90 .row { padding: 50px 0; }
+    .deloitte-report .group-90 .image-345 { background-color: #707070; width: 345px; height: 345px; margin-bottom: 18px; }
+    .deloitte-report .group-90 p.title { text-transform: uppercase; margin-bottom: 2px; }
     .deloitte-report .group-90 h1 { font-size: 16px; font-weight: 800; margin-top: 0; margin-bottom: 20px; line-height: 27px;}
-    .deloitte-report .group-90 .card1 h1, .deloitte-report .group-90 .card2 h1 { padding-right: 0px;}
-    .deloitte-report .group-90 .body_p { padding-right: 0px;}
-    .deloitte-report .group-135 a.read1 { float: right; }
-    .deloitte-report .group-135 a.read2 { float: left;}
-	.deloitte-report .group-135 .part_3 img { margin: 0 auto; display: flex;}
-  }
-
-  @media only screen 
-  and (min-device-width: 767px) 
-  and (max-device-width: 991px) {
-	.deloitte-report .group-55 .image-242 {
-    margin: 0 auto !important; width: 380px !important;}
-	.deloitte-report .group-90 .image-345 {
-    margin: 0 auto !important; width: 345px !important;}
-  }
-/* Mobile */
-  @media only screen and (max-width: 991px) {
-    .deloitte-report .group-63 .row:nth-of-type(1){ padding: 25px 0 40px 0; }
-    .deloitte-report .group-63 h1 { margin-top: 100px; font-size: 45px; }
-    .deloitte-report .group-63 h2 { font-size: 28px; }
-    .deloitte-report .group-63 .image-530 { width: 230px; height: 230px; margin: 30px 0 0px 60px; }
-    .deloitte-report .group-63 .col-lg-5{ padding-right: 15px; }
-    .deloitte-report .group-64 .sec_nav { text-align: center; }
-    .deloitte-report .group-64 .sec_nav li { margin-left: 15px; }
-    .deloitte-report .group-64 .sec_nav li:nth-of-type(1) { margin-left: 0px; }
-	.deloitte-report .group-55 { height: auto; }
-	.deloitte-report .group-55 h1 { margin: 40px 0 6px 0px; }
-    .deloitte-report .group-55 .group-55_left { margin-top: 0; }
-    .deloitte-report .group-55 .group-55_left p { padding-right: 0;     margin-left: 0px;}
-    .deloitte-report .group-55 .image-242 { margin-left: 0; top: 0; }
-    .deloitte-report .group-55 .image-242 {margin-left: 0; position: relative; top: 0px;width: 100%; }
-    .deloitte-report .group-55 .image-242 img { position: relative; top: 0;}
-    .deloitte-report .group-55 .letter { position: relative; left: 0;top: 0; padding: 30px 26px;height:auto; width: 100%;}
-    .deloitte-report .group-133 { padding: 60px 0; background-color: #ffffff; }
-    .deloitte-report .group-133 h1 { padding: 0 0px 0 0px;}
-    .deloitte-report .group-133 p { padding: 0 0px 0 0px;}
-    .deloitte-report .group-90 h1 { font-size: 16px; font-weight: 800; margin-top: 0; margin-bottom: 20px; line-height: 27px;}
-    .deloitte-report .group-90 .card1, .deloitte-report .group-90 .card2{ margin-bottom: 50px; }
-	.deloitte-report .group-90 .image-345 { margin: 0 auto 18px; display: flex; }
-    .deloitte-report .group-90 .card1 h1, .deloitte-report .group-90 .card2 h1 { padding-right: 0px;}
-    .deloitte-report .group-90 .body_p { padding-right: 0px;}
-	.deloitte-report .group-135 .part_3 img { margin: 0 auto; display: flex; }
-    .deloitte-report .group-135 .part_3 p { margin: 11px 0; }
-    .deloitte-report .group-135 a.read1 { width: 100%; }
-    .deloitte-report .group-135 a.read2 {  width: 100%; margin-top: 20px;}
-    .deloitte-report .group-135 .part_4 { padding-top: 0; }
-    .deloitte-report .group-135 .part_5 { padding:0; }
-	.deloitte-report .group-135 .part_5 .image-555 { margin: 0; }
-	.deloitte-report .group-135 .part_5 p {padding: 0;}
-    .deloitte-report .group-135 .part_2 p { padding-right: 0; }
-}
+    .deloitte-report .group-90 .card1 h1, .deloitte-report .group-90 .card2 h1 { padding-right: 60px;}
+    .deloitte-report .group-90 .body_p { padding-right: 40px;}
+    .deloitte-report .group-90 .card3 h1 { padding-right: 0px;}
+    .deloitte-report .group-90 p { font-size: 14px; margin-bottom: 20px; }
+    .deloitte-report .group-90 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: black; cursor: pointer; }
+    .deloitte-report .group-90 .read::after { font-family: Dcom-EDE; font-weight: normal; content: "\f105"; margin-left: 5px;}
+    
+    /* Model */
+    .modal.modal-vcenter .modal-dialog { position: relative; margin: auto; max-width: 100%; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
+    .modal.modal-vcenter .modal-dialog .modal-header { border-bottom: 0px solid #e5e5e5; padding: 55px;}
+    .modal.modal-vcenter .modal-dialog .modal-header .modal-title{ font-size:32px; font-family: 'Open Sans', sans-serif; }
+    .modal.modal-vcenter .modal-header .close { padding: 15px; background: #000000; height: 30px; width: 30px; border-radius: 50%; opacity: 1; position: absolute; top: 25px; right: 15px; text-shadow: 0 0px 0 #fff;}
+    .modal.modal-vcenter .modal-header .close:active, .modal.modal-vcenter .modal-header .close:focus{ outline: none !important; box-shadow: none; }
+    .modal.modal-vcenter .modal-header .close span { color: #ffffff; opacity: 1; font-size: 30px; position: absolute; top: 0; left: 7px; font-family: 'Open Sans', sans-serif; font-weight: 300;}
+    .modal.modal-vcenter .modal-dialog .modal-header .author-name{ font-size:16px; font-family: 'Open Sans', sans-serif; }
+    .modal.modal-vcenter .modal-dialog .modal-content{ border-radius: 0; }
+    @media screen and (min-width: 576px){
+        .modal.modal-vcenter .modal-dialog {width: 907px; height: 535px;}
+    }
+    .modal.modal-vcenter .modal-body { max-height: 40vh; overflow-y: auto; padding: 0 55px 55px 55px;}
+    .modal.modal-vcenter .modal-body p{ font-family: 'Open Sans', sans-serif; font-size: 16px;}
+    @media screen and (min-height:460px){
+        .modal.modal-vcenter .modal-body { max-height: 350px; }
+    }
+    /* Tablet */
+    @media only screen 
+      and (min-device-width: 992px) 
+      and (max-device-width: 1195px) 
+      and (-webkit-min-device-pixel-ratio: 1){
+        .deloitte-report .group-63 .row:nth-of-type(1){ padding: 25px 0 120px 0; }
+        .deloitte-report .group-63 h1 { margin-top: 80px; }
+        .deloitte-report .group-63 .image-530 { width: 450px; height: 450px; }
+        .deloitte-report .group-63 .col-lg-5{ padding-right: 15px; }
+        .deloitte-report .group-55 {height: auto;}
+        .deloitte-report .group-55 h1 {margin-left:0;}
+        .deloitte-report .group-55 .group-55_left p { padding-right: 0; margin-left: 0;}
+        .deloitte-report .group-55 .image-242 { top: 0px; margin-left: 0; width: 100%;}
+        .deloitte-report .group-55 .image-242 img { position: relative; }
+        .deloitte-report .group-55 .letter { position: relative;  top: 0;  left: 0; height: auto; width: 100%;}
+        .deloitte-report .group-133 { padding: 60px 0; background-color: #ffffff; }
+        .deloitte-report .group-133 p { padding: 0px;}
+        .deloitte-report .group-90 .image-345 { height: 312px; width: 312px; }
+        .deloitte-report .group-90 h1 { font-size: 16px; font-weight: 800; margin-top: 0; margin-bottom: 20px; line-height: 27px;}
+        .deloitte-report .group-90 .card1 h1, .deloitte-report .group-90 .card2 h1 { padding-right: 0px;}
+        .deloitte-report .group-90 .body_p { padding-right: 0px;}
+        .deloitte-report .group-135 a.read1 { float: right; }
+        .deloitte-report .group-135 a.read2 { float: left;}
+        .deloitte-report .group-135 .part_3 img { margin: 0 auto; display: flex;}
+      }
+    
+      @media only screen 
+      and (min-device-width: 767px) 
+      and (max-device-width: 991px) {
+        .deloitte-report .group-55 .image-242 {
+        margin: 0 auto !important; width: 380px !important;}
+        .deloitte-report .group-90 .image-345 {
+        margin: 0 auto !important; width: 345px !important;}
+      }
+    /* Mobile */
+      @media only screen and (max-width: 991px) {
+        .deloitte-report .group-63 .row:nth-of-type(1){ padding: 25px 0 40px 0; }
+        .deloitte-report .group-63 h1 { margin-top: 100px; font-size: 45px; }
+        .deloitte-report .group-63 h2 { font-size: 28px; }
+        .deloitte-report .group-63 .image-530 { width: 230px; height: 230px; margin: 30px 0 0px 60px; }
+        .deloitte-report .group-63 .col-lg-5{ padding-right: 15px; }
+        .deloitte-report .group-64 .sec_nav { text-align: center; }
+        .deloitte-report .group-64 .sec_nav li { margin-left: 15px; }
+        .deloitte-report .group-64 .sec_nav li:nth-of-type(1) { margin-left: 0px; }
+        .deloitte-report .group-55 { height: auto; }
+        .deloitte-report .group-55 h1 { margin: 40px 0 6px 0px; }
+        .deloitte-report .group-55 .group-55_left { margin-top: 0; }
+        .deloitte-report .group-55 .group-55_left p { padding-right: 0;     margin-left: 0px;}
+        .deloitte-report .group-55 .image-242 { margin-left: 0; top: 0; }
+        .deloitte-report .group-55 .image-242 {margin-left: 0; position: relative; top: 0px;width: 100%; }
+        .deloitte-report .group-55 .image-242 img { position: relative; top: 0;}
+        .deloitte-report .group-55 .letter { position: relative; left: 0;top: 0; padding: 30px 26px;height:auto; width: 100%;}
+        .deloitte-report .group-133 { padding: 60px 0; background-color: #ffffff; }
+        .deloitte-report .group-133 h1 { padding: 0 0px 0 0px;}
+        .deloitte-report .group-133 p { padding: 0 0px 0 0px;}
+        .deloitte-report .group-90 h1 { font-size: 16px; font-weight: 800; margin-top: 0; margin-bottom: 20px; line-height: 27px;}
+        .deloitte-report .group-90 .card1, .deloitte-report .group-90 .card2{ margin-bottom: 50px; }
+        .deloitte-report .group-90 .image-345 { margin: 0 auto 18px; display: flex; }
+        .deloitte-report .group-90 .card1 h1, .deloitte-report .group-90 .card2 h1 { padding-right: 0px;}
+        .deloitte-report .group-90 .body_p { padding-right: 0px;}
+        .deloitte-report .group-135 .part_3 img { margin: 0 auto; display: flex; }
+        .deloitte-report .group-135 .part_3 p { margin: 11px 0; }
+        .deloitte-report .group-135 a.read1 { width: 100%; }
+        .deloitte-report .group-135 a.read2 {  width: 100%; margin-top: 20px;}
+        .deloitte-report .group-135 .part_4 { padding-top: 0; }
+        .deloitte-report .group-135 .part_5 { padding:0; }
+        .deloitte-report .group-135 .part_5 .image-555 { margin: 0; }
+        .deloitte-report .group-135 .part_5 p {padding: 0;}
+        .deloitte-report .group-135 .part_2 p { padding-right: 0; }
+    }
 </style>
 <div class="deloitte-report">
 	<section class="group-63">
@@ -217,6 +258,13 @@ a.read::after { transition-duration: 300ms; }
 	<section class="group-55">
 		<div class="container">
 			<div class="row">
+				<div class="col-lg-12">
+					<h2 data-aos="fade-up" class="aos-init aos-animate"><span>“</span>Equity isn’t just about efforts, it’s about results: measurable and meaningful outcomes in the lives of our people, our communities, our country, and our world.”</h2>
+					<p>—Janet Foutty</p>
+					<a href="" data-toggle="modal" data-target="#author_modal" class="read">Read our Board Chair’s letter</a>
+				</div>
+			</div>
+			<!-- <div class="row">
 				<div class="col-lg-5 col-md-8 group-55_left">
 					<h1 data-aos="fade-right">Why racial equity? Why now?</h1>
 					<p data-aos="fade-right">Fighting systemic bias and racism is one of the biggest challenges of our time. And businesses must lead the way. They must take action now to break down old systems that aren’t working, change beliefs and behaviors, and build a new future of racial equity together. Our report helps leaders reflect on the realities of racism, envision potential future scenarios for racial equity, and move swiftly from intention to action.</p>
@@ -229,7 +277,7 @@ a.read::after { transition-duration: 300ms; }
                         <a href="" data-toggle="modal" data-target="#author_modal" class="read">Read the full letter</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 	<section class="group-133">
@@ -251,7 +299,7 @@ a.read::after { transition-duration: 300ms; }
 			<div class="row">
 				<div class="col-lg-4 col-md-4">
 					<div class="card1">
-					<div class="image-345" data-aos="fade-up"></div>
+					<div class="image-345" style="content: url(img/chpter1.jpg)" data-aos="fade-up"></div>
 						<p class="title" data-aos="fade-up">reflect</p>
 						<h1 data-aos="fade-up">Chapter I: What is racial equity and why should you care about it?</h1>
 						<p class="body_p" data-aos="fade-up">We break down the problem of systemic racism by the numbers and explain why businesses must take the lead in dismantling it.</p>
@@ -260,7 +308,7 @@ a.read::after { transition-duration: 300ms; }
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<div class="card2">
-					<div class="image-345" data-aos="fade-up" data-aos-delay="500"></div>
+					<div class="image-345" style="content: url(img/chpter2.jpg)" data-aos="fade-up" data-aos-delay="500"></div>
 						<p class="title" data-aos="fade-up" data-aos-delay="500">Look ahead</p>
 						<h1 data-aos="fade-up" data-aos-delay="500">Chapter II: How can future-focused scenarios help business leaders drive change?</h1>
 						<p class="body_p" data-aos="fade-up" data-aos-delay="500">We provide a scenarios-based view of racial equity in the United States, designed to spark the imagination for how the future may unfold in potentially surprising ways.</p>
@@ -269,7 +317,7 @@ a.read::after { transition-duration: 300ms; }
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<div class="card3">
-					<div class="image-345" data-aos="fade-up" data-aos-delay="1000"></div>
+					<div class="image-345" style="content: url(img/chpter3.jpg)" data-aos="fade-up" data-aos-delay="1000"></div>
 						<p class="title" data-aos="fade-up" data-aos-delay="1000">act now</p>
 						<h1 data-aos="fade-up" data-aos-delay="1000">Chapter III: What can organizations do now to drive measurable, meaningful, and sustainable change toward racial equity?</h1>
 						<p class="body_p" data-aos="fade-up" data-aos-delay="1000">We take an expansive view of the choices leaders face to drive meaningful progress toward racial equity both in the workplace and outside their organization.</p>
@@ -323,42 +371,93 @@ a.read::after { transition-duration: 300ms; }
 				</div>
 				<div class="row part_6">
 					<div class="col-lg-12">
-						<h1 data-aos="fade-up">H1 Deloitte leader/sponsor bios</h1>
+						<h1 data-aos="fade-up">Leaders</h1>
 					</div>
 				</div>
 				<div class="row part_5">
-					<div class="col-lg-2 col-md-2 col-xs-5" data-aos="fade-right">
-						<div class="image-555"></div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-xs-7" data-aos="fade-right">
+					<div class="col-lg-6 col-md-6 col-xs-6" data-aos="fade-right">
+						<div class="image-555 Blau_Andrew"></div>
 						<p>
-							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
+							<b>Andrew Blau</b> <br>US Leader - Signature Issues<br> 
+							<i>Managing Director | Deloitte Consulting LLP</i>
 						</p>
 					</div>
-					<div class="col-lg-2 col-md-2 col-xs-5" data-aos="fade-left">
-						<div class="image-555"></div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-xs-7" data-aos="fade-left">
+					
+					<div class="col-lg-6 col-md-6 col-xs-6" data-aos="fade-left">
+						<div class="image-555 Stephane"></div>
 						<p>
-							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
+							<b>Joanne Stephane</b> <br>Human Capital, US Leader — <br>HR Strategy & Solutions <br>Human Capital, Chief DEI Officer <br> 
+							<i>Principal | Deloitte Consulting LLP</i>
 						</p>
 					</div>
+					
 				</div>
 				<div class="row part_5">
-					<div class="col-lg-2 col-md-2 col-xs-5" data-aos="fade-right">
-						<div class="image-555"></div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-xs-7" data-aos="fade-right">
+					<div class="col-lg-6 col-md-6 col-xs-6" data-aos="fade-right">
+						<div class="image-555 Foutty"></div>
 						<p>
-							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
+							<b>Janet Foutty </b> <br>Executive Chair of the Board <br> 
+							<i>Principal | Deloitte US</i>
 						</p>
 					</div>
-					<div class="col-lg-2 col-md-2 col-xs-5" data-aos="fade-left">
-						<div class="image-555"></div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-xs-7" data-aos="fade-left">
+					
+					<div class="col-lg-6 col-md-6 col-xs-6" data-aos="fade-left">
+						<div class="image-555 Prabhakar"></div>
 						<p>
-							<b>Name</b> <br>Title<br> Group<br> Deloitte Consulting LLP<br>email <br>phone
+							<b>Kavitha Prabhakar</b>
+							<br> Chief Diversity, Equity & Inclusion <br>(DEI) Officer - Deloitte US Firms<br> 
+							<i>Principal | Deloitte Consulting LLP</i>
+						</p>
+					</div>
+					
+				</div>
+				<div class="row part_7">
+					<div class="col-lg-12">
+						<h2 style="font-size: 24px;">Teams</h2>
+					</div>
+				</div>
+				<div class="row part_8">
+					<div class="col-lg-4 col-md-4">
+						
+						<div class="image-555 Lubetsky"></div>
+						<p>
+							<b>Lauren Lubetsky</b> <br>Strategy<br> <br> 
+							<i>Deloitte Consulting LLP</i>
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="image-555 Trevino"></div>
+						<p>
+							<b>Ale Treviño</b> <br>Customer & Marketing<br> <br> 
+							<i>Deloitte Consulting LLP</i>
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="image-555 Dickau"></div>
+						<p>
+							<b>Devon Dickau </b> <br>Deloitte Consulting Platforms<br> <br> 
+							<i>Deloitte Consulting LLP</i>
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="image-555 Adams"></div>
+						<p>
+							<b>Deshawn Adams</b> <br>Human Capital, <br>Diversity, Equity, and <br>Inclusion Practice <br> 
+							<i>Deloitte Consulting LLP</i>
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="image-555 Tilwa"></div>
+						<p>
+							<b>Raj Tilwa</b> <br>Strategy & Analytics<br> <br> 
+							<i>Deloitte Consulting LLP</i>
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="image-555 Jucks"></div>
+						<p>
+							<b>Richard Jucks</b> <br>Deloitte Consulting Platforms<br> <br> 
+							<i>Deloitte Consulting LLP</i>
 						</p>
 					</div>
 				</div>
