@@ -27,6 +27,8 @@
     .deloitte-report h1, .deloitte-report h2, .deloitte-report h3, .deloitte-report p, .deloitte-report a{ font-family: 'Open Sans', sans-serif; }
     
     @media (min-width: 1200px) {
+		.deloitte-report .header-left {width: 46% !important;}
+		.deloitte-report .header-right {width: 54% !important;}
         .deloitte-report .group_wrapper{ width: 696px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
         .deloitte-report .container { max-width: 1200px;  } 
         .deloitte-report .group-55 .letter { right: 30px;}
@@ -43,7 +45,7 @@
     .deloitte-report .group-63 .row{ padding: 0px 0 45px 0;  }
     .deloitte-report .group-63 h1 { font-size: 50px; font-weight: 300; margin-top: 142px; color: #000000; }
     .deloitte-report .group-63 h2 { font-size: 20px; font-weight: bold; margin-top: 50px; color: #86BC25;    line-height: 25px;}
-    .deloitte-report .group-63 p { font-size: 16px; font-weight: 300; margin: 30px 0 35px 0; color: #000; }
+    .deloitte-report .group-63 p { font-size: 16px; font-weight: normal; margin: 30px 0 35px 0; color: #000; line-height: 25px; }
     .deloitte-report .group-63 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 1.5px; color: black; cursor: pointer; }
     .deloitte-report .group-63 .read::after { content: url(img/download.png); left: 2px; position: relative; top: 10px;}
     .deloitte-report .group-63 .image-530 { background: url(img/main.png) center center no-repeat; background-size: cover;  width: 590px; height: 590px; border-radius: 50%; margin: 40px 0 20px 60px; }
@@ -129,7 +131,7 @@
     .deloitte-report .group-90 p.title { text-transform: uppercase; margin-bottom: 2px; }
     .deloitte-report .group-90 h1 { font-size: 16px; font-weight: 800; margin-top: 0; margin-bottom: 20px; line-height: 27px;}
     /* .deloitte-report .group-90 .card1 h1, .deloitte-report .group-90 .card2 h1 { padding-right: 60px;} */
-    .deloitte-report .group-90 .body_p { padding-right: 40px;}
+    .deloitte-report .group-90 .body_p { padding-right: 25px;}
     .deloitte-report .group-90 .card3 h1 { padding-right: 0px;}
     .deloitte-report .group-90 p { font-size: 14px; margin-bottom: 25px; }
     .deloitte-report .group-90 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: black; cursor: pointer; }
@@ -149,6 +151,10 @@
     }
     .modal.modal-vcenter .modal-body { max-height: 40vh; overflow-y: auto; padding: 0 55px 55px 55px;}
     .modal.modal-vcenter .modal-body p{ font-family: 'Open Sans', sans-serif; font-size: 16px;}
+	.modal.modal-vcenter .modal-body .image-93 { width: 93px; height: 50px; content: url(img/sign.png); margin-bottom: 13px; background-position: center center !important; }
+	.modal.modal-vcenter .modal-body .counter-sec { counter-reset: section;}
+	.modal.modal-vcenter .modal-body .counter-sec p { font-size: 12px; margin-bottom: 0;}
+	.modal.modal-vcenter .modal-body .counter-sec p:before { counter-increment: section; content: counter(section) ". "; }
     @media screen and (min-height:460px){
         .modal.modal-vcenter .modal-body { max-height: 350px; }
     }
@@ -227,13 +233,13 @@
 	<section class="group-63">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-5 col-md-5 col-12">
+				<div class="col-lg-5 col-md-5 col-12 header-left">
 					<h1 data-aos="fade-right">The racial equity imperative</h1>
 					<h2 data-aos="fade-right">The need for business to take bold action now</h2>
 					<p data-aos="fade-right">Break the status quo. Transform long-held beliefs and behaviors. Build a more equitable future, together. It’s on businesses to lead the way toward racial equity. Out report can help you drive the change we need.</p>
 					<a class="read" data-aos="fade-right">Download the full report</a>
 				</div>
-				<div class="col-lg-7 col-md-7 col-12">
+				<div class="col-lg-7 col-md-7 col-12 header-right">
 					<div class="image-530" data-aos="fade-left"></div>
 				</div>
 			</div>
@@ -265,20 +271,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="row">
-				<div class="col-lg-5 col-md-8 group-55_left">
-					<h1 data-aos="fade-right">Why racial equity? Why now?</h1>
-					<p data-aos="fade-right">Fighting systemic bias and racism is one of the biggest challenges of our time. And businesses must lead the way. They must take action now to break down old systems that aren’t working, change beliefs and behaviors, and build a new future of racial equity together. Our report helps leaders reflect on the realities of racism, envision potential future scenarios for racial equity, and move swiftly from intention to action.</p>
-				</div>
-				<div class="col-md-4 visible-md"><div class="image-242"><img class="img-resposive" src="https://www.brainyyack.com/deloitte/images/janet-foutty-new_2@2x.png" alt=""></div></div>
-				<div class="col-lg-7 col-md-12">
-                    <div class="image-242 hidden-md"><img class="img-resposive" data-aos="fade-up" src="https://www.brainyyack.com/deloitte/images/janet-foutty-new_2@2x.png" alt=""></div>
-					<div class="letter" data-aos="fade-left">
-						<p><span>“</span>Equity isn’t just about efforts, it’s about results: measurable and meaningful outcomes in the lives of our people, our communities, our country, and our world.”</p>
-                        <a href="" data-toggle="modal" data-target="#author_modal" class="read">Read the full letter</a>
-					</div>
-				</div>
-			</div> -->
 		</div>
 	</section>
 	<section class="group-133">
@@ -470,10 +462,24 @@
           </button>
         </div>
         <div class="modal-body author_modal_body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac tortor dignissim convallis aenean et tortor at risus viverra. Morbi non arcu risus quis. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Nam at lectus urna duis convallis convallis tellus. Ut aliquam purus sit amet luctus. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Diam ut venenatis tellus in. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Urna molestie at elementum eu. Porttitor eget dolor morbi non arcu risus quis. Id nibh tortor id aliquet. 
-			<br><br>
-			Eu volutpat odio facilisis mauris. In nulla posuere sollicitudin aliquam ultrices. Augue ut lectus arcu bibendum at varius vel pharetra. Massa eget egestas purus viverra accumsan in nisl nisi scelerisque. Ut etiam sit amet nisl purus in mollis. Pulvinar neque laoreet suspendisse interdum consectetur libero. Ac tincidunt vitae semper quis. Egestas congue quisque egestas diam in. Purus semper eget duis at tellus. Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Adipiscing tristique risus nec feugiat in fermentum posuere urna nec. Lobortis mattis aliquam faucibus purus in massa tempor. Tristique et egestas quis ipsum. Eget mi proin sed libero enim sed. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Augue neque gravida in fermentum et sollicitudin ac. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Enim facilisis gravida neque convallis a cras semper auctor. Ligula ullamcorper malesuada proin libero. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Tincidunt eget nullam non nisi est sit amet facilisis magna. Sollicitudin nibh sit amet commodo nulla facilisi nullam. Turpis egestas integer eget aliquet nibh. Id aliquet lectus proin nibh nisl condimentum. Blandit massa enim nec dui. Duis tristique sollicitudin nibh sit amet commodo. Vitae tempus quam pellentesque nec nam. Orci ac auctor augue mauris augue neque gravida in fermentum. Augue interdum velit euismod in pellentesque. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Risus quis varius quam quisque id diam. Fringilla est ullamcorper eget nulla facilisi etiam dignissim. Sit amet mattis vulputate enim nulla aliquet. Sed risus ultricies tristique nulla aliquet enim. Vestibulum morbi blandit cursus risus at ultrices mi. Turpis egestas integer eget aliquet nibh praesent tristique magna. Libero volutpat sed cras ornare arcu dui. Sit amet dictum sit amet. Tortor dignissim convallis aenean et tortor at.
-            </p>
+			<div>
+				<p>Last summer, following the death of another Black man at the hands of police, CEO Joe Ucuzoglu and I spent significant time listening to the serious concerns of our Black colleagues. It was a humbling experience, and a galvanizing one, reaffirming just how much we don’t know <strong> — and just how much we have to do.</strong></p>
+				<p><strong>In the months since,</strong> we have seen Black Americans die from COVID-19 at far higher rates than their White counterparts1; we have watched the pandemic take an outsized economic toll on Black communities2; and we have felt racial disparities in connection with the insurrection at the U.S. Capitol. </p>
+				<p>These experiences have crystalized the urgency of deepening our understanding and taking meaningful action. That is why we have dedicated ourselves to learning about the systemic bias and racism that plagues the Black community, reimagining what an equitable future looks like, and beginning to take the bold actions needed in order to reach it. </p>
+				<p>While diversity and inclusion efforts are clearly necessary to create that future, our current focus is on equity. Because equity isn’t just about efforts, it’s about results: measurable and meaningful outcomes in the lives of our people, our communities, our country, and our world. Systemic bias and racism are what we are against; equity is what we are for.</p>
+				<p>Fighting systemic bias and racism—tearing down the age-old systems and challenging the long-held beliefs that harm the Black community—is necessary to achieving equity. But dismantling alone is insufficient. To reach equity, we also must build it.</p>
+				<p>As we build, we should consider the environment around us and take a holistic view of the issues we face. Today’s leaders are confronted with enormous challenges that are disproportionately impacting Black communities and other marginalized communities. </p>
+				<p>And we should build together: within our own organizations, and as business leaders, sharing what we know, and gleaning what we don’t, from colleagues across markets and communities.</p>
+				<p>We know this work won’t be easy. It will take empathy and vulnerability, tough conversations, and constant self-reflection. But the stakes are too high to settle for inaction. The rewards of our efforts, measured in every meaningful way, will be truly transformational. </p>
+				<p>Janet</p>
+				<div class="image-93" data-aos="fade-right"></div>
+				<p>Janet Foutty</p>
+				<p>Board Chair, Deloitte USA LLP</p>
+			</div>
+			<div class="counter-sec">
+				<p>COVID-19 Hospitalization and Death by Race/Ethnicity, CDC, November 2020</p>
+				<p>What Coronavirus Job Losses Reveal About Racism in America, Pro Publica, July 2020</p>
+			</div>
         </div>
         
       </div>
