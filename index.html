@@ -156,7 +156,7 @@
     .modal.modal-vcenter .modal-body p{ font-family: 'Open Sans', sans-serif; font-size: 16px;}
 	.modal.modal-vcenter .modal-body .image-93 { width: 93px; height: 50px; content: url(img/sign.png); margin-bottom: 13px; background-position: center center !important; }
 	.modal.modal-vcenter .modal-body .counter-sec { list-style-type: decimal;}
-	.modal.modal-vcenter .modal-body .counter-sec li { font-size: 12px; margin-bottom: 0;}
+	.modal.modal-vcenter .modal-body .counter-sec li { font-size: 12px; margin-bottom: 0; margin-left: -25px;}
 	.modal-open .modal {display: flex;}
     @media screen and (min-height:460px){
         .modal.modal-vcenter .modal-body { max-height: 350px; }
@@ -165,6 +165,11 @@
 		.deloitte-report .group-64 .sec_nav li a {
 			font-size: 18px;
 		}
+	}
+	@media (max-width: 576px) {
+		.modal.modal-vcenter .modal-dialog .modal-header .modal-title {font-size: 22px; text-align: left;}
+    	.modal.modal-vcenter .modal-dialog .modal-header .author-name { font-size:18px; }
+    	.modal.modal-vcenter .modal-dialog .modal-header { padding-bottom: 20px; }
 	}
 	@media (min-width: 992px){
 		.deloitte-report .group-90 .card1 {margin-left: 23px;}
