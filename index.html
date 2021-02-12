@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <!-- Animation on Scroll.css -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=10rn9v2mdqr3x4gceolxgq" async="true"></script>
 <!-- deloitte fonts -->
 <style>
 @font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'),url('https://www2.deloitte.com/etc/designs/dcom/assets/fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype')}
@@ -75,6 +77,7 @@
 	@media (max-width: 425px) {
 		.deloitte-report .group-55 a.read { width: 280px; letter-spacing: 1px; font-size: 12px;}
 		.deloitte-report .group-55 .author-read {margin-left: 0 !important;}
+		.deloitte-report .group-90 .image-345 { width: 290px !important; height: 290px !important; }
 	}
 	.deloitte-report .group-55 .author-read {margin-left: 15px;}
     .deloitte-report .group-55 .read span { content: url(img/add.svg); margin-left: 10px; margin-bottom: -5px; }
@@ -162,6 +165,10 @@
 			font-size: 18px;
 		}
 	}
+	@media (min-width: 992px){
+		.deloitte-report .group-90 .card1 {margin-left: 23px;}
+		.deloitte-report .group-90 .card3 {margin-left: -20px;}
+	}
     /* Tablet */
     @media only screen 
       and (min-device-width: 992px) 
@@ -225,8 +232,7 @@
         .deloitte-report .group-135 .part_3 img { margin: 0 auto; display: flex; }
         .deloitte-report .group-135 .part_3 p { margin: 11px 0; }
         .deloitte-report .group-135 a.read1 { width: 100%; }
-        .deloitte-report .group-135 a.read2 {  width: 100%;}
-        /* .deloitte-report .group-135 a.read2 {  width: 100%; margin-top: 20px;} */
+        .deloitte-report .group-135 a.read2 {  width: 100%; margin-top: 20px;}
         .deloitte-report .group-135 .part_4 { padding-top: 0; }
         .deloitte-report .group-135 .part_5 { padding:0; }
         .deloitte-report .group-135 .part_5 .image-555 { margin: 0; }
@@ -297,8 +303,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-4">
-					<div class="card1" style="margin-left: 23px;">
-					<div class="image-345" style="content: url(img/chpter1.jpg)" data-aos="fade-up"></div>
+					<div class="card1">
+						<div class="image-345" style="content: url(img/chpter1.jpg)" data-aos="fade-up"></div>
 						<p class="title" data-aos="fade-up">PART I: ASSESS</p>
 						<h1 data-aos="fade-up">Why racial equity now?</h1>
 						<p class="body_p" data-aos="fade-up">We break down the problem of systemic racism by the numbers and explain why businesses must take the lead in dismantling it.</p>
@@ -314,7 +320,7 @@
 						<a a href="look-ahead.html" class="read" data-aos="fade-up" data-aos-delay="500">READ PART II</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4" style="margin-left: -20px;">
+				<div class="col-lg-4 col-md-4">
 					<div class="card3">
 					<div class="image-345" style="content: url(img/chpter3.jpg)" data-aos="fade-up" data-aos-delay="1000"></div>
 						<p class="title" data-aos="fade-up" data-aos-delay="1000">PART III: Act now</p>
@@ -469,18 +475,18 @@
         </div>
         <div class="modal-body author_modal_body">
 			<div>
-				<p>Last summer, following the death of another Black man at the hands of police, CEO Joe Ucuzoglu and I spent significant time listening to the serious concerns of our Black colleagues. It was a humbling experience, and a galvanizing one, reaffirming just how much we don’t know <strong> — and just how much we have to do.</strong></p>
-				<p><strong>In the months since,</strong> we have seen Black Americans die from COVID-19 at far higher rates than their White counterparts we have watched the pandemic take an outsized economic toll on Black communities and we have felt racial disparities in connection with the insurrection at the U.S. Capitol. </p>
-				<p>These experiences have crystalized the urgency of deepening our understanding and taking meaningful action. That is why we have dedicated ourselves to learning about the systemic bias and racism that plagues the Black community, reimagining what an equitable future looks like, and beginning to take the bold actions needed in order to reach it. </p>
-				<p>While diversity and inclusion efforts are clearly necessary to create that future, our current focus is on equity. Because equity isn’t just about efforts, it’s about results: measurable and meaningful outcomes in the lives of our people, our communities, our country, and our world. Systemic bias and racism are what we are against equity is what we are for.</p>
+				<p>Last summer, following the killing of George Floyd, and several other senseless, tragic events that spotlighted the harsh reality of systemic racism and injustice, Deloitte US CEO Joe Ucuzoglu and I spent significant time listening to the serious concerns of our Black colleagues. It was a humbling experience, and a galvanizing one, reaffirming just how much we don’t know—and just how much we have to do.</p>
+				<p>In the months since, we have seen Black Americans die from COVID-19 at far higher rates than their White counterparts 1 ; we have watched the pandemic take an outsized economic toll on Black communities 2 ; and we have felt racial disparities in connection with the insurrection at the U.S. Capitol.</p> 
+				<p>These experiences have crystalized the urgency of deepening our understanding and taking meaningful action. That is why we have dedicated ourselves to learning about the systemic bias and racism that plagues the Black community, reimagining what an equitable future looks like, and beginning to take the bold actions needed in order to reach it. 3</p>
+				<p>While diversity and inclusion efforts are clearly necessary to create that future, our current focus is on equity. Because equity isn’t just about efforts, it’s about results: measurable and meaningful outcomes in the lives of our people, our communities, our country, and our world. Systemic bias and racism are what we are against; equity is what we are for.</p>
 				<p>Fighting systemic bias and racism—tearing down the age-old systems and challenging the long-held beliefs that harm the Black community—is necessary to achieving equity. But dismantling alone is insufficient. To reach equity, we also must build it.</p>
-				<p>As we build, we should consider the environment around us and take a holistic view of the issues we face. Today’s leaders are confronted with enormous challenges that are disproportionately impacting Black communities and other marginalized communities. </p>
+				<p>As we build, we should consider the environment around us and take a holistic view of the issues we face. Today’s leaders are confronted with enormous challenges that are disproportionately impacting Black communities and other marginalized communities.</p>
 				<p>And we should build together: within our own organizations, and as business leaders, sharing what we know, and gleaning what we don’t, from colleagues across markets and communities.</p>
 				<p>We know this work won’t be easy. It will take empathy and vulnerability, tough conversations, and constant self-reflection. But the stakes are too high to settle for inaction. The rewards of our efforts, measured in every meaningful way, will be truly transformational. </p>
 				<p>Janet</p>
 				<div class="image-93" data-aos="fade-right"></div>
-				<p>Janet Foutty</p>
-				<p>Board Chair, Deloitte USA LLP</p>
+				<p><strong>Janet Foutty</strong></p>
+				<p>Board Chair, Deloitte US</p>
 			</div>
 			<ul class="counter-sec">
 				<li><a href="https://www.cdc.gov/coronavirus/2019-ncov/covid-data/investigations-discovery/hospitalization-death-by-race-ethnicity.html" target="_blank"> COVID-19 Hospitalization and Death by Race/Ethnicity,</a> CDC, November 2020</li>
