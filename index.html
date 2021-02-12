@@ -142,9 +142,9 @@
     /* Model */
     .modal.modal-vcenter .modal-dialog { position: relative; margin: auto; max-width: 100%; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
     .modal.modal-vcenter .modal-dialog .modal-header { border-bottom: 0px solid #e5e5e5; padding: 55px;}
-    .modal.modal-vcenter .modal-dialog .modal-header .modal-title{ font-size:32px; text-align: center; font-weight: bold; font-family: 'Open Sans', sans-serif; color: #2f5396; }
-    .modal.modal-vcenter .modal-dialog .modal-header .author-name { font-size:32px; font-family: 'Open Sans', sans-serif; color: #2f5396; }
-    .modal.modal-vcenter .modal-dialog .modal-header .author-date { font-family: 'Open Sans', sans-serif; font-size: 16px; }
+    /* .modal.modal-vcenter .modal-dialog .modal-header .modal-title{ font-size:32px; text-align: center; font-weight: bold; font-family: 'Open Sans', sans-serif; color: #2f5396; } */
+    .modal.modal-vcenter .modal-dialog .modal-header .author-name { font-size:32px; font-family: 'Open Sans', sans-serif; }
+    /* .modal.modal-vcenter .modal-dialog .modal-header .author-date { font-family: 'Open Sans', sans-serif; font-size: 16px; } */
     .modal.modal-vcenter .modal-header .close { padding: 15px; background: #000000; height: 30px; width: 30px; border-radius: 50%; opacity: 1; position: absolute; top: 25px; right: 15px; text-shadow: 0 0px 0 #fff;}
     .modal.modal-vcenter .modal-header .close:active, .modal.modal-vcenter .modal-header .close:focus{ outline: none !important; box-shadow: none; }
     .modal.modal-vcenter .modal-header .close span { color: #ffffff; opacity: 1; font-size: 30px; position: absolute; top: 0; left: 7px; font-family: 'Open Sans', sans-serif; font-weight: 300;}
@@ -168,7 +168,7 @@
 	}
 	@media (max-width: 576px) {
 		.modal.modal-vcenter .modal-dialog .modal-header .modal-title {font-size: 22px; text-align: left;}
-    	.modal.modal-vcenter .modal-dialog .modal-header .author-name { font-size:18px; }
+    	.modal.modal-vcenter .modal-dialog .modal-header .author-name { font-size:25px; }
     	.modal.modal-vcenter .modal-dialog .modal-header { padding-bottom: 20px; }
 	}
 	@media (min-width: 992px){
@@ -472,9 +472,9 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-			<h1 class="modal-title">The equity imperative: <br > The need for business to take bold action now</h1>
-            <p class="author-name">A note from our Board Chair</p>
-            <p class="author-date">February 23, 2021</p>
+			<!-- <h1 class="modal-title">The equity imperative: <br > The need for business to take bold action now</h1> -->
+            <p class="author-name"><strong>A note from our Board Chair |</strong> February 23, 2021</p>
+            <!-- <p class="author-date">February 23, 2021</p> -->
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
