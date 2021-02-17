@@ -27,622 +27,447 @@
 	<!-- our stuff for them to copy-paste -->
 <style>
 	/* font-weight: 300 */
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-    .deloitte-report.looknow h1, .deloitte-report.looknow h2, .deloitte-report.looknow h3, .deloitte-report.looknow p, .deloitte-report.looknow a,.deloitte-report.looknow li{ font-family: 'Open Sans', sans-serif; color: #000000; }
-    .deloitte-report.looknow h3, .deloitte-report.looknow p {color: #000000;}
-    @media (min-width: 1200px) {
-        .deloitte-report.looknow .group-63 { height:674px;}
-        .deloitte-report.looknow .group-63 h2 {width: 464px;}
-        .deloitte-report.looknow .group-65 h2{ width: 1088px;}
-        .deloitte-report.looknow .group-68 p{width: 273px; font-size: 16px; font-family: 'Open Sans', Regular; line-height: 25px; }
-        .deloitte-report.looknow .group_wrapper{ width: 709px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
-        .deloitte-report.looknow .group_wrapper_2{ width: 903px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
-        .deloitte-report.looknow .group_wrapper_3{ width: 997px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
-        .deloitte-report.looknow .container { max-width: 1200px;  } 
-        .deloitte-report.looknow .group-63 .header_txt { width: 534px; }
-        .deloitte-report.looknow .group-71 li.longli{width: 320px;}
-
-    }
-    .margin_bottom_0 {margin-bottom: 0;}
-    a.read { text-decoration: none; }
-    .deloitte-report.looknow section {  overflow: hidden;  } 
-    .img-resposive { max-width: 100%; }
-    .deloitte-report.looknow .group-63 { background: url(img/actnow/Banner_chapter3jpg.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;display: flex;align-items: center;}
-    .deloitte-report.looknow .group-63 .row{ padding: 25px 0 45px 0;  }
-    .deloitte-report.looknow .group-63 .col-lg-5 { padding-right: 60px; }
-    .deloitte-report.lolooknowok .group-63 h1 { font-size: 50px; font-weight: 300;  }
-    .deloitte-report.looknow .group-63 h2 { font-size: 50px; font-weight: bold; margin-top: 25px; margin-bottom: 25px; line-height: 55px;}
-    .deloitte-report.looknow .group-63 p { font-size: 18px; font-weight: 300; margin: 35px 0 25px 0; }
-    .deloitte-report.looknow .group-63 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 1.49px; color: black; cursor: pointer; }
-    .deloitte-report.looknow .group-63 .read::after { content: url(img/Icon-black.svg); left: 2px; position: relative; top: 10px;}
-    .deloitte-report .group-64 { background-color: white; color: black; padding: 20px 0; position: sticky; top:0; right:0; left:0; z-index: 999; border-bottom: 1px solid #ccc;}
-    .deloitte-report.looknow .group-64 .sec_nav { padding: 0px; margin: 0px; text-align: right; }
-    .deloitte-report.looknow .group-64 .sec_nav li{ list-style: none; margin-left: 43px; display: inline;}
-    .deloitte-report.looknow .group-64 .sec_nav li a{ color: #000000; font-weight: bold; text-decoration: none; font-size: 14px;}
-    .deloitte-report.looknow .group-64 .sec_nav li a.active{ color: #707070; }
-    .deloitte-report.looknow .group-65 { background: url(img/actnow/chapter3\ banner.png); background-position: center; background-repeat: no-repeat; background-size: cover;display: flex;align-items: center; height: 274px; }
-    .deloitte-report.looknow .group-65 h2{color: #ffffff; font-size: 42px; font-weight: 100; margin: 0 0 0 20px; line-height: 48px;}
-    .deloitte-report.looknow .group-66 { padding: 70px 0px; background-color: #ffffff; }
-    .deloitte-report.looknow .group-66 h1 { font-size: 32px; margin: 80px 0 60px; padding: 0; color: #44B029;}
-    .deloitte-report.looknow .group-66 p { font-size: 16px; margin-top: 0px; line-height: 25px; }
-    .deloitte-report.looknow .group-66 .state_wrapper { position: relative; height: 518px; background: url(img/actnow/state.png); background-position: center; background-size:contain; background-repeat: no-repeat;}
-    .deloitte-report.looknow .group-66 .state_wrapper li { font-size: 14px; font-style: italic; line-height: 18px;color:#42AF28; list-style: none;}
-    .deloitte-report.looknow .group-66 .state_wrapper .state_text {position: absolute;
-        bottom: 0;
-        width: 100% }
-    .deloitte-report.looknow .group-66 .state_wrapper .state_text h2 {font-size: 16px; line-height: 25px; text-align: center; }
-    .deloitte-report.looknow .group-66 .state_wrapper .state_text i {color:#42AF28;  }
-    .deloitte-report.looknow .group-66 .first_hover{ position: absolute; bottom: 75px; left: 0; width: 163px;}
-    .deloitte-report.looknow .group-66 .first_hover:before {
-        width: 9px;
-        content: "";
-        background-image: url(img/actnow/first_hover.png);
-        position: absolute;
-        top: 3px;
-        height: 9px;
-        background-size: auto;
-        background-repeat: no-repeat;
-    }
-    .deloitte-report.looknow .group-66 .second_hover{ position: absolute; bottom: 75px; right: 8px; width: 155px;}
-    .deloitte-report.looknow .group-66 .second_hover li{ text-align: right;}
-    .deloitte-report.looknow .group-66 .first_hover li{ padding-left: 15px;}
-    .deloitte-report.looknow .group-66 .display_none {display: none !important;}
-    .deloitte-report.looknow .group-66 .state_bg1 { background: url(img/actnow/state2.png) !important; position: relative;  background-position: center; background-size:contain;}
-    .deloitte-report.looknow .group-66 .state_bg2 { background: url(img/actnow/state3.png) !important;position: relative;  background-position: center; background-size:contain; }
-
-
-    .deloitte-report.looknow .group-67 { padding: 0px 0; }
-    .deloitte-report.looknow .group-67 .owl-carousel{ margin: 50px 0 70px 0; }
-    .deloitte-report.looknow .group-67 .group_wrapper_2{background: #000000;
-        padding: 25px 15px 25px 30px; width: 903px;}
-        .owl-dots {display: none;}
-      .deloitte-report.looknow .group-67 .group_wrapper_2 h2 {font-size: 28px;
-        color: #ffffff;
-        font-weight: 300;
-        margin-top: 0; line-height: 32px; width: 805px;}
-      .deloitte-report.looknow .group-67 .group_wrapper_2 p {font-size: 16px;
-        color: #ffffff;
-        padding: 10px 0;
-        margin-bottom: 0;
-        font-style: italic;
-        font-weight: 300; }
-      .deloitte-report.looknow .group-67 .group_wrapper_2 span {margin-left: -12px;}
-      .deloitte-report.looknow .group-67 h1 { font-size: 32px; margin: 70px 0 50px; padding: 0; color: #44B029;}
-      .deloitte-report.looknow .group-67 p { font-size: 16px; margin-top: 0px; line-height: 25px;}
-    .owl-nav {display: none;}
-    /* Horizontal Scrolling */
-    .deloitte-report.looknow .group-68 .trigger {position: absolute;}
-    .deloitte-report.looknow .group-68 .trigger--one {left: 0;}
-    .deloitte-report.looknow .group-68 .scene {position: absolute;height: auto;top: 0;left: 0;right: 0; padding: 100px 0;} 
-    .deloitte-report.looknow .group-68 .scene--active {position: fixed;}
-    .deloitte-report.looknow .group-68 .scene--ended {position: absolute;bottom: 0;top: auto;}
-    .deloitte-report.looknow .group-68 .horizontal-scroll-section {position: relative;height: auto;opacity: 0; }
-    .deloitte-report.looknow .group-68 .horizontal-scroll-section--init { opacity: 1;}
-    .deloitte-report.looknow .group-68 .horizontal-scroll-section__content {  display: flex;  align-items: center;}
-    .deloitte-report.looknow .group-68 {background:url(img/actnow/scrol1.png);}
-    .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-wrapper { display: flex; height: auto; position: relative; }
-    .deloitte-report.looknow .group-68 .scene--active .horizontal-scroll-section__content-wrapper { z-index: -1; }
-    .deloitte-report.looknow .group-68 .scene--ended .horizontal-scroll-section__content-wrapper { z-index: 0 !important;    left: -110px; }
-    /* .deloitte-report.looknow .group-68 .scene--ended .horizontal-scroll-section__content-wrapper { z-index: 1 !important; } */
-    .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section {position: relative;padding: 0 40px;height: 100%;display: flex;align-items: center;    top: -37px;}
-    .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section.scroll_wrapper0 { width: 7.2%; padding: 0 !important;}
-    .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section.scroll_wrapper1 { width: 55vh; padding-left: 0 !important;}
-    .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 55vh; }
-    .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section .content_wrapper { width: 85%; text-align: left; }
-    .deloitte-report.looknow .group-68 h1{ font-size: 32px; width: 901px; margin-bottom: 150px; margin-top: 0; line-height: 42px; color: #000000; }
-    .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section .content_wrapper1 h2{ font-size: 28px; text-align: left; font-weight: 700;  line-height: 34px; margin-top: 0;margin-bottom: 25px;    margin-bottom: 50px;
-        height: 68px;
-        display: flex;
-        align-items: flex-end;}
-    .deloitte-report.looknow .group-68 .globalll {background:url(img/actnow/scrol1.png); z-index:1;height: 290px;top: -37px;
-        position: relative;
-        border-right: 1px solid #000000;
-        width: 363px;}
-    .deloitte-report.looknow .group-68 .globalll .left_h2_one{ font-size: 28px; text-align: left;  margin-top: 0;margin-bottom: 50px; font-weight: bold;left: 130px;position: relative ;top: 37px;} 
-    .deloitte-report.looknow .group-68 .globalll .left_h2_two{ font-size: 28px; text-align: left;  line-height: 30px; margin-top: 0; width: 172px; font-weight: bold;left: 130px;position: relative ;top: 37px;}
-    .deloitte-report.looknow .group-68 .scene--ended .globalll {     width: 444px !important; left: -107px !important;}
-    .deloitte-report.looknow .group-68  .scene--ended .globalll .left_h2_one{ left: 205px !important;} 
-    .deloitte-report.looknow .group-68  .scene--ended .globalll .left_h2_two{left: 205px !important;}
-    /* Horizontal scrolling 2 */
-    .deloitte-report.looknow .group-70 .trigger {position: absolute;}
-    .deloitte-report.looknow .group-70 .trigger--one {left: 0;}
-    .deloitte-report.looknow .group-70 .scene {position: absolute;height: auto;top: 0;left: 0;right: 0; padding: 70px 0;} 
-    .deloitte-report.looknow .group-70 .scene--active {position: fixed;}
-    .deloitte-report.looknow .group-70 .scene--ended {position: absolute;bottom: 0;top: auto;}
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section {position: relative;height: auto;opacity: 0;transition: 0.2s opacity;}
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section--init { opacity: 1;}
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content {  display: flex;  align-items: center;}
-    .deloitte-report.looknow .group-70 { background: url(img/actnow/scrol2.png); padding: 0px 0 0px 0; color: #ffffff; }
-    .deloitte-report.looknow .group-70 h1{ font-size: 32px; line-height: 42px; color: #ffffff;}
-    .deloitte-report.looknow .group-70 h1 sup{ font-size: 24px; letter-spacing: 0;}
-    .deloitte-report.looknow .group-70 p.cusp  { font-size: 16px; line-height: 25px; color: #ffffff;width: 804px;}
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-wrapper { display: flex; height: auto; position: relative; width: 3500px; padding: 38px 0;}
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section {position: relative;padding: 0 40px;height: 100%;display: flex;align-items: center;}
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper0 { width: 6.5%; }
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 { width: 25%; }
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 25%; }
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper3 { width: 25%; }
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .content_wrapper1 h2{ font-size: 28px; text-align: left; font-weight: 300;  line-height: 34px; margin-top: 0; width: 326px;margin-bottom: 22px; height: 114px; display: flex; align-items: flex-end;}
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .content_wrapper2 h2{ font-size: 28px; text-align: left; font-weight: 300;  line-height: 34px; margin-top: 0; width: 361px;margin-bottom: 22px; height: 114px; display: flex; align-items: flex-end;}
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .content_wrapper3 h2{ font-size: 28px; text-align: left; font-weight: 300;  line-height: 34px; margin-top: 0; width: 334px; margin-bottom: 22px; height: 114px; display: flex; align-items: flex-end;}
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 p { font-size: 16px; line-height: 25px;padding-right: 25px; width: 343px;   color: #ffffff; }
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 p { font-size: 16px; line-height: 25px;padding-right: 25px; width: 360px; color: #ffffff;}
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper3 p { font-size: 16px; line-height: 25px;padding-right: 25px; width: 343px; color: #ffffff;}
-    
-    .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .content_wrapper { width: 85%; text-align: left; }
-    
-    .deloitte-report.looknow .group-71 { padding: 70px 0; background-color: #ffffff; }
-    .deloitte-report.looknow .group-71 h1 { font-size: 32px; margin: 0; color: #42AF28;line-height: 42px;}
-    
-    .deloitte-report.looknow .group-71 p.cusp { font-size: 16px; line-height: 25px; padding: 50px 0; width: 680px;margin: 0;}
-    .deloitte-report.looknow .group-71 p { font-size: 16px; line-height: 25px;}
-    .deloitte-report.looknow .group-71 .bar_711 { height:40px; background-color: #CCCCCC; width: 910px; margin-top: -6px;}
-    .deloitte-report.looknow .group-71 .bar_711 h2 { font-size: 16px; font-weight: bold; line-height: 40px; text-align: center; margin: 37px 0 10px;color: #000000;}
-    
-    .deloitte-report.looknow .group-71 .bar_712 { height:40px; background-color: #9FC23F; width: 288px;}
-    .deloitte-report.looknow .group-71 .bar_712 h2 { font-size: 16px; font-weight: bold; line-height: 40px; text-align: center;color: #000000;margin-top: 0;}
-    .deloitte-report.looknow .group-71 .bar_text_wrapper {width: 288px; padding-left: 19px;margin-top: -8px;} 
-    /* .deloitte-report.looknow .group-71 .bar_text_wrapper_late1  {padding-left: 25px;} 
-    .deloitte-report.looknow .group-71 .bar_text_wrapper_late2  {padding-left: 10px;} 
-    .deloitte-report.looknow .group-71 .bar_text_wrapper_late3  {padding-left: 0px;}  */
-    .deloitte-report.looknow .group-71 .bar_text_wrapper .bar_h3 {border-bottom: 0.5px solid #000000;    margin-bottom: 5px;} 
-    
-    .deloitte-report.looknow .group-71 .bar_text_wrapper h3{font-size: 14px; font-weight: bold;line-height: 20px;    margin-bottom: 5px;position: relative;} 
-    .deloitte-report.looknow .group-71 .bar_text_wrapper h3:before {
-        width: 9px;
-        content: "";
-        background-image: url(img/actnow/first_hover.png);
-        position: absolute;
-        top: 6px;
-        height: 9px;
-        background-size: auto;
-        background-repeat: no-repeat;
-        left: -16px;
-    }
-    .deloitte-report.looknow .group-71 .bar_text_wrapper li{font-size: 12px; color:#000000;line-height: 25px;list-style: none;font-weight: 100; height:17px;position: relative;} 
-    .deloitte-report.looknow .group-71 .bar_text_wrapper li:before {
-        width: 7px;
-        content: "";
-        background-image: url(img/actnow/bullet2.png);
-        position: absolute;
-        top: 6px;
-        height: 7px;
-        background-size: auto;
-        background-repeat: no-repeat;
-        left: -15.5px;
-    }
-    
-    .deloitte-report.looknow .group-71 .bar_wrapper_top2 {margin-left: 10px;}
-    .deloitte-report.looknow .group-71 .bar_wrapper_top3 {margin-left: 20px;}
-    .deloitte-report.looknow .group-71 .bar_713 { height:40px; background-color: #93C7BC;width: 288px;}
-    .deloitte-report.looknow .group-71 .bar_713 h2 { font-size: 16px; font-weight: bold; line-height: 40px; text-align: center; color: #000000;margin-top: 0;}
-    .deloitte-report.looknow .group-71 .bar_714 { height:40px; background-color: #BAE0FD;width: 288px;}
-    .deloitte-report.looknow .group-71 .bar_714 h2 { font-size: 16px; font-weight: bold; line-height: 40px; text-align: center; color: #000000;margin-top: 0;}
-    .deloitte-report.looknow .group-71 .bar_711_bottom { height:40px; background-color: #CCCCCC; width: 910px; margin-bottom: 37px;}
-    .deloitte-report.looknow .group-71 .li_wrapper_bottom {margin: 20px 0; width: 910px;}
-    .deloitte-report.looknow .group-71 .li_wrapper_bottom li { height: 40px; background: #EBEBEB; font-size: 12px; font-weight: bold; line-height: 40px; padding: 0 5px; margin-right: 5px; color: #000000; display: inline-block;}
-
-
-    .deloitte-report.looknow .group-71 .bar_711_bottom h2 { font-size: 16px; font-weight: bold; line-height: 40px; text-align: center; margin: 0px 0 50px;color: #000000;}
-    .deloitte-report.looknow .group-71 .born_to_hover { color: #42AF28;}
-    .deloitte-report.looknow .group-71 h5.bar_711_bottom_p { font-size: 16px; line-height: 25px;margin: 0;}
-    .deloitte-report.looknow .group-71 .bar_711_bottom_p { font-size: 16px; padding-bottom: 50px; line-height: 25px; width: 688px;margin: 0;}
-    
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box { height: 345px; border: 2px solid #707070; padding: 20px;position: relative; width: 688px;}
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text{ margin-left:15px;}
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text h2.h2_talent{ font-size: 18px; font-weight: bold; color: #000000; line-height: 25px; margin-top: 0;}
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text h2.h2_marketplace{ font-size: 18px; font-weight: bold; color: #000000; line-height: 25px;}
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text h2.h2_society{ font-size: 18px; font-weight: bold; color: #000000; line-height: 25px;}
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text li{ font-size: 16px;line-height: 25px;list-style: none;}
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text li:before{ content: '';position: absolute;  width: 7px;  height: 7px;left: 18px;  margin-top: 7px; border-radius: 50%; z-index: 1;}
-    
-    .deloitte-report.looknow .group-71 li.hover{ font-weight: bold;}
-    /* .deloitte-report.looknow .group-71 li.bar_li_highlight:before{ content: '';position: absolute;  width: 7px;  height: 7px;  margin-top: 8px; border-radius: 50%; z-index: 1;opacity: 1;} */
-    .deloitte-report.looknow .group-71 li.hover:before{background-image: url(img/actnow/bullethover.png) !important;}
-
-
-    /* .deloitte-report.looknow .group-71 li.talent_highlight:before{left: 18px;background-color: #022204;} */
-    /* .deloitte-report.looknow .group-71 li.marketplace_highlight:before{left: 26px;background-color: #11480E;} */
-    /* .deloitte-report.looknow .group-71 li.society_highlight:before{left: 39px;background-color: #2A811A;} */
-    
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .talent_box_texts:before{ content: '';position: absolute;width: 0.5px;background-color:rgba(0,0,0,0.5);height: 106px;top: 63px;left: 21px;}
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .market_box_texts:before{ content: '';position: absolute;width: 0.5px;background-color: rgba(0,0,0,0.5);height: 170px;top: 105px;left: 21px;}
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .society_box_texts:before{content: '';position: absolute;width: 0.5px;background-color: rgba(0,0,0,0.5);height: 25px;top: 275px;left: 21px;}
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .talent_box_texts li:before{ background-color: #9FC23F;}
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .market_box_texts li:before{ background-color: #93C7BC;}
-    .deloitte-report.looknow .group-71 .group_71_wrapper_box .society_box_texts li:before{ background-color: #BAE0FD;}
-    .deloitte-report.looknow .group-71 h1.nd_h1 { font-size: 32px; margin-top: 0; margin: 0; padding: 50px 0;}
-    .deloitte-report.looknow .group-71 .nd_p { width: 680px;}
-    .deloitte-report.looknow .group-71 .nd_p li { font-size: 16px; padding-right: 30px; line-height: 25px; margin: 0 0 10px;}
-    .deloitte-report.looknow .group-71 .nd_p .sub_ul{padding-left: 30px; }
-    .deloitte-report.looknow .group-71 .nd_p .sub_ul li{list-style: none; }
-    .deloitte-report.looknow .group-71 .nd_p .sub_ul li span{margin-left: -22px; }
-
-    .deloitte-report.looknow .group-71 .group_wrapper_2 hr{ border-color: #9E9E9E; margin: 0; padding:0;}
-    .deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar{ height: 87px; background-color: #000000;    width: 903px;}  
-    .deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar h2{ line-height: 87px; color: #ffffff; font-size: 20px; text-align: center; margin: 35px 0;}  
-
-
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar{ height: 125px; border-left: 10px solid #9FC23F;margin: 35px 0; padding: 15px 15px 15px 28px;width: 701px;} 
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar.second_color{ border-left: 10px solid #93C7BC !important;} 
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar.third_color{ border-left: 10px solid #BAE0FD !important;} 
-    
-    
-
-
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar h3{ line-height: 25px; color: #000000; font-size: 18px; font-weight: bold;margin-top: 0;} 
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar p{ line-height: 25px; color: #000000; font-size: 18px; font-weight: 100;} 
-    .deloitte-report.looknow .group-71 .group_wrapper .meant_for_zero{ padding-bottom: 0;} 
-
-    .deloitte-report.looknow .group-71 .margin_top_70 {margin-top:70px;}
-    .deloitte-report.looknow .group-71 .margin_bottom_70 {margin-bottom:70px;}
-    .deloitte-report.looknow .group-71 .margin_top_50 {margin-top:50px;}
-    .deloitte-report.looknow .group-71 .margin_bottom_50 {margin-bottom:50px;}
-    .deloitte-report.looknow .group-71 .margin_top_25 {margin-top:25px;}
-    .deloitte-report.looknow .group-71 .margin_bottom_25 {margin-bottom:25px;}
-    .deloitte-report.looknow .group-71 hr.very_bottom_hr {border-color: #9E9E9E !important;}
-
-
-    .deloitte-report.looknow .group-71 .letter_new {height: 282px; background: url(img/actnow/greybac.png); padding: 20px 0;}
-    .deloitte-report.looknow .group-71 .letter_new h1 {font-size: 32px; color: #ffffff;
-      margin-bottom:25px;}
-    .deloitte-report.looknow .group-71 .letter_new .letter_top_p {font-size: 20px; font-weight: bold; margin-bottom: 15px;}
-    .deloitte-report.looknow .group-71 .letter_new p {margin:0;font-size: 16px; color: #ffffff;line-height: 25px;}
-    .deloitte-report.looknow .group-71 .letter_new .new_read {width:154px; height: 45px;background-color: #ffffff; text-align: center; border-radius: 0; padding:0; margin:35px 0;}
-    .deloitte-report.looknow .group-71 .letter_new .readbk {font-size: 14px; color: #000000;font-weight: bold; line-height: 45px;text-align: center; text-transform: uppercase;}
-    .deloitte-report.looknow .group-71 .letter_new .readbk::after {
-      font-family: Dcom-EDE;
-      font-weight: normal;
-      content: "\f067";
-      margin-left: 10px;
-      font-size: 15px;
-  }
-  .deloitte-report.looknow .group-71 .letter_new .readbk:focus {outline:none; text-decoration: none;}
-
-
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle{ line-height: 25px; color: #000000; font-size: 16px; padding-right: 0px; width: 701px;} 
-    /* .deloitte-report.looknow .group-71 .group_wrapper li.fat_bar_middle{ margin: 0 0 10px; }  */
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle .b_eightneen{ font-size: 18px; font-weight: bold;} 
-
-
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle span{ color: #9FC23F;} 
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle.second_color span{ color: #008C9D !important;} 
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle.third_color span{ color: #006B9C !important;} 
-
-
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2{ height: auto; background-color: #9FC23F;margin: 50px 0; padding: 35px 15px;}  
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2.second_color{background-color: #93C7BC !important;}  
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2.third_color{background-color: #BAE0FD !important;}  
+.deloitte-report.looknow h1, .deloitte-report.looknow h2, .deloitte-report.looknow h3,.deloitte-report.looknow h4,.deloitte-report.looknow h5,.deloitte-report.looknow h6, .deloitte-report.looknow p, .deloitte-report.looknow a,.deloitte-report.looknow li{ font-family: 'Open Sans', sans-serif; color: #000000; }
+.deloitte-report.looknow h3, .deloitte-report.looknow p {color: #000000;}
+@media (min-width: 1200px) {
+    .deloitte-report.looknow .group-63 { height:674px;}
+    .deloitte-report.looknow .group-63 h2 {width: 464px;}
+    .deloitte-report.looknow .group-65 h2{ width: 1088px;}
+    .deloitte-report.looknow .group-68 p{width: 273px; }
+    .deloitte-report.looknow .group_wrapper{ width: 709px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
+    .deloitte-report.looknow .group_wrapper_2{ width: 903px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
+    .deloitte-report.looknow .group_wrapper_3{ width: 997px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
+    .deloitte-report.looknow .container { max-width: 1200px;  } 
+    .deloitte-report.looknow .group-63 .header_txt { width: 534px; }
+    .deloitte-report.looknow .group-71 li.longli{width: 320px;}
+	.modal.modal-vcenter .modal-body {width: 910px; height: 620px;}
+}
+.margin_bottom_0 {margin-bottom: 0;}
+a.read { text-decoration: none; }
+.deloitte-report.looknow section {  overflow: hidden;  } 
+.img-resposive { max-width: 100%; }
+.deloitte-report.looknow .group-63 { background: url(img/actnow/Banner_chapter3jpg.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;display: flex;align-items: center;}
+.deloitte-report.looknow .group-63 .row{ padding: 25px 0 45px 0;  }
+.deloitte-report.looknow .group-63 .col-lg-5 { padding-right: 60px; }
+.deloitte-report.looknow .group-63 h1 { font-size: 50px; font-weight: 300; color: #000000; }
+.deloitte-report.looknow .group-63 h2 { font-size: 50px; font-weight: bold; margin-top: 25px; margin-bottom: 25px; line-height: 55px;}
+.deloitte-report.looknow .group-63 p { font-size: 18px; font-weight: 300; margin: 35px 0 25px 0; }
+.deloitte-report.looknow .group-63 a.read { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 1.49px; color: black; cursor: pointer; }
+.deloitte-report.looknow .group-63 .read::after { content: url(img/Icon-black.svg); left: 2px; position: relative; top: 10px;}
+.deloitte-report .group-64 { background-color: white; color: black; padding: 20px 0; position: sticky; top:0; right:0; left:0; z-index: 999; border-bottom: 1px solid #ccc;}
+.deloitte-report.looknow .group-64 .sec_nav { padding: 0px; margin: 0px; text-align: right; }
+.deloitte-report.looknow .group-64 .sec_nav li{ list-style: none; margin-left: 43px; display: inline;}
+.deloitte-report.looknow .group-64 .sec_nav li a{ color: #000000; font-weight: bold; text-decoration: none; font-size: 14px;}
+.deloitte-report.looknow .group-64 .sec_nav li a.active{ color: #707070; }
+.deloitte-report.looknow .group-65 { background: url(img/actnow/chapter3\ banner.png); background-position: center; background-repeat: no-repeat; background-size: cover;display: flex;align-items: center; height: 274px; }
+.deloitte-report.looknow .group-65 h2{color: #ffffff; font-size: 42px; font-weight: 100; margin: 0 0 0 20px; line-height: 48px;}
+.deloitte-report.looknow .group-66 { padding: 70px 0px; background-color: #ffffff; }
+.deloitte-report.looknow .group-66 h1 { font-size: 32px; margin: 80px 0 60px; padding: 0; color: #44B029;}
+.deloitte-report.looknow .group-66 p { font-size: 16px; margin-top: 0px; line-height: 25px; }
+.deloitte-report.looknow .group-66 .state_wrapper { position: relative; height: 518px; background-image: url(img/actnow/state.png); background-position: center; background-size:contain; background-repeat: no-repeat;}
+.deloitte-report.looknow .group-66 .state_wrapper li { font-size: 14px; font-style: italic; line-height: 18px;color:#42AF28; list-style: none;}
+.deloitte-report.looknow .group-66 .state_wrapper .state_text {position: absolute; bottom: 0;width: 100% }
+.deloitte-report.looknow .group-66 .state_wrapper .state_text h2 {font-size: 16px; line-height: 25px; text-align: center; }
+.deloitte-report.looknow .group-66 .state_wrapper .state_text i {color:#42AF28;  }
+.deloitte-report.looknow .group-66 .first_hover{ position: absolute; bottom: 75px; left: 0; width: 163px;}
+.deloitte-report.looknow .group-66 .first_hover:before { width: 9px; content: ""; background-image: url(img/actnow/first_hover.png); position: absolute; top: 3px; height: 9px; background-size: auto; background-repeat: no-repeat;}
+.deloitte-report.looknow .group-66 .second_hover{ position: absolute; bottom: 75px; right: 8px; width: 155px;}
+.deloitte-report.looknow .group-66 .second_hover li{ text-align: right;}
+.deloitte-report.looknow .group-66 .first_hover li{ padding-left: 15px;}
+.deloitte-report.looknow .group-66 .display_none {display: none !important;}
+.deloitte-report.looknow .group-66 .state_bg1 { background-image: url(img/actnow/state2.png) !important;}
+.deloitte-report.looknow .group-66 .state_bg2 { background-image: url(img/actnow/state3.png) !important; }
+.deloitte-report.looknow .group-67 { padding: 0px 0; }
+.deloitte-report.looknow .group-67 .owl-carousel{ margin: 50px 0 70px 0; }
+.deloitte-report.looknow .group-67 .group_wrapper_2{background: #000000; padding: 25px 15px 25px 30px; width: 903px;height: 178px;}
+.owl-dots {display: none;}
+.deloitte-report.looknow .group-67 .group_wrapper_2 h2 {font-size: 28px; color: #ffffff; font-weight: 300; margin-top: 0; line-height: 32px; width: 805px;}
+.deloitte-report.looknow .group-67 .group_wrapper_2 p {font-size: 16px; color: #ffffff; padding: 10px 0; margin-bottom: 0; font-style: italic; font-weight: 300; }
+.deloitte-report.looknow .group-67 .group_wrapper_2 span {margin-left: -12px;}
+.deloitte-report.looknow .group-67 h1 { font-size: 32px; margin: 70px 0 50px; padding: 0; color: #44B029;}
+.deloitte-report.looknow .group-67 p { font-size: 16px; margin-top: 0px; line-height: 25px;}
+.owl-nav {display: none;}
+/* Horizontal Scrolling */
+.deloitte-report.looknow .group-68 .trigger {position: absolute;}
+.deloitte-report.looknow .group-68 .trigger--one {left: 0;}
+.deloitte-report.looknow .group-68 .scene {position: absolute;height: auto;top: 0;left: 0;right: 0; padding: 100px 0;} 
+.deloitte-report.looknow .group-68 .scene--active {position: fixed;}
+.deloitte-report.looknow .group-68 .scene--ended {position: absolute;bottom: 0;top: auto;}
+.deloitte-report.looknow .group-68 .horizontal-scroll-section {position: relative;height: auto;opacity: 0; }
+.deloitte-report.looknow .group-68 .horizontal-scroll-section--init { opacity: 1;}
+.deloitte-report.looknow .group-68 .horizontal-scroll-section__content {  display: flex;  align-items: center;}
+.deloitte-report.looknow .group-68 {background:url(img/actnow/scrol1.png);}
+.deloitte-report.looknow .group-68 .horizontal-scroll-section__content-wrapper { display: flex; height: auto; position: relative; }
+.deloitte-report.looknow .group-68 .scene--active .horizontal-scroll-section__content-wrapper { z-index: -1; }
+.deloitte-report.looknow .group-68 .scene--ended .horizontal-scroll-section__content-wrapper { z-index: 0 !important;    left: -110px; }
+.deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section {position: relative;padding: 0 40px;height: 100%;display: flex;align-items: center;    top: -37px;}
+.deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section.scroll_wrapper0 { width: 7.2%; padding: 0 !important;}
+.deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section.scroll_wrapper1 { width: 55vh; padding-left: 0 !important;}
+.deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section.scroll_wrapper1 .content_wrapper1 { min-width: 275px;}
+.deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 55vh; }
+.deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section .content_wrapper { width: 85%; text-align: left; }
+.deloitte-report.looknow .group-68 h1{ font-size: 32px; width: 901px; margin-bottom: 150px; margin-top: 0; line-height: 42px; color: #000000; }
+.deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section .content_wrapper1 h2{ font-size: 28px; text-align: left; font-weight: 700;  line-height: 34px; margin-top: 0;margin-bottom: 25px;    margin-bottom: 50px; height: 68px;display: flex; align-items: flex-end;}
+.deloitte-report.looknow .group-68 p { font-size: 16px; font-family: 'Open Sans', sans-serif; line-height: 25px;}
+.deloitte-report.looknow .group-68 .globalll {background:url(img/actnow/scrol1.png); z-index:1;height: 400px;top: -37px; position: relative; border-right: 1px solid #000000; width: 363px;}
+.deloitte-report.looknow .group-68 .globalll .left_h2_one{ font-size: 28px; text-align: left;  margin-top: 0;margin-bottom: 50px; font-weight: bold;left: 130px;position: relative ;top: 37px;} 
+.deloitte-report.looknow .group-68 .globalll .left_h2_two{ font-size: 28px; text-align: left;  line-height: 30px; margin-top: 0; width: 172px; font-weight: bold;left: 130px;position: relative ;top: 37px;}
+.deloitte-report.looknow .group-68 .scene--ended .globalll {     width: 444px !important; left: -107px !important;}
+.deloitte-report.looknow .group-68  .scene--ended .globalll .left_h2_one{ left: 205px !important;} 
+.deloitte-report.looknow .group-68  .scene--ended .globalll .left_h2_two{left: 205px !important;}
+/* Horizontal scrolling 2 */
+.deloitte-report.looknow .group-70 .trigger {position: absolute;}
+.deloitte-report.looknow .group-70 .trigger--one {left: 0;}
+.deloitte-report.looknow .group-70 .scene {position: absolute;height: auto;top: 0;left: 0;right: 0; padding: 70px 0;} 
+.deloitte-report.looknow .group-70 .scene--active {position: fixed;}
+.deloitte-report.looknow .group-70 .scene--ended {position: absolute;bottom: 0;top: auto;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section {position: relative;height: auto;opacity: 0;transition: 0.2s opacity;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section--init { opacity: 1;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content {  display: flex;  align-items: center;}
+.deloitte-report.looknow .group-70 { background: url(img/actnow/scrol2.png); padding: 0px 0 0px 0; color: #ffffff; }
+.deloitte-report.looknow .group-70 h1{ font-size: 32px; line-height: 42px; color: #ffffff;}
+.deloitte-report.looknow .group-70 h1 sup{ font-size: 24px; letter-spacing: 0;}
+.deloitte-report.looknow .group-70 p.cusp  { font-size: 16px; line-height: 25px; color: #ffffff;width: 804px;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-wrapper { display: flex; height: auto; position: relative; width: 3500px; padding: 38px 0;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section {position: relative;padding: 0 40px;height: 100%;display: flex;align-items: center;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper0 { width: 6.5%; }
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 { width: 25%; }
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 25%; }
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper3 { width: 25%; }
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .content_wrapper1 h2{ font-size: 28px; text-align: left; font-weight: 300;  line-height: 34px; margin-top: 0; width: 326px;margin-bottom: 22px; height: 114px; display: flex; align-items: flex-end; color: #ffffff;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_2 h2{ width: 361px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_2 p{ width: 372px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_3 h2{ width: 427px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_3 p{ width: 420px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_4 h2{ width: 326px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_4 p{ width: 347px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_7 h2{ width: 381px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_7 p{ width: 391px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_8 h2{ width: 361px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_8 p{ width: 388px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_5 h2{ width: 380px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_5 p{ width: 374px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_6 h2{ width: 434px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_6 p{ width: 401px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_9 h2{ width: 454px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .custom_scroll_9 p{ width: 453px !important;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .content_wrapper2 h2{ font-size: 28px; text-align: left; font-weight: 300;  line-height: 34px; margin-top: 0; width: 361px;margin-bottom: 22px; height: 114px; display: flex; align-items: flex-end;color: #ffffff;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .content_wrapper3 h2{ font-size: 28px; text-align: left; font-weight: 300;  line-height: 34px; margin-top: 0; width: 334px; margin-bottom: 22px; height: 114px; display: flex; align-items: flex-end;color: #ffffff;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper1 p { font-size: 16px; line-height: 25px;padding-right: 25px; width: 343px;   color: #ffffff; }
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper2 p { font-size: 16px; line-height: 25px;padding-right: 25px; width: 360px; color: #ffffff;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section.scroll_wrapper3 p { font-size: 16px; line-height: 25px;padding-right: 25px; width: 343px; color: #ffffff;}
+.deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section .content_wrapper { width: 85%; text-align: left; }
+.deloitte-report.looknow .group-71 { padding: 70px 0; background-color: #ffffff; }
+.deloitte-report.looknow .group-71 h1 { font-size: 32px; margin: 0; color: #42AF28;line-height: 42px;}
+.deloitte-report.looknow .group-71 p.cusp { font-size: 16px; line-height: 25px; padding: 50px 0; width: 680px;margin: 0;}
+.deloitte-report.looknow .group-71 p { font-size: 16px; line-height: 25px;}
+.deloitte-report.looknow .group-71 .bar_711 { height:40px; background-color: #CCCCCC; width: 910px; margin-top: -6px;}
+.deloitte-report.looknow .group-71 .bar_711 h2 { font-size: 16px; font-weight: bold; line-height: 40px; text-align: center; margin: 37px 0 10px;color: #000000;}
+.deloitte-report.looknow .group-71 .bar_712 { height:40px; background-color: #9FC23F; width: 288px;}
+.deloitte-report.looknow .group-71 .bar_712 h2 { font-size: 16px; font-weight: bold; line-height: 40px; text-align: center;color: #000000;margin-top: 0;}
+.deloitte-report.looknow .group-71 .bar_text_wrapper {width: 288px; padding-left: 19px;margin-top: -8px;} 
+.deloitte-report.looknow .group-71 .bar_text_wrapper .bar_h3 {border-bottom: 0.5px solid #000000;    margin-bottom: 5px;} 
+.deloitte-report.looknow .group-71 .bar_text_wrapper h3{font-size: 14px; font-weight: bold;line-height: 20px;    margin-bottom: 5px;position: relative;} 
+.deloitte-report.looknow .group-71 .bar_text_wrapper h3:before {width: 9px; content: ""; background-image: url(img/actnow/first_hover.png); position: absolute; top: 6px; height: 9px; background-size: auto; background-repeat: no-repeat; left: -17px; }
+.deloitte-report.looknow .group-71 .bar_text_wrapper li{font-size: 12px; color:#000000;line-height: 25px;list-style: none;font-weight: 100; height:17px;position: relative;} 
+.deloitte-report.looknow .group-71 .bar_text_wrapper li:before { width: 7px; content: "";background: #CCCCCC; position: absolute; top: 6px; height: 7px; left: -15.5px; border-radius: 50%; }
+.deloitte-report.looknow .group-71 .bar_wrapper_top2 {margin-left: 10px;}
+.deloitte-report.looknow .group-71 .bar_wrapper_top3 {margin-left: 20px;}
+.deloitte-report.looknow .group-71 .bar_713 { height:40px; background-color: #93C7BC;width: 288px;}
+.deloitte-report.looknow .group-71 .bar_713 h2 { font-size: 16px; font-weight: bold; line-height: 40px; text-align: center; color: #000000;margin-top: 0;}
+.deloitte-report.looknow .group-71 .bar_714 { height:40px; background-color: #BAE0FD;width: 288px;}
+.deloitte-report.looknow .group-71 .bar_714 h2 { font-size: 16px; font-weight: bold; line-height: 40px; text-align: center; color: #000000;margin-top: 0;}
+.deloitte-report.looknow .group-71 .bar_711_bottom { height:40px; background-color: #CCCCCC; width: 910px; margin-bottom: 37px;}
+.deloitte-report.looknow .group-71 .left_extra_2{ position: absolute; top: 5px; left: -80px;} 
+.deloitte-report.looknow .group-71 .left_extra_2 h2{ font-size: 12px; line-height: 25px; color: #000000;position: relative;font-weight: 100;font-style: italic;margin: 0;} 
+.deloitte-report.looknow .group-71 .left_extra_2 .left_extra_one_2{ width: 66px;} 
+.deloitte-report.looknow .group-71 .left_extra_2 .left_extra_one_2:after{ width: 17.19px; content: ""; background-image: url(img/actnow/border.png); position: absolute; top: -6px; height: 40.82px; background-size: auto; background-repeat: no-repeat; right: -15px; } 
+.deloitte-report.looknow .group-71 .li_wrapper_bottom {margin: 20px 0; width: 910px;}
+.deloitte-report.looknow .group-71 .li_wrapper_bottom li { height: 40px; background: #EBEBEB; font-size: 12px; font-weight: bold; line-height: 40px; padding: 0 6px; margin-right: 6px; color: #000000; display: inline-block;}
+.deloitte-report.looknow .group-71 .bar_711_bottom h2 { font-size: 16px; font-weight: bold; line-height: 40px; text-align: center; margin: 0px 0 50px;color: #000000;}
+.deloitte-report.looknow .group-71 .born_to_hover { color: #42AF28;}
+.deloitte-report.looknow .group-71 h5.bar_711_bottom_p { font-size: 16px; line-height: 25px;margin: 0;}
+.deloitte-report.looknow .group-71 .bar_711_bottom_p { font-size: 16px; padding-bottom: 50px; line-height: 25px; width: 688px;margin: 0;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box { height: 345px; border: 2px solid #707070; padding: 20px;position: relative; width: 688px;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text{ margin-left:15px;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text h2.h2_talent{ font-size: 18px; font-weight: bold; color: #000000; line-height: 25px; margin-top: 0;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text h2.h2_marketplace{ font-size: 18px; font-weight: bold; color: #000000; line-height: 25px;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text h2.h2_society{ font-size: 18px; font-weight: bold; color: #000000; line-height: 25px;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text li{ font-size: 16px;line-height: 25px;list-style: none;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .group_70_wrapper_box_text li:before{ content: '';position: absolute;  width: 7px;  height: 7px;left: 18px;  margin-top: 7px; border-radius: 50%; z-index: 1;}
+.deloitte-report.looknow .group-71 li.hover{ font-weight: bold;}
+.deloitte-report.looknow .group-71 li.hover:before{background: #000000 !important;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .talent_box_texts:before{ content: '';position: absolute;width: 0.5px;background-color:rgba(0,0,0,0.5);height: 106px;top: 63px;left: 21px;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .market_box_texts:before{ content: '';position: absolute;width: 0.5px;background-color: rgba(0,0,0,0.5);height: 170px;top: 105px;left: 21px;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .society_box_texts:before{content: '';position: absolute;width: 0.5px;background-color: rgba(0,0,0,0.5);height: 25px;top: 275px;left: 21px;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .talent_box_texts li:before{ background-color: #9FC23F;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .market_box_texts li:before{ background-color: #93C7BC;}
+.deloitte-report.looknow .group-71 .group_71_wrapper_box .society_box_texts li:before{ background-color: #BAE0FD;}
+.deloitte-report.looknow .group-71 h1.nd_h1 { font-size: 32px; margin-top: 0; margin: 0; padding: 50px 0;}
+.deloitte-report.looknow .group-71 .nd_p { width: 680px;}
+.deloitte-report.looknow .group-71 .nd_p li { font-size: 16px; padding-right: 30px; line-height: 25px; margin: 0 0 10px;}
+.deloitte-report.looknow .group-71 .nd_p .sub_ul{padding-left: 30px;     margin-top: 10px;}
+.deloitte-report.looknow .group-71 .nd_p .sub_ul li{list-style: none; }
+.deloitte-report.looknow .group-71 .nd_p .sub_ul li span{margin-left: -22px; }
+.deloitte-report.looknow .group-71 .group_wrapper_2 hr{ border-color: #9E9E9E; margin: 0; padding:0;}
+.deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar{ min-height: 87px; background-color: #000000;    width: 903px;}  
+.deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar h2{ line-height: 87px; color: #ffffff; font-size: 20px; text-align: center; margin: 35px 0;}  
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar{ height: 125px; border-left: 10px solid #9FC23F;margin: 35px 0; padding: 15px 15px 15px 17.5px;width: 701px;} 
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar.second_color{ border-left: 10px solid #93C7BC !important;} 
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar.third_color{ border-left: 10px solid #BAE0FD !important;} 
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar h3{ line-height: 25px; color: #000000; font-size: 18px; font-weight: bold;margin-top: 0;} 
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar p{ line-height: 25px; color: #000000; font-size: 18px; font-weight: 100;} 
+.deloitte-report.looknow .group-71 .group_wrapper .meant_for_zero{ padding-bottom: 0;    padding-left: 21px;} 
+.deloitte-report.looknow .group-71 .margin_top_70 {margin-top:70px;}
+.deloitte-report.looknow .group-71 .margin_bottom_70 {margin-bottom:70px;}
+.deloitte-report.looknow .group-71 .margin_top_50 {margin-top:50px;}
+.deloitte-report.looknow .group-71 .margin_bottom_50 {margin-bottom:50px;}
+.deloitte-report.looknow .group-71 .margin_top_25 {margin-top:25px;}
+.deloitte-report.looknow .group-71 .margin_bottom_25 {margin-bottom:25px;}
+.deloitte-report.looknow .group-71 hr.very_bottom_hr {border-color: #9E9E9E !important;}
+.deloitte-report.looknow .group-71 .letter_new {height: 282px; background: url(img/greybg.png); padding: 20px 0;}
+.deloitte-report.looknow .group-71 .letter_new h1 {font-size: 32px; color: #ffffff; margin-bottom:25px;}
+.deloitte-report.looknow .group-71 .letter_new .letter_top_p {font-size: 20px; font-weight: bold; margin-bottom: 15px;}
+.deloitte-report.looknow .group-71 .letter_new p {margin:0;font-size: 16px; color: #ffffff;line-height: 25px;}
+.deloitte-report.looknow .group-71 .letter_new .new_read {width:154px; height: 45px;background-color: #ffffff; text-align: center; border-radius: 0; padding:0; margin:35px 0;}
+.deloitte-report.looknow .group-71 .letter_new .readbk {font-size: 14px; letter-spacing: 1.3px; color: #000000;font-weight: bold; line-height: 45px;text-align: center; text-transform: uppercase;}
+.deloitte-report.looknow .group-71 .letter_new .readbk::after {font-family: Dcom-EDE; font-weight: normal; content: "\f067"; margin-left: 10px; font-size: 15px; }
+.deloitte-report.looknow .group-71 .letter_new .readbk:focus {outline:none; text-decoration: none;}
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle{ line-height: 25px; color: #000000; font-size: 18px; padding-right: 0px; width: 701px;margin-top: 10px;} 
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle .b_eightneen{ font-size: 18px; font-weight: bold;} 
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle span{ color: #9FC23F;} 
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle.second_color span{ color: #008C9D !important;} 
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle.third_color span{ color: #006B9C !important;} 
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2{ height: auto; background-color: #9FC23F;margin: 50px 0; padding: 35px 15px;}  
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2.second_color{background-color: #93C7BC !important;}  
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2.third_color{background-color: #BAE0FD !important;}
 
 /* panel */
-.deloitte-report .group-71 #accordion .panel {
-  border-radius: 0;
-  border: 0;
-  margin-top: 0px;
-  margin-top: 20px;
-  border: none;
-  box-shadow: none;
-  
-}
-.deloitte-report .group-71 #accordion a {
-  display: block;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 48px;
-  padding-left: 10px;
-}
+.deloitte-report .group-71 #accordion .panel {border-radius: 0; border: 0; margin-top: 0px; margin-top: 20px; border: none; box-shadow: none; }
+.deloitte-report .group-71 #accordion a { display: block; text-decoration: none; font-weight: bold; font-size: 16px; font-weight: bold; line-height: 48px; padding-left: 10px; text-align: center; }
 .deloitte-report .group-71 #accordion .panel-heading a.collapsed:hover,
-.deloitte-report .group-71 #accordion .panel-heading a.collapsed:focus {
-  background-color: #EBEBEB;
-  transition: all 0.2s ease-in;
-}
+.deloitte-report .group-71 #accordion .panel-heading a.collapsed:focus { background-color: #EBEBEB; transition: all 0.2s ease-in; }
 .deloitte-report .group-71 #accordion .panel-heading a.collapsed:hover::before,
-.deloitte-report .group-71 #accordion .panel-heading a.collapsed:focus::before {
-  color: #000000;
-}
+.deloitte-report .group-71 #accordion .panel-heading a.collapsed:focus::before { color: #000000; }
 .deloitte-report .group-71 #accordion .panel-body {padding:20px 20px 0px; width: 701px;}
 .deloitte-report .group-71 #accordion .panel-body p, .deloitte-report .group-71 #accordion .panel-body li{font-size: 16px; line-height: 25px;color: #000000;}
-.deloitte-report .group-71 #accordion .panel-heading {
-  padding: 0;
-  border-radius: 0px;
-  text-align: left;
-  background: #EBEBEB;
-  width: 148px;
-  height: 48px;
-}
-
-
-
-.deloitte-report .group-71 #accordion .icon_wrapper { height: 18px; width: 18px; border-radius: 50%; background-color: #ffffff; display: inline-flex;
-  margin-left: 0;    top: -1px;
-  position: relative;}
+.deloitte-report .group-71 #accordion .panel-body li {margin-top: 10px;}
+.deloitte-report .group-71 #accordion .panel-heading {padding: 0; border-radius: 0px; text-align: left; background: #EBEBEB; width: 184px; height: 48px; }
+.deloitte-report .group-71 #accordion .icon_wrapper { height: 18px; width: 18px; border-radius: 50%; background-color: #ffffff; display: inline-flex; margin-left: 5px; top: -1px; position: relative;}
 .deloitte-report .group-71 #accordion i { line-height: 18px; margin: 0 auto; font-size: 10px;}
 .deloitte-report .group-71 #accordion .panel-heading a:not(.collapsed) {  transition: all 0.2s ease-in;}
-.rotate_img{
-  transform: rotate(-135deg);
-  transition: all 0.2s ease-in;
-}
+.rotate_img{ transform: rotate(-135deg); transition: all 0.2s ease-in; }
 .deloitte-report .group-71 .panel-group .panel-heading+.panel-collapse>.panel-body { border: none;  }
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2_inner{ width: 639px; margin: 0 auto;}  
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2 h3{ line-height: 25px; color: #000000; font-size: 18px; font-weight: bold;margin-top: 0;} 
+.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2 p{ line-height: 25px; color: #000000; font-size: 16px; font-weight: 100;} 
+.deloitte-report.looknow .group-71 .left_extra{ position: absolute; top: -5px; left: 45px;} 
+.deloitte-report.looknow .group-71 .left_extra h2{ font-size: 12px; line-height: 25px; color: #000000;position: relative;font-weight: 100;font-style: italic;margin: 0;} 
+.deloitte-report.looknow .group-71 .left_extra .left_extra_one{ width: 66px;} 
+.deloitte-report.looknow .group-71 .left_extra .left_extra_one:after{ width: 17.19px; content: ""; background-image: url(img/actnow/border.png); position: absolute; top: 6px; height: 40.82px; background-size: auto; background-repeat: no-repeat; right: -21px; } 
+.deloitte-report.looknow .group-71 .left_extra .left_extra_two:after{    
+     width: 9px;
+    content: "";
+    background-image: url(img/actnow/first_hover.png);
+    position: absolute;
+    top: 6px;
+    height: 9px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    right: -16px;
+} 
+.deloitte-report.looknow .group-71 .left_extra .left_extra_three:after{    
+    width: 9px;
+   content: "";
+   background-image: url(img/actnow/bullet2.png);
+   position: absolute;
+   top: 6px;
+   height: 9px;
+   background-size: auto;
+   background-repeat: no-repeat;
+   right: -16px;
+}
 
-
-
-
-
-
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2_inner{ width: 639px; margin: 0 auto;}  
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2 h3{ line-height: 25px; color: #000000; font-size: 18px; font-weight: bold;margin-top: 0;} 
-    .deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2 p{ line-height: 25px; color: #000000; font-size: 16px; font-weight: 100;} 
-    .deloitte-report.looknow .group-71 .left_extra{ position: absolute; top: -5px;
-        left: 45px;} 
-    .deloitte-report.looknow .group-71 .left_extra h2{ font-size: 12px; line-height: 25px; color: #000000;position: relative;font-weight: 100;font-style: italic;margin: 0;} 
-    .deloitte-report.looknow .group-71 .left_extra .left_extra_one{ width: 66px;} 
-    .deloitte-report.looknow .group-71 .left_extra .left_extra_one:after{    
-        width: 17.19px;
-       content: "";
-       background-image: url(img/actnow/border.png);
-       position: absolute;
-       top: 6px;
-       height: 40.82px;
-       background-size: auto;
-       background-repeat: no-repeat;
-       right: -21px;
-   } 
-    .deloitte-report.looknow .group-71 .left_extra .left_extra_two:after{    
-         width: 9px;
-        content: "";
-        background-image: url(img/actnow/first_hover.png);
-        position: absolute;
-        top: 6px;
-        height: 9px;
-        background-size: auto;
-        background-repeat: no-repeat;
-        right: -16px;
-    } 
-    .deloitte-report.looknow .group-71 .left_extra .left_extra_three:after{    
-        width: 9px;
-       content: "";
-       background-image: url(img/actnow/bullet2.png);
-       position: absolute;
-       top: 6px;
-       height: 9px;
-       background-size: auto;
-       background-repeat: no-repeat;
-       right: -16px;
-   }
-
-   /* Model */
-   .modal.modal-vcenter .modal-dialog { position: relative; margin: auto; max-width: 100%; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
-   .modal.modal-vcenter .modal-dialog .modal-header { border-bottom: 0px solid #e5e5e5; padding: 55px;}
-   .modal.modal-vcenter .modal-dialog .modal-header h2{ font-size:20px; font-family: 'Open Sans', sans-serif; font-weight: bold;}
-   .modal.modal-vcenter .close { padding: 15px; background: #ffffff; height: 30px; width: 30px; border-radius: 50%; opacity: 1;     z-index: 9999;position: absolute; top: 25px; right: 15px; text-shadow: 0 0px 0 #000000;}
-   .modal.modal-vcenter .close:active, .modal.modal-vcenter .modal-header .close:focus{ outline: none !important; box-shadow: none; }
-   .modal.modal-vcenter .close span { color: #000000; opacity: 1; font-size: 30px; position: absolute; top: 0; left: 7px; font-family: 'Open Sans', sans-serif; font-weight: 300;}
-   .modal.modal-vcenter .modal-dialog .modal-content{ border-radius: 0;     margin-top: 35%;}
-   @media screen and (min-width: 576px){
-       .modal.modal-vcenter .modal-dialog {width: 709px; height: 535px;}
-   }
-   .modal.modal-vcenter .modal-body { max-height: 40vh; overflow-y: auto; padding: 70px;}
-   .modal.modal-vcenter .modal-body p { color: #ffffff; font-size: 16px; line-height: 25px;}
-   .modal.modal-vcenter .modal-body i { font-size: 20px; line-height: 25px;}
-   .modal.modal-vcenter .modal-body a { color: #FF00FF;}
-   .modal.modal-vcenter .modal-body .last_one{ font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 25px;}
-   @media screen and (min-height:460px){
-       .modal.modal-vcenter .modal-body { max-height: 567px; background: url(img/actnow/greybac2.png);}
-   }
-    
-   .deloitte-report.looknow .group-67_2 { padding-bottom: 70px; }
-   .deloitte-report.looknow .group-67_2 .group_wrapper_2{ background: #000000; padding: 25px 15px 25px 30px;}
-   .deloitte-report.looknow .group-67_2 span { margin-left: -12px;}
-   .deloitte-report.looknow .group-67_2 h1 { font-size: 28px; color: #ffffff; font-weight: 300; margin-top:0}
-   .deloitte-report.looknow .group-67_2 p { font-size: 16px; color: #ffffff; padding: 10px 0; margin-bottom: 0; font-style: italic; font-weight: 300;}
-   .owl-nav {display: none;}
-    
-    .deloitte-report.looknow .group-73 { padding: 60px 0; background-color: #ffffff; }
-    .deloitte-report.looknow .group-73 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;}
-    .deloitte-report.looknow .group-73 p { font-size: 16px; padding-right: 0px; line-height: 28px;}
-    /* #accordion .panel {
-        border-radius: 0;
-        border: 0;
-        margin-top: 0px;
-        background: #ffffff;
-        border: none !important;
-        box-shadow: none;
-      }
-      #accordion a {
-        display: block;
-        padding: 40px 15px;
-        text-decoration: none;
-        font-weight: 800;
-        letter-spacing: 2px;
-      }
-      #accordion .panel-heading a.collapsed:hover,
-      #accordion .panel-heading a.collapsed:focus {
-        background-color: #EBEBEB;
-        transition: all 0.2s ease-in;
-      }
-      #accordion .panel-heading a.collapsed:hover::before,
-      #accordion .panel-heading a.collapsed:focus::before {
-        color: #000000;
-      }
-      #accordion .panel-body {padding:20px 20px 40px ;}
-      #accordion .panel-body p{font-size: 12px;}
-      #accordion .panel-heading {
-        padding: 0;
-        border-radius: 0px;
-        text-align: center;
-      }
-      #accordion img { margin: -5px 0px 0px 10px; }
-      #accordion .panel-heading a:not(.collapsed) {  transition: all 0.2s ease-in;}
-      .rotate_img{
-        transform: rotate(-135deg);
-        transition: all 0.2s ease-in;
-      }
-    .panel-group .panel-heading+.panel-collapse>.panel-body { border: none;; } */
-    .deloitte-report .group-74 .row { padding: 32px 0; }
-    .deloitte-report .group-74 a.read1 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding: 14px 25px; background: #000000; border-radius: 0;}
-    .deloitte-report .group-74 a.read1:hover, .deloitte-report .group-74 a.read2:hover { background: #53565A;}
-    .deloitte-report .group-74 a.read2 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding: 14px 25px; background: #000000;  border-radius: 0; width: 100%;}
-    .deloitte-report .group-74 .read1::after { content: url(img/bell.svg); left: 12px; position: relative; top: 3px;}
-    .deloitte-report .group-74 .read2::after { content: url(img/download.svg); left: 2px; position: relative; top: 5px;}
-    .deloitte-report .group-74 .part_5 .image-555{  background-color: #C5C6C3; width: 110px; height: 128px; margin-bottom: 13px; }
-    .deloitte-report .group-74 .part_5 p {margin-top: -4px; padding-left: 20px;}
-    .deloitte-report .group-74 .part_6 h1 { margin-bottom: 0; }   
-    .deloitte-report .group-75 { padding: 20px 0; }
-    .deloitte-report .group-75 hr{  border-top: 1px solid #C5C6C3;}
-    .deloitte-report .group-75 p{ color: #707070; font-weight: bold; padding-top: 20px;}
-    .deloitte-report .group-75 ul{ padding:  0; }
-    .deloitte-report .group-75 li{ color: #707070; list-style: none; font-size: 12px; font-family: 'Open Sans', sans-serif;}
-
-
-    .deloitte-report.looknow .group-135 { padding: 70px 0; }
-    .deloitte-report.looknow .group-135 h1{ color: #00A1A1; font-size: 32px; margin-bottom: 50px;}
-    .deloitte-report.looknow .group-135 p{ font-size: 16px; margin: 0px; line-height: 25px;}
-    /* .deloitte-report.look .group-135 .part_5 p {margin-top: -4px; padding-left: 20px;} */
-    .deloitte-report.looknow .group-135 .part_1 { margin-bottom: 70px; }  
-    .deloitte-report.looknow .group-135 .part_1 h2 { font-size: 20px; font-weight: bold; }  
-    .deloitte-report.looknow .group-135 .part_1 ul { padding-left: 23px; }  
-    .deloitte-report.looknow .group-135 .part_1 .margin_top_70 { margin-top: 70px; }  
-    .deloitte-report.looknow .group-135 .part_1 li { font-size: 16px; line-height: 25px; }  
-    .deloitte-report.looknow .group-135 .part_1 p { font-size: 16px; line-height: 25px; }  
-    .deloitte-report.looknow .group-135 .part_6 h1 { margin-bottom: 0; }  
-    /* .deloitte-report.look .group-135 .part_2 { padding: 0 !important; margin-top: 96px;} */
-    .deloitte-report.looknow .group-135 .part_4 { padding-bottom: 70px; }
-    .deloitte-report.looknow .group-135 .part_6 { padding: 0px; }
-    .deloitte-report.looknow .group-135 .part_5 { padding: 50px 0; }
-    .deloitte-report.looknow .group-135 .part_7 .padding_left_z { padding-left: 0; }
-    .deloitte-report.looknow .group-135 .part_8 { padding-top: 50px; }
-    .deloitte-report.looknow .group-135 .part_8 .margin_top_30{ margin-top: 30px; }
-   
-    .deloitte-report.looknow .group-135 .part_4 .btn_custom { background-color: #000; width: 100%; margin-bottom: 13px; }
-    .deloitte-report.looknow .group-135 a.read1 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding-top: 13px;    padding-left: 0; background: #000000; border-radius: 0;    height: 54px;width: 100%;}
-    .deloitte-report.looknow .group-135 a.read2 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding-top: 13px; background: #000000;  border-radius: 0;    height: 54px; width: 100%;}
-    .deloitte-report.looknow .group-135 .read1::after {  content: url(img/bell.svg); left: 12px; position: relative; top: 3px;}
-    .deloitte-report.looknow .group-135 .read2::after {  content: url(img/download.svg); left: 2px; position: relative; top: 5px;}
-  
-    /* .deloitte-report.look .group-135 .part_5 { padding-top: 10px !important; } */
-    .deloitte-report.looknow .group-135 .part_5 .image-555{ width: 110px; height: 128px; margin-bottom: 13px; background-position: center center !important; }
-    .deloitte-report.looknow .group-135 .part_5 p{  font-size: 16px; line-height: 20px; color: #000000;}
-    .deloitte-report.looknow .group-135 .part_5 .Blau_Andrew{  background: url(img/Contributors/Blau_Andrew\,\ Jan\ 2021.jpg); background-size:cover ;}
-    .deloitte-report.looknow .group-135 .part_5 .Stephane{  background: url(img/Contributors/Stephane\,\ Joanne-9595edit2HAIREDIT.jpg); background-size:cover ;}
-    .deloitte-report.looknow .group-135 .part_5 .Foutty{  background: url(img/Contributors/Foutty\,\ Janet_Deloitte\ copy.jpg); background-size:cover ;}
-    .deloitte-report.looknow .group-135 .part_5 .Prabhakar{  background: url(img/Contributors/Prabhakar\,\ Kavitha_KP.jpg); background-size:cover ;}
-    .deloitte-report.looknow .group-135 .part_7 {  border-top: 0.5px solid #707070; margin-left: 0;padding-top: 50px;}
-    .deloitte-report.looknow .group-135 .part_8 p{  font-size: 12px; line-height: 16px; color: #000000;}
-    .deloitte-report.looknow .group-135 .part_8 .image-555{ width: 91px; height: 107px; margin-bottom: 13px; background-position: center center !important; }
-    .deloitte-report.looknow .group-135 .part_8 .Lubetsky{  background: url(img/Contributors/Lubetsky.jpg); background-size:cover ;}
-    .deloitte-report.looknow .group-135 .part_8 .Trevino{  background: url(img/Contributors/Trevino\,\ Ale.jpg); background-size:cover ;}
-    .deloitte-report.looknow .group-135 .part_8 .Dickau{  background: url(img/Contributors/Dickau\,\ Devon\ -\ D\ Headshot\ 2020.png); background-size:cover ;}
-    .deloitte-report.looknow .group-135 .part_8 .Adams{  background: url(img/Contributors/Adams\,\ Deshawn\ -\ DA\ Final\ Headshot.jpg); background-size:cover ;}
-    .deloitte-report.looknow .group-135 .part_8 .Tilwa{  background: url(img/Contributors/Tilwa\,\ Raj\ -\ Cropped.jpg); background-size:cover ;}
-    .deloitte-report.looknow .group-135 .part_8 .Jucks{  background: url(img/Contributors/Jucks\,\ Richard\ LINKEDIN.jpg); background-size:cover ;}
-    .deloitte-report .group-135 .part_6 h1 { margin-bottom: 0; }   
-    .deloitte-report.looknow p .p_italic { font-family: 'italic'; }   
-    
-    /* Tablet */
-    @media only screen 
-      and (min-device-width: 992px) 
-      and (max-device-width: 1195px) 
-      and (-webkit-min-device-pixel-ratio: 1){
-        .deloitte-report.looknow .group-63 .row:nth-of-type(1){ padding: 25px 0 120px 0; }
-        .deloitte-report.looknow .group-63 h1 { margin-top: 80px; }
-        .deloitte-report.looknow .group-63 .image-530 { width: 450px; height: 450px; }
-        .deloitte-report.looknow .group-63 .col-lg-5{ padding-right: 15px; }
-        .scene { padding: 20% 2%;}
-        .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section, .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section{ margin-top: 5%; }
-        .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section { margin-top: 3%; }
-        .deloitte-report.looknow .group-68 p.cusp {  padding-right: 0px;}
-        .deloitte-report.looknow .group-71 .bar_711,.deloitte-report.looknow .group-71 .bar_712,.deloitte-report.looknow .group-71 .bar_text_wrapper,.deloitte-report.looknow .group-71 .bar_713,.deloitte-report.looknow .group-71 .bar_714,.deloitte-report.looknow .group-71 .bar_711_bottom,.deloitte-report.looknow .group-71 .nd_p,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle,.deloitte-report.looknow .group-71 .bar_711_bottom_p,.deloitte-report.looknow .group-71 .group_71_wrapper_box,.deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar{width: auto;}
-        .deloitte-report.looknow .group-135 a.read1 { float: right; }
-  .deloitte-report.looknow .group-135 a.read2 { float: left;}
-  .deloitte-report.looknow .group-135 .part_3 img { margin: 0 auto; display: flex;}
-      }
-    /* Tab */
-    @media only screen 
-      and (min-device-width: 764px) 
-      and (max-device-width: 991px) 
-      and (-webkit-min-device-pixel-ratio: 1){
-        .deloitte-report.looknow .group-71 .group_71_wrapper_box .talent_box_texts:before {
-          height: 110px !important;
-      }
-      .deloitte-report.looknow .group-71 .group_71_wrapper_box .society_box_texts:before {
-        height: 25px !important;
-        top: 275px !important;
-      }
-      .deloitte-report.looknow .group-71 .group_71_wrapper_box .market_box_texts:before {
-        height: 170px !important;
-        top: 105px !important;
-      }
-      
-      }
-    /* Mobile */
-      @media only screen and (max-width: 991px) {
-        .deloitte-report.looknow .group-68 p.cusp {  padding-right: 0px;}
-        .deloitte-report.looknow .group-71 .bar_711,.deloitte-report.looknow .group-71 .bar_712,.deloitte-report.looknow .group-71 .bar_text_wrapper,.deloitte-report.looknow .group-71 .bar_713,.deloitte-report.looknow .group-71 .bar_714,.deloitte-report.looknow .group-71 .bar_711_bottom,.deloitte-report.looknow .group-71 .nd_p,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle,.deloitte-report.looknow .group-71 .bar_711_bottom_p,.deloitte-report.looknow .group-71 .group_71_wrapper_box,.deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar{width: auto;}
-        .deloitte-report.looknow .group-71 .group_71_wrapper_box,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2,.deloitte-report.looknow .group-67 .group_wrapper_2 {height: auto;}
-        .deloitte-report.looknow .group-71 .group_71_wrapper_box .society_box_texts:before {   height: 50px; top: 350px; }
-        .deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar h2 {font-size: 10px;}
-        .deloitte-report.looknow .group-71 .group_71_wrapper_box .market_box_texts:before { height: 156px; top: 192px; }
-        .deloitte-report.looknow .group-71 .group_71_wrapper_box .talent_box_texts:before {height: 132px;}
-        .deloitte-report.looknow .group-71 .bar_wrapper_top2,.deloitte-report.looknow .group-71 .bar_wrapper_top3 {margin-left: 0;margin-top: 20px;}
-        .deloitte-report.looknow .group-71 li.marketplace_highlight:before {   left: 20px;   }
-        .deloitte-report.looknow .group-63 .row:nth-of-type(1){ padding: 25px 0 40px 0; }
-        .deloitte-report.looknow .group-63 h1 { margin-top: 100px; font-size: 45px; }
-        .deloitte-report.looknow .group-63 h2 { font-size: 28px; }
-        .deloitte-report.looknow .group-63 .image-530 { width: 230px; height: 230px; margin: 30px 0 0px 60px; }
-        .deloitte-report.looknow .group-63 .col-lg-5{ padding-right: 15px; }
-        .deloitte-report.looknow .group-64 .sec_nav { text-align: center; }
-        .deloitte-report.looknow .group-64 .sec_nav li { margin-left: 15px; }
-        .deloitte-report.looknow .group-65 h2 { font-size: 28px; }
-        .deloitte-report.looknow .group-66 p { padding-right: 0;}
-        .scene { padding: 50px 0;}
-        .deloitte-report.looknow .group-71 p { padding-right: 0;}
-        a.read1 { width: 100%;}
-        a.read2 { width: 100%; margin-top: 20px; }
-        .deloitte-report.looknow .horizontal-scroll-section__content-section.scroll_wrapper0 { width: 0% !important; }
-        .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section.scroll_wrapperlast { width: 15% !important; }
-        .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section { padding: 0px !important; }
-        .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1, .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 { padding-left: 25px;}
-        .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 h2.opacity_num,.deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 h2.opacity_num { font-size: 200px; margin-left: 0; margin-bottom: 0; }
-        .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 h2, .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 h2 { font-size: 50px; margin: 0px 0 30px;}
-        .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1, .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 14%;}
-        .deloitte-report .group-74 .part_5 { padding:0; }
-        .deloitte-report .group-74 .part_5 .image-555 { margin: 0; }
-        .deloitte-report .group-74 .part_5 p {padding: 5px 0;}
-        .deloitte-report .group-135 .part_3 img { margin: 0 auto; display: flex; }
-  .deloitte-report.looknow .group-135 .part_3 p { margin: 11px 0; }
-  .deloitte-report.looknow .group-135 a.read1 { width: 100%; }
-  .deloitte-report.looknow .group-135 a.read2 {  width: 100%; margin-top: 20px;}
-  .deloitte-report.looknow .group-135 .part_4 { padding-top: 0; }
-  /* .deloitte-report.look .group-135 .part_5 { padding:0; } */
-  .deloitte-report.looknow .group-135 .part_5 .image-555 { margin: 0; }
-  .deloitte-report.looknow .group-135 .part_5 p {padding: 0;}
-  .deloitte-report.looknow .group-135 .part_2 p { padding-right: 0; }
-
-
-  .deloitte-report.looknow .group-66 .state_wrapper {
-    height: 320px;
+/* Model */
+.modal.modal-vcenter .modal-dialog { position: relative; margin: auto; max-width: 100%; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
+.modal.modal-vcenter .modal-dialog .modal-header { border-bottom: 0px solid #e5e5e5; padding: 55px;}
+.modal.modal-vcenter .modal-dialog .modal-header h2{ font-size:20px; font-family: 'Open Sans', sans-serif; font-weight: bold;}
+.modal.modal-vcenter .close { padding: 15px; background: #ffffff; height: 30px; width: 30px; border-radius: 50%; opacity: 1; z-index: 9999;position: absolute; top: 15px; right: 15px; text-shadow: 0 0px 0 #000000;}
+.modal.modal-vcenter .close:active, .modal.modal-vcenter .modal-header .close:focus{ outline: none !important; box-shadow: none; }
+.modal.modal-vcenter .close span { color: #000000; opacity: 1; font-size: 30px; position: absolute; top: 0; left: 7px; font-family: 'Open Sans', sans-serif; font-weight: 300;}
+.modal.modal-vcenter .modal-dialog .modal-content{ border-radius: 0;     margin-top: 35%;}
+@media screen and (min-width: 576px){
+   .modal.modal-vcenter .modal-dialog {width: 709px; height: 535px;}
+}
+.modal.modal-vcenter .modal-body { max-height: 40vh; overflow-y: auto; padding: 70px;}
+.modal.modal-vcenter .modal-body p { color: #ffffff; font-size: 16px; line-height: 25px;}
+.modal.modal-vcenter .modal-body i { font-size: 20px; line-height: 25px; font-family: italic;}
+.modal.modal-vcenter .modal-body a { color: #FF00FF;}
+.modal.modal-vcenter .modal-body .last_one{ font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 25px;}
+@media screen and (min-height:460px){
+   .modal.modal-vcenter .modal-body { max-height: 567px; background: url(img/actnow/greybac2.png);}
+}
+.deloitte-report.looknow .group-67_2 { padding-bottom: 70px; }
+.deloitte-report.looknow .group-67_2 .group_wrapper_2{ background: #000000; padding: 25px 15px 25px 30px;}
+.deloitte-report.looknow .group-67_2 span { margin-left: -12px;}
+.deloitte-report.looknow .group-67_2 h1 { font-size: 28px; color: #ffffff; font-weight: 300; margin-top:0}
+.deloitte-report.looknow .group-67_2 p { font-size: 16px; color: #ffffff; padding: 10px 0; margin-bottom: 0; font-style: italic; font-weight: 300;}
+.owl-nav {display: none;}
+.deloitte-report.looknow .group-73 { padding: 60px 0; background-color: #ffffff; }
+.deloitte-report.looknow .group-73 h1 { font-size: 32px; margin-top: 0; margin-bottom: 37px;}
+.deloitte-report.looknow .group-73 p { font-size: 16px; padding-right: 0px; line-height: 28px;}
+.deloitte-report .group-74 .row { padding: 32px 0; }
+.deloitte-report .group-74 a.read1 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding: 14px 25px; background: #000000; border-radius: 0;}
+.deloitte-report .group-74 a.read1:hover, .deloitte-report .group-74 a.read2:hover { background: #53565A;}
+.deloitte-report .group-74 a.read2 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding: 14px 25px; background: #000000;  border-radius: 0; width: 100%;}
+.deloitte-report .group-74 .read1::after { content: url(img/bell.svg); left: 12px; position: relative; top: 3px;}
+.deloitte-report .group-74 .read2::after { content: url(img/download.svg); left: 2px; position: relative; top: 5px;}
+.deloitte-report .group-74 .part_5 .image-555{  background-color: #C5C6C3; width: 110px; height: 128px; margin-bottom: 13px; }
+.deloitte-report .group-74 .part_5 p {margin-top: -4px; padding-left: 20px;}
+.deloitte-report .group-74 .part_6 h1 { margin-bottom: 0; }   
+.deloitte-report .group-75 { padding: 20px 0; }
+.deloitte-report .group-75 hr{  border-top: 1px solid #C5C6C3;}
+.deloitte-report .group-75 p{ color: #707070; font-weight: bold; padding-top: 20px;}
+.deloitte-report .group-75 ol{ padding:  0 10px; }
+.deloitte-report .group-75 li{ color: #707070; font-size: 12px; line-height: 16px; font-family: 'Open Sans', sans-serif;}
+.deloitte-report.looknow .group-135 { padding: 70px 0 10px; }
+.deloitte-report.looknow .group-135 h1{ color: #00A1A1; font-size: 32px; margin-bottom: 50px;}
+.deloitte-report.looknow .group-135 p{ font-size: 16px; margin: 0px; line-height: 25px;}
+.deloitte-report.looknow .group-135 .part_1 { margin-bottom: 40px; }  
+.deloitte-report.looknow .group-135 .part_1 h2 { font-size: 20px; font-weight: bold; }  
+.deloitte-report.looknow .group-135 .part_1 ul { padding-left: 23px; }  
+.deloitte-report.looknow .group-135 .part_1 .margin_top_70 { margin-top: 70px; }  
+.deloitte-report.looknow .group-135 .part_1 li { font-size: 16px; line-height: 25px; }  
+.deloitte-report.looknow .group-135 .part_1 p { font-size: 16px; line-height: 25px; }  
+.deloitte-report.looknow .group-135 .part_6 h1 { margin-bottom: 0; }  
+.deloitte-report.looknow .group-135 .part_4 { padding-bottom: 70px; }
+.deloitte-report.looknow .group-135 .part_6 { padding: 0px; }
+.deloitte-report.looknow .group-135 .part_5 { padding: 50px 0; }
+.deloitte-report.looknow .group-135 .part_7 .padding_left_z { padding-left: 0; }
+.deloitte-report.looknow .group-135 .part_8 { padding-top: 50px; }
+.deloitte-report.looknow .group-135 .part_8 .margin_top_30{ margin-top: 30px; }
+.deloitte-report.looknow .group-135 .part_4 .btn_custom { background-color: #000; width: 100%; margin-bottom: 13px; }
+.deloitte-report.looknow .group-135 a.read1 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding-top: 13px;    padding-left: 0; background: #000000; border-radius: 0;    height: 54px;width: 100%;}
+.deloitte-report.looknow .group-135 a.read2 { font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: white; cursor: pointer;padding-top: 13px; background: #000000;  border-radius: 0;    height: 54px; width: 100%;}
+.deloitte-report.looknow .group-135 .read1::after {  content: url(img/bell.svg); left: 12px; position: relative; top: 3px;}
+.deloitte-report.looknow .group-135 .read2::after {  content: url(img/download.svg); left: 2px; position: relative; top: 5px;}
+.deloitte-report.looknow .group-135 .part_5 .image-555{ width: 110px; height: 128px; margin-bottom: 13px; background-position: center center !important; }
+.deloitte-report.looknow .group-135 .part_5 p{  font-size: 16px; line-height: 20px; color: #000000;}
+.deloitte-report.looknow .group-135 .part_5 .Blau_Andrew{  background: url(img/Contributors/Blau_Andrew\,\ Jan\ 2021.jpg); background-size:cover ;}
+.deloitte-report.looknow .group-135 .part_5 .Stephane{  background: url(img/Contributors/Stephane\,\ Joanne-9595edit2HAIREDIT.jpg); background-size:cover ;}
+.deloitte-report.looknow .group-135 .part_5 .Foutty{  background: url(img/Contributors/Foutty\,\ Janet_Deloitte\ copy.jpg); background-size:cover ;}
+.deloitte-report.looknow .group-135 .part_5 .Prabhakar{  background: url(img/Contributors/Prabhakar\,\ Kavitha_KP.jpg); background-size:cover ;}
+.deloitte-report.looknow .group-135 .part_7 {  border-top: 0.5px solid #707070; margin-left: 0;padding-top: 50px;}
+.deloitte-report.looknow .group-135 .part_8 p{  font-size: 12px; line-height: 16px; color: #000000;}
+.deloitte-report.looknow .group-135 .part_8 .image-555{ width: 91px; height: 107px; margin-bottom: 13px; background-position: center center !important; }
+.deloitte-report.looknow .group-135 .part_8 .Lubetsky{  background: url(img/Contributors/Lubetsky.jpg); background-size:cover ;}
+.deloitte-report.looknow .group-135 .part_8 .Trevino{  background: url(img/Contributors/Trevino\,\ Ale.jpg); background-size:cover ;}
+.deloitte-report.looknow .group-135 .part_8 .Dickau{  background: url(img/Contributors/Dickau\,\ Devon\ -\ D\ Headshot\ 2020.png); background-size:cover ;}
+.deloitte-report.looknow .group-135 .part_8 .Adams{  background: url(img/Contributors/Adams\,\ Deshawn\ -\ DA\ Final\ Headshot.jpg); background-size:cover ;}
+.deloitte-report.looknow .group-135 .part_8 .Tilwa{  background: url(img/Contributors/Tilwa\,\ Raj\ -\ Cropped.jpg); background-size:cover ;}
+.deloitte-report.looknow .group-135 .part_8 .Jucks{  background: url(img/Contributors/Jucks\,\ Richard\ LINKEDIN.jpg); background-size:cover ;}
+.deloitte-report .group-135 .part_6 h1 { margin-bottom: 0; }   
+.deloitte-report.looknow p .p_italic { font-family: 'italic'; }   
+.fa-chevron-down { padding-left: 15px; }
+.dropdown-btn:hover .fa-chevron-down:before { content: "\f077";}
+.dropdown-content { display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
+.dropdown-content a { float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left; }
+.dropdown-btn:hover .dropdown-content { display: block;}
+.dropdown_assess {margin-left: 50px;}
+.dropdown_lookahead {margin-left: 190px;}
+.dropdown_actnow {margin-left: 255px;}
+/* Tablet */
+@media only screen 
+  and (min-device-width: 992px) 
+  and (max-device-width: 1195px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+    .deloitte-report.looknow .group-63 .row:nth-of-type(1){ padding: 25px 0 120px 0; }
+    .deloitte-report.looknow .group-63 h1 { margin-top: 80px; }
+    .deloitte-report.looknow .group-63 .image-530 { width: 450px; height: 450px; }
+    .deloitte-report.looknow .group-63 .col-lg-5{ padding-right: 15px; }
+    .scene { padding: 20% 2%;}
+    .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section, .deloitte-report.looknow .group-70 .horizontal-scroll-section__content-section{ margin-top: 5%; }
+    .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section { margin-top: 3%; }
+    .deloitte-report.looknow .group-68 p.cusp {  padding-right: 0px;}
+    .deloitte-report.looknow .group-71 .bar_711,.deloitte-report.looknow .group-71 .bar_712,.deloitte-report.looknow .group-71 .bar_text_wrapper,.deloitte-report.looknow .group-71 .bar_713,.deloitte-report.looknow .group-71 .bar_714,.deloitte-report.looknow .group-71 .bar_711_bottom,.deloitte-report.looknow .group-71 .nd_p,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle,.deloitte-report.looknow .group-71 .bar_711_bottom_p,.deloitte-report.looknow .group-71 .group_71_wrapper_box,.deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar{width: auto;}
+    .deloitte-report.looknow .group-135 a.read1 { float: right; }
+	.deloitte-report.looknow .group-135 a.read2 { float: left;}
+	.deloitte-report.looknow .group-135 .part_3 img { margin: 0 auto; display: flex;}
   }
-.deloitte-report.looknow .group-66 .first_hover,.deloitte-report.looknow .group-66 .second_hover {bottom:0;}
-  .deloitte-report.looknow .group-66 .state_wrapper .state_text {
-    bottom: -77px;}
-
-    .deloitte-report.looknow .group-68 h1,.deloitte-report.looknow .group-67 .group_wrapper_2,.deloitte-report.looknow .group-67 .group_wrapper_2 h2,.deloitte-report.looknow .group-71 .li_wrapper_bottom,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2_inner,.deloitte-report .group-71 #accordion .panel-body {width: auto;}
-    .deloitte-report.looknow .group-71 .left_extra {display: none;}
-    .deloitte-report.looknow .group-71 .li_wrapper_bottom li {margin-top: 10px;}
-    .deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar,.deloitte-report.looknow .group-71 .letter_new {height:auto}
-    .deloitte-report.looknow .group-71 .letter_new {padding:20px;}
-    .modal.modal-vcenter .modal-dialog .modal-content {margin-top: 0;}
-    }
+/* Tab */
+@media only screen 
+  and (min-device-width: 764px) 
+  and (max-device-width: 991px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+    .deloitte-report.looknow .group-71 .group_71_wrapper_box .talent_box_texts:before { height: 110px !important; }
+	.deloitte-report.looknow .group-71 .group_71_wrapper_box .society_box_texts:before { height: 25px !important; top: 275px !important; }
+	.deloitte-report.looknow .group-71 .group_71_wrapper_box .market_box_texts:before { height: 170px !important; top: 105px !important;}
+  }
+/* Mobile */
+  @media only screen and (max-width: 991px) {
+    .deloitte-report.looknow .group-68 p.cusp {  padding-right: 0px;}
+    .deloitte-report.looknow .group-71 .bar_711,.deloitte-report.looknow .group-71 .bar_712,.deloitte-report.looknow .group-71 .bar_text_wrapper,.deloitte-report.looknow .group-71 .bar_713,.deloitte-report.looknow .group-71 .bar_714,.deloitte-report.looknow .group-71 .bar_711_bottom,.deloitte-report.looknow .group-71 .nd_p,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_middle,.deloitte-report.looknow .group-71 .bar_711_bottom_p,.deloitte-report.looknow .group-71 .group_71_wrapper_box,.deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar{width: auto;}
+    .deloitte-report.looknow .group-71 .group_71_wrapper_box,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2,.deloitte-report.looknow .group-67 .group_wrapper_2 {height: auto;}
+    .deloitte-report.looknow .group-71 .group_71_wrapper_box .society_box_texts:before {   height: 50px; top: 350px; }
+    .deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar h2 {font-size: 20px; line-height: 30px; padding: 30px 0;}
+    .deloitte-report.looknow .group-71 .group_71_wrapper_box .market_box_texts:before { height: 156px; top: 192px; }
+    .deloitte-report.looknow .group-71 .group_71_wrapper_box .talent_box_texts:before {height: 132px;}
+    .deloitte-report.looknow .group-71 .bar_wrapper_top2,.deloitte-report.looknow .group-71 .bar_wrapper_top3 {margin-left: 0;margin-top: 20px;}
+    .deloitte-report.looknow .group-71 li.marketplace_highlight:before {   left: 20px;   }
+    .deloitte-report.looknow .group-63 .row:nth-of-type(1){ padding: 25px 0 40px 0; }
+    .deloitte-report.looknow .group-63 h1 { margin-top: 100px; font-size: 45px; }
+    .deloitte-report.looknow .group-63 h2 { font-size: 28px; }
+    .deloitte-report.looknow .group-63 .image-530 { width: 230px; height: 230px; margin: 30px 0 0px 60px; }
+    .deloitte-report.looknow .group-63 .col-lg-5{ padding-right: 15px; }
+    .deloitte-report.looknow .group-64 .sec_nav { text-align: center; }
+    .deloitte-report.looknow .group-64 .sec_nav li { margin-left: 15px; }
+    .deloitte-report.looknow .group-65 h2 { font-size: 28px; }
+    .deloitte-report.looknow .group-66 p { padding-right: 0;}
+    .scene { padding: 50px 0;}
+    .deloitte-report.looknow .group-71 p { padding-right: 0;}
+    a.read1 { width: 100%;}
+    a.read2 { width: 100%; margin-top: 20px; }
+    .deloitte-report.looknow .horizontal-scroll-section__content-section.scroll_wrapper0 { width: 0% !important; }
+    .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section.scroll_wrapperlast { width: 15% !important; }
+    .deloitte-report.looknow .group-68 .horizontal-scroll-section__content-section { padding: 0px !important; }
+    .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1, .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 { padding-left: 25px;}
+    .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 h2.opacity_num,.deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 h2.opacity_num { font-size: 200px; margin-left: 0; margin-bottom: 0; }
+    .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1 h2, .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 h2 { font-size: 50px; margin: 0px 0 30px;}
+    .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper1, .deloitte-report.looknow .group-72 .horizontal-scroll-section__content-section.scroll_wrapper2 { width: 14%;}
+    .deloitte-report .group-74 .part_5 { padding:0; }
+    .deloitte-report .group-74 .part_5 .image-555 { margin: 0; }
+    .deloitte-report .group-74 .part_5 p {padding: 5px 0;}
+    .deloitte-report .group-135 .part_3 img { margin: 0 auto; display: flex; }
+	.deloitte-report.looknow .group-135 .part_3 p { margin: 11px 0; }
+	.deloitte-report.looknow .group-135 a.read1 { width: 100%; }
+	.deloitte-report.looknow .group-135 a.read2 {  width: 100%; margin-top: 20px;}
+	.deloitte-report.looknow .group-135 .part_4 { padding-top: 0; }
+	.deloitte-report.looknow .group-135 .part_5 .image-555 { margin: 0; }
+	.deloitte-report.looknow .group-135 .part_5 p {padding: 0;}
+	.deloitte-report.looknow .group-135 .part_2 p { padding-right: 0; }
+	.deloitte-report.looknow .group-66 .state_wrapper { height: 320px; }
+	.deloitte-report.looknow .group-66 .first_hover,.deloitte-report.looknow .group-66 .second_hover {bottom:0;}
+	.deloitte-report.looknow .group-66 .state_wrapper .state_text { bottom: -77px;}
+	.deloitte-report.looknow .group-68 h1,.deloitte-report.looknow .group-67 .group_wrapper_2,.deloitte-report.looknow .group-67 .group_wrapper_2 h2,.deloitte-report.looknow .group-71 .li_wrapper_bottom,.deloitte-report.looknow .group-71 .group_wrapper .fat_bar_2_inner,.deloitte-report .group-71 #accordion .panel-body {width: auto;}
+	.deloitte-report.looknow .group-71 .left_extra {display: none;}
+	.deloitte-report.looknow .group-71 .li_wrapper_bottom li {margin-top: 10px;}
+	.deloitte-report.looknow .group-71 .group_wrapper_2 .big_bar,.deloitte-report.looknow .group-71 .letter_new {height:auto}
+	.deloitte-report.looknow .group-71 .letter_new {padding:20px;}
+	.modal.modal-vcenter .mosdal-dialog .modal-content {margin-top: 0;}
+	.deloitte-report.looknow .group-68 .globalll {display: none;}
+}
+@media (max-width: 768px) {
+	.role_hidden {display: none;}
+}
 </style>
 <div class="deloitte-report looknow">
 	<section class="group-63">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-12 header_txt">
-					<h1 data-aos="fade-up" style="font-size: 50px;">Part III: Act now</h1>
+					<h1 data-aos="fade-up">Part III: Act now</h1>
 					<h2 data-aos="fade-up">Actions to drive systemic change</h2>
 					<a class="read" data-aos="fade-up">Download the full report</a>
 				</div>
@@ -658,9 +483,31 @@
 				<div class="col-lg-6 col-md-6">
 					<ul class="sec_nav" data-aos="fade-up">
 						<li><a href="index.html">Home</a></li>
-						<li><a href="assess.html">Assess</a></li>
-						<li><a href="look-ahead.html">Look ahead</a></li>
-						<li><a href="looknow.html" class="active">Act now</a></li>
+						<li class="dropdown-btn"><a  href="assess.html" class="active">Assess</a><i class="fa fa-chevron-down"></i>
+							<div class="dropdown-content dropdown_assess">
+								<a href="assess.html#equity">Why racial equity now?</a>
+								<a href="assess.html#inequity">Inequity by the numbers</a>
+								<a href="assess.html#business">Creating business value</a>
+								<a href="assess.html#call_to_action">Call to action</a>
+							</div>
+						</li>
+						<li  class="dropdown-btn"><a href="look-ahead.html">Look ahead</a><i class="fa fa-chevron-down"></i>
+							<div class="dropdown-content dropdown_lookahead">
+								<a href="look-ahead.html#futures">Four possible futures</a>
+								<a href="look-ahead.html#scenarios ">Scenarios overview</a>
+								<a href="look-ahead.html#reflections">Ten reflections</a>
+								<a href="look-ahead.html#collective_action">Call to action</a>
+							</div>
+						</li>
+						<li  class="dropdown-btn"><a href="looknow.html">Act now</a><i class="fa fa-chevron-down"></i>
+							<div class="dropdown-content dropdown_actnow">
+								<a href="looknow.html#activ_model">Equity Activation Model</a>
+								<a href="looknow.html#leadership">Leadership and culture</a>
+								<a href="looknow.html#flipping">Flipping orthodoxies</a>
+								<a href="looknow.html#actions">Actions</a>
+								<a href="looknow.html#call_to_action">Call to action</a>
+							</div>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -682,8 +529,8 @@
 					<div class="col-lg-12">
 						<div class="text_wrapper">
 							<p data-aos="fade-up">Racism and inequity are systemic problems that require a systemic response. In order to build an equitable future, leaders must activate the full breadth of their control and influence across all parts of their organizations and beyond: from relationships to products, services to spend, governance to external interactions.</p>
-							<p class="margin_bottom_0"> Recent survey results, though, suggest many of those options are too rarely used. In an October 2020 <span class="p_italic"> Fortune</span>/Deloitte survey of 125 CEOs, 91% said they are investing in their talent life cycle to promote racial equity, but only 22% said they are in investing in their products or services to advance that same goal.<sup>1</sup></p>
-							<h1 data-aos="fade-up">The Equity Activation Model</h1>
+							<p class="margin_bottom_0"> Recent survey results, though, suggest many of those options are too rarely used. In an October 2020 <span class="p_italic"> Fortune</span>/Deloitte survey of 125 CEOs, 91% said they are investing in their talent life cycle to promote racial equity, but only 22% said they are in investing in their products or services to advance that same goal. <sup>1</sup></p>
+							<h1 data-aos="fade-up" id="activ_model">The Equity Activation Model</h1>
 							<p data-aos="fade-up"> The Equity Activation Model is a systems-based view for how businesses can activate equity within and outside of their own organizations, structured around three primary <span class="p_italic"> spheres of influence</span> within the reach of every organization: Workforce, Marketplace, and Society. Each sphere, in turn, includes multiple <span class="p_italic">activators</span>—key areas of activity and everyday choices such as talent advancement; products and services; and standards and policies—through which organizations can exert their influence to activate equity, including racial equity. Within each activator, organizations take specific <span class="p_italic">actions </span> in pursuit of equity.</p>
 						</div>
 						<div class="state_wrapper">
@@ -711,7 +558,7 @@
 		</div>
 	</section>
 	
-	<section class="group-68 ">
+	<section class="group-68" id="leadership">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -725,13 +572,13 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-lg-4">
+								<div class="col-lg-4 role_hidden">
 									<div class="globalll">
 										<h2 class="left_h2_one">If your role is…</h2>
 										<h2 class="left_h2_two">You can drive equity when you…</h2>
 									</div>
 								</div>
-								<div class="col-lg-8">
+								<div class="col-lg-8 col-sm-12">
 									<div class="horizontal-scroll-section__content-wrapper wrapper" style="transform: translate3d(0px, 0px, 0px);">
 										<div class="horizontal-scroll-section__content-section scroll_wrapper0"></div>
 										<div class="horizontal-scroll-section__content-section scroll_wrapper1">
@@ -760,8 +607,8 @@
 											<div class="content_wrapper1">
 												<div class="row">
 													<div class="col-lg-12">
-														<h2 class="top_h2"><b>Chief DEI Officer</b> </h2>
-														<p>Set strategic priorities around DEI (with CEO); review and revise talent practices informed by consideration of historical marginalization and oppression; allyship programs; diversity data transparency and accountability
+														<h2 class="top_h2"><b>Chief financial officer</b> </h2>
+														<p>Set investment strategies and portfolio management; consider and approve internal and external funding requests; establish wage and compensation practices; prioritize tax considerations and practices; set real estate strategy.
 														</p>
 														
 													</div>
@@ -772,8 +619,8 @@
 											<div class="content_wrapper1">
 												<div class="row">
 													<div class="col-lg-12">
-														<h2 class="top_h2"><b>Board of Directors</b> </h2>
-														<p>Set expectations and accountability of the executive team; executive hiring and compensation; investment strategy; board diversity; community engagement
+														<h2 class="top_h2"><b>Chief strategy officer</b> </h2>
+														<p>Formulate corporate and business unit strategy; gather customer and consumer insights; identify and evaluate potential new markets; commission market sensing and trend analysis; develop M&A strategy and identify and screen M&A transactions; develop and launch strategic partnerships (JVs, corporate venturing and investments).
 														</p>
 													</div>
 												</div>
@@ -783,8 +630,8 @@
 											<div class="content_wrapper1">
 												<div class="row">
 													<div class="col-lg-12">
-														<h2 class="top_h2"><b>Chief Executive Officer</b> </h2>
-														<p>Set organizational priorities; establish leadership commitments and drive internal and external signaling about aspirations and purpose; ratify strategic priorities around Diversity, Equity, and Inclusion (DEI); authorize build, buy, borrow decisions (M&A)
+														<h2 class="top_h2"><b>Chief marketing officer</b> </h2>
+														<p>Identify and approve partnerships and sponsorships; set strategy for social media, ad platforms, and other channels and communications platforms; design brand influence strategy; commission and conduct customer research, including marketing analytics and trends; set standards for messaging.
 														</p>
 													</div>
 												</div>
@@ -794,8 +641,8 @@
 											<div class="content_wrapper1">
 												<div class="row">
 													<div class="col-lg-12">
-														<h2 class="top_h2"><b>Chief DEI Officer</b> </h2>
-														<p>Set strategic priorities around DEI (with CEO); review and revise talent practices informed by consideration of historical marginalization and oppression; allyship programs; diversity data transparency and accountability
+														<h2 class="top_h2"><b>Chief operating officer</b> </h2>
+														<p>Set vendor and supplier diversity and strategy; create and manage contracts; set location strategy and office structure; adopt and enforce health and safety protocols; design and monitor sales strategy and analytics and supplier/vendor analytics.
 														</p>
 														
 													</div>
@@ -806,8 +653,8 @@
 											<div class="content_wrapper1">
 												<div class="row">
 													<div class="col-lg-12">
-														<h2 class="top_h2"><b>Board of Directors</b> </h2>
-														<p>set expectations and accountability of the executive team; executive hiring and compensation; investment strategy; board diversity; community engagement
+														<h2 class="top_h2"><b>Chief technology officer or chief information officer</b> </h2>
+														<p>Select and deploy technologies; design and collect data reports and transparency; design and monitor information flow across organization; consider biases and ethics in technology; prioritize design and user experience and accessibility; create and assess data analytics.
 														</p>
 													</div>
 												</div>
@@ -817,8 +664,8 @@
 											<div class="content_wrapper1">
 												<div class="row">
 													<div class="col-lg-12">
-														<h2 class="top_h2"><b>Chief Executive Officer</b> </h2>
-														<p>set organizational priorities; establish leadership commitments and drive internal and external signaling about aspirations and purpose; ratify strategic priorities around Diversity, Equity, and Inclusion (DEI); authorize build, buy, borrow decisions (M&A)
+														<h2 class="top_h2"><b>Chief human resources officer</b> </h2>
+														<p>Define workforce experience strategy to inform talent strategy and processes; design and deliver on financial, physical, mental, and emotional wellbeing through rewards and other programs; monitor pay equity; lead succession strategy and planning; enable a culture that embeds and values diversity, equity, and inclusion in all business operations.
 														</p>
 													</div>
 												</div>
@@ -828,8 +675,8 @@
 											<div class="content_wrapper1">
 												<div class="row">
 													<div class="col-lg-12">
-														<h2 class="top_h2"><b>Chief DEI Officer</b> </h2>
-														<p>set strategic priorities around DEI (with CEO); review and revise talent practices informed by consideration of historical marginalization and oppression; allyship programs; diversity data transparency and accountability
+														<h2 class="top_h2"><b>Chief diversity, equity, and inclusion officer</b> </h2>
+														<p>Set strategic DEI priorities with board and CEO; collaborate with CxO’s to enable DEI in all spheres of influence; initiate and promote DEI programs; establish, evolve, and publish diversity analytics; encourage transparency and accountability on DEI ambitions and results.
 														</p>
 														
 													</div>
@@ -853,7 +700,7 @@
 					<div class="group_wrapper">
 						<h1>Organizational Culture</h1>
 						<p>The Equity Activation Model suggests the essential role of <i>organizational culture</i> as the background or context in which priorities are set and choices are made.</p>
-						<p>Organizational culture is “the way we do things around here”—the sustained patterns of behavior supported by an organization’s shared experiences, values, and beliefs.<sup>2</sup> Culture both influences and is influenced by an organization’s workforce, the marketplace, and society. It provides the context in which actions are prioritized and enablers are expressed. 
+						<p>Organizational culture is “the way we do things around here”—the sustained patterns of behavior supported by an organization’s shared experiences, values, and beliefs.<sup>2</sup> Culture both influences and is influenced by an organization’s workforce, the marketplace, and society. It provides the context in which <i>actions</i> are prioritized and <i>enablers</i> are expressed. 
 						</p>
 						<p>Organizational culture is enduring, but it’s also always evolving, the result of an ongoing feedback loop between beliefs (subconscious, taken-for-granted assumptions), values (stated strategies, goals, and philosophies,) and behaviors (people’s decisions, actions, and processes). As a result, it can adapt to new needs and changing conditions. 
 						</p>
@@ -867,8 +714,8 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="text_wrapper">
-								<h2><span>“</span>Remove the idea, philosophy, and construct of cultural fit…it’s the biggest hinderance to organizational shifts on DEI topics”</h2>
-								<p>Elliott Robinson, Partner, Bessemer Venture Partners; Founding Member BLCK VC</p>
+								<h2><span>“</span>Remove the idea, philosophy, and construct of cultural fit…it’s the biggest hindrance to organizational shifts on DEI topics.”<sup>4</sup></h2>
+								<p>Elliott Robinson, partner, Bessemer Venture Partners; Founding Member BLCK VC</p>
 							</div>
 						</div>
 					</div>	
@@ -877,29 +724,18 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="text_wrapper">
-								<h2><span>“</span>There is a power in changing the narrative, where we can all believe
-									and imagine things being different from the past”</h2>
-								<p>Cathy Engelbert, Commissioner, Women’s National Basketball Association </p>
+								<h2><span>“</span>You think the issue is you need more diverse people, but your culture may not be designed to nurture that talent, and that’s the problem.”</h2>
+								<p>Dr. Stephanie Creary, assistant Professor of Management in identity and diversity at the Wharton School<sup>3</sup></p>
 							</div>
 						</div>
 					</div>	
 				</div>
-				<div class="group_wrapper_2 black" data-aos="fade-left">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="text_wrapper">
-								<h2><span>“</span>There is a power in changing the narrative, where we can all believe
-									and imagine things being different from the past”</h2>
-								<p>Cathy Engelbert, Commissioner, Women’s National Basketball Association </p>
-							</div>
-						</div>
-					</div>	
-				</div>
+				
 			</div>
 		</div>
 	</section>
 	
-	<section class="group-70">
+	<section class="group-70" id="flipping">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -931,7 +767,7 @@
 										</div>
 									</div>
 									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
-										<div class="content_wrapper2">
+										<div class="content_wrapper2 custom_scroll_2">
 											<div class="row">
 												<div class="col-lg-12">
 													<h2 class="top_h2"><b><span>“</span>We don’t have a racism problem here.”</b> </h2>
@@ -945,91 +781,98 @@
 									</div>
 
 									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
-										<div class="content_wrapper1">
+										<div class="content_wrapper1 custom_scroll_3">
 											<div class="row">
 												<div class="col-lg-12">
-													<h2 class="top_h2"><b><span>“</span>We are an unbiased meritocracy.”</b> </h2>
-													<p><b>An underlying assumption</b> in a society in which Black people are systematically underrepresented in positions of power or authority may be that Black people are not as capable or ambitious as the White people currently holding those positions. But what meritocracies don’t often consider is that majority racial groups have had advantages over other PEERs (Persons Excluded due to Ethnicity or Race) for generations. 
+													<h2 class="top_h2"><b><span>“</span>Advancing Black professionals will mean fewer opportunities for others.”</b> </h2>
+													<p><b>An underlying assumption</b> is that there are limited opportunities, so gains for one identity group must come at the expense of another. An even more pernicious belief is that those who currently hold the most access to opportunity do so because of a natural right to them, rather than because of a historically unfair system. Advancing Black professionals doesn’t mean fewer jobs for non-Black individuals—it just means that the talent pool is larger and has more available, capable, qualified people
 													</p>
-													<p><b>Rejecting the notion of an unbiased meritocracy would enable organizations to tap into talent that has previously gone unnoticed or unconsidered.
+													<p><b>Shifting this belief enables organizations to access and nurture a broader, richer, and more competitive pool of talent, and to realize the “Curb-Cut Effect”7 —steps taken to address the needs of Black professionals will likely benefit many others as well. 
 													</b></p>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
-										<div class="content_wrapper2">
+										<div class="content_wrapper2 custom_scroll_4">
 											<div class="row">
 												<div class="col-lg-12">
-													<h2 class="top_h2"><b><span>“</span>We don’t have a racism problem here.”</b> </h2>
-													<p><b>The underlying assumption</b> that an organization with well-intentioned or well-informed leaders is unaffected by society at large may be willfully ignorant at best and deceitful at worst. Most organizations reflect the society in which they operate—and racism exists, individually and systematically, within our society. Workers do not leave society behind when they show up for work. “Society” is in the office, right alongside them. 
+													<h2 class="top_h2"><b><span>“</span>Diversifying means lowering the bar.”</b> </h2>
+													<p><b>The underlying assumption</b> is that Black people are unqualified, which relies on two beliefs: a definition of “qualified” that remains consistent with historical definitions of what is required to be successful, and organizations considering narrowly defined and/or limited pools of potential talent, suppliers, and other business relationships.
+
 													</p>
-													<p><b>Shifting this belief makes room to consider how organizational systems perpetuate societal biases, and to take action to acknowledge and address those biases to advance equity within and through the organization’s actions.
+													<p><b>Shifting this belief allows organizations to both evolve their understanding of “qualified,” and assess whether they are looking broadly enough, to include those who could apply their skills, experience, and capabilities if given the opportunity.
 													</b></p>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
-										<div class="content_wrapper1">
+										<div class="content_wrapper1 custom_scroll_5">
 											<div class="row">
 												<div class="col-lg-12">
-													<h2 class="top_h2"><b><span>“</span>We are an unbiased meritocracy.”</b> </h2>
-													<p><b>An underlying assumption</b> in a society in which Black people are systematically underrepresented in positions of power or authority may be that Black people are not as capable or ambitious as the White people currently holding those positions. But what meritocracies don’t often consider is that majority racial groups have had advantages over other PEERs (Persons Excluded due to Ethnicity or Race) for generations. 
+													<h2 class="top_h2"><b><span>“</span>Taking bold action around DEI is too controversial or risky for our business.” </b> </h2>
+													<p><b>An underlying assumption</b> is that it is “riskier” to take a stand and act than it is to stay silent. This orthodoxy masks racism as “risk avoidance”—that is, tolerating or enabling systemic and systematic racism is less harmful than the risk or controversy of dismantling it. Ultimately, it indicates a higher level of comfort with the potential for accusation of inequity by groups who may have benefitted from the status quo, than with addressing actual inequity. 
+
 													</p>
-													<p><b>Rejecting the notion of an unbiased meritocracy would enable organizations to tap into talent that has previously gone unnoticed or unconsidered.
+													<p><b>Shifting this belief to embrace dismantling systemic and systematic racism and to drive equity positions organizations to attract top talent, retain consumers, and understand and lead in competitive markets.
 													</b></p>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
-										<div class="content_wrapper2">
+										<div class="content_wrapper2 custom_scroll_6">
 											<div class="row">
 												<div class="col-lg-12">
-													<h2 class="top_h2"><b><span>“</span>We don’t have a racism problem here.”</b> </h2>
-													<p><b>The underlying assumption</b> that an organization with well-intentioned or well-informed leaders is unaffected by society at large may be willfully ignorant at best and deceitful at worst. Most organizations reflect the society in which they operate—and racism exists, individually and systematically, within our society. Workers do not leave society behind when they show up for work. “Society” is in the office, right alongside them. 
+													<h2 class="top_h2"><b><span>“</span>Taking bold action for PEERs*, and specifically for Black individuals, alienates other segments of our workforce.”</b> </h2>
+													<p><b>The underlying assumption</b> is that “other segments” do not value, and do not benefit from, an equitable organization. What’s more, it prioritizes those who have benefited from the current system, and the potential perception of “disadvantaging” historically advantaged segments, over addressing the actual disparate impact on PEERs. 
+
 													</p>
-													<p><b>Shifting this belief makes room to consider how organizational systems perpetuate societal biases, and to take action to acknowledge and address those biases to advance equity within and through the organization’s actions.
+													<p><b>Shifting this belief enables organizations to understand and address how bold actions for those most affected by systemic exclusion ultimately benefits all members of the workforce and all within the spheres of influence of the organization.
 													</b></p>
+													<p><i>*Persons Excluded due to Ethnicity or Race</i></p>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
-										<div class="content_wrapper1">
+										<div class="content_wrapper1 custom_scroll_7">
 											<div class="row">
 												<div class="col-lg-12">
-													<h2 class="top_h2"><b><span>“</span>We are an unbiased meritocracy.”</b> </h2>
-													<p><b>An underlying assumption</b> in a society in which Black people are systematically underrepresented in positions of power or authority may be that Black people are not as capable or ambitious as the White people currently holding those positions. But what meritocracies don’t often consider is that majority racial groups have had advantages over other PEERs (Persons Excluded due to Ethnicity or Race) for generations. 
+													<h2 class="top_h2"><b><span>“</span>We can’t find Black talent or suppliers.”</b> </h2>
+													<p><b>An underlying assumption</b> is that an organization can maintain the status quo and new Black talent and suppliers will come to them. But attracting “hard-to-find” segments requires pursuing them outside of existing networks and offering a differentiated and appealing value proposition. 
+
 													</p>
-													<p><b>Rejecting the notion of an unbiased meritocracy would enable organizations to tap into talent that has previously gone unnoticed or unconsidered.
+													<p><b>Shifting this belief pushes the organization to define an employer or supplier value proposition that is specific, compelling—and consistently evaluated for efficacy. Additionally, it increases organizational willingness to take new and creative approaches to sourcing—and, once talent and/or suppliers are engaged, provide infrastructure that mitigates systemic challenges within the organization. 
 													</b></p>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="horizontal-scroll-section__content-section scroll_wrapper2">
-										<div class="content_wrapper2">
+										<div class="content_wrapper2 custom_scroll_8">
 											<div class="row">
 												<div class="col-lg-12">
-													<h2 class="top_h2"><b><span>“</span>We don’t have a racism problem here.”</b> </h2>
-													<p><b>The underlying assumption</b> that an organization with well-intentioned or well-informed leaders is unaffected by society at large may be willfully ignorant at best and deceitful at worst. Most organizations reflect the society in which they operate—and racism exists, individually and systematically, within our society. Workers do not leave society behind when they show up for work. “Society” is in the office, right alongside them. 
+													<h2 class="top_h2"><b><span>“</span>We measure individual performance on objective metrics.”</b> </h2>
+													<p><b>The underlying assumption</b> is that all workers show up at every given opportunity equally supported and that metrics are applied objectively. Neither are true.8 When organizations look solely at output metrics, they’re simply measuring the outcome of potentially disparate inputs. 
+
 													</p>
-													<p><b>Shifting this belief makes room to consider how organizational systems perpetuate societal biases, and to take action to acknowledge and address those biases to advance equity within and through the organization’s actions.
+													<p><b>Shifting this belief would entail rooting out the causes of inequality in all processes and at each decision point and providing the resources, tools, and support both leaders and workers need to recognize and eliminate existing inequities. In the meantime, any comparative metrics should normalize data for systemic disparities. 
 													</b></p>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="horizontal-scroll-section__content-section scroll_wrapper1">
-										<div class="content_wrapper1">
+										<div class="content_wrapper1 custom_scroll_9">
 											<div class="row">
 												<div class="col-lg-12">
-													<h2 class="top_h2"><b><span>“</span>We are an unbiased meritocracy.”</b> </h2>
-													<p><b>An underlying assumption</b> in a society in which Black people are systematically underrepresented in positions of power or authority may be that Black people are not as capable or ambitious as the White people currently holding those positions. But what meritocracies don’t often consider is that majority racial groups have had advantages over other PEERs (Persons Excluded due to Ethnicity or Race) for generations. 
+													<h2 class="top_h2"><b><span>“</span>Equity is important, but we have a lot of demands for our attention and resources, and we need to focus on our business.” </b> </h2>
+													<p><b>An underlying assumption</b> is that “the business” is separate from and not affected by inequity in every facet of that business, or that driving equity and growing or sustaining the business are mutually exclusive. It ignores the many strong connections between “the business” and the changing context within which that business operates and that the long-term success of any business depends on its ability to adapt successfully to new and evolving environments. 
+
 													</p>
-													<p><b>Rejecting the notion of an unbiased meritocracy would enable organizations to tap into talent that has previously gone unnoticed or unconsidered.
+													<p><b>Shifting this belief can enable organizations to identify, plan for, and address the short- and long-term impacts of inequity in all their spheres of influence and incorporate equitable practices to support the health and sustainability of the business.
 													</b></p>
 												</div>
 											</div>
@@ -1046,7 +889,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="group-71">
+	<section class="group-71" id="actions">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -1059,11 +902,6 @@
 			</div>	
 			<div class="row">
 				<div class="col-lg-12">
-					<!-- <div class="group_wrapper_2">
-						<div class="bar_711">
-							<h2>Organizational culture</h2>
-						</div>
-					</div> -->
 					<div class="left_extra">
 						<h2 class="left_extra_one">Spheres of influence</h2>
 						<h2 class="left_extra_two">Activators</h2>
@@ -1078,7 +916,7 @@
 									</div>
 									<div class="bar_text_wrapper bar_text_wrapper_late1">
 										<div class="bar_h3">
-											<h3>Talent access</h3>
+											<h3>Access</h3>
 										</div>
 										<li>Plan and forecast</li>
 										<li>Define and architect roles and jobs</li>
@@ -1087,7 +925,7 @@
 									</div>
 									<div class="bar_text_wrapper bar_text_wrapper_late1">
 										<div class="bar_h3">
-											<h3>Workforce experience</h3>
+											<h3>Enablement</h3>
 										</div>
 										<li>Develop skills and capabilities</li>
 										<li>Communicate internally</li>
@@ -1096,7 +934,7 @@
 									</div>
 									<div class="bar_text_wrapper bar_text_wrapper_late1">
 										<div class="bar_h3">
-											<h3>Talent advancement</h3>
+											<h3>Advancement</h3>
 										</div>
 										<li class="talent_highlight bar_li_highlight">Champion career paths and advancement</li>
 										<li>Manage succession</li>
@@ -1116,7 +954,7 @@
 										<div class="bar_h3">
 											<h3>Products and services</h3>
 										</div>
-										<li class="marketplace_highlight bar_li_highlight">Innovate and evolve products and services</li>
+										<li class="talent_highlight bar_li_highlight">Innovate and evolve products and services</li>
 										<li>Curate customer experience</li>
 									</div>
 									<div class="bar_text_wrapper bar_text_wrapper_late2">
@@ -1173,7 +1011,10 @@
 							
 						</div>
 					</div>
-					<div class="group_wrapper_2">
+					<div class="group_wrapper_2" style="position: relative;"> 
+						<div class="left_extra_2">
+							<h2 class="left_extra_one_2">Enablers</h2>
+						</div>
 						<div class="li_wrapper_bottom">
 							<li>Leadership</li>
 							<li>Governance</li>
@@ -1182,7 +1023,7 @@
 							<li>Data and analytics</li>
 							<li>Infrastructure</li>
 							<li>Workplace</li>
-							<li>Technology</li>
+							<li style="margin-right: 0px;">Technology</li>
 						</div>
 					</div>
 					<div class="group_wrapper_2">
@@ -1222,11 +1063,9 @@
 						<h1 class="nd_h1">Each of these six actions include</h1>
 						<ul class="nd_p">
 							<li><b>A definition</b> </li>
-							
 							<li>
 								<strong>Common pitfalls:</strong> self-imposed limitations that may get in the way of effective action
 							</li>
-
 							<li>
 								<strong>Two types of actions organizations can take: 								</strong> 
 								<ul class="sub_ul">
@@ -1239,7 +1078,7 @@
 								<strong>An equitable outcome:</strong> “What success looks like” when equity is activated in this area
 							</li>
 							<li>
-								<strong>“Bright spots”:</strong>  Examples of organizations thinking creatively, making commitments, and taking courageous action to drive equity 
+								<strong>Bright spots</strong>  Examples of organizations thinking creatively, making commitments, and taking courageous action to drive equity 
 							</li>
 							
 						</ul>
@@ -1247,7 +1086,7 @@
 					<div class="group_wrapper_2">
 						<hr>
 						<div class="big_bar">
-							<h2>Workforce | access | <b>Source and select</b> </h2>
+							<h2>Workforce | Access | <b>Source and select</b> </h2>
 						</div>
 					</div>
 					<div class="group_wrapper fat_bar_wrapper">
@@ -1274,7 +1113,7 @@
 						<p class="fat_bar_middle margin_bottom_25">
 						<b class="b_eightneen"><span>Baseline actions</span></b>
 						</p>
-						<p class="fat_bar_middle">
+						<p class="fat_bar_middle margin_bottom_25">
 						<b>Invest in a robust and early pipeline</b> <br>Acknowledge the depth and breadth of the sourcing pipeline, and proactively invest in skill, curriculum, and career path development across a variety of sources that provide a racially and ethnically diverse talent pool (e.g., schools, associations, after-school programs, mentoring programs, early identification programs, and skills development programs). Invest in curriculum changes at local middle schools, high schools, and universities to develop the skills and traits that the organization is sourcing. Additionally, invest in apprenticeship programs to help students better understand different career paths, develop tangible skills, and access paid opportunities.
 						</p>
 						<p class="fat_bar_middle margin_bottom_50">
@@ -1284,23 +1123,24 @@
 						<b class="b_eightneen"><span>Courageous actions</span></b>
 						</p>
 						<p class="fat_bar_middle margin_bottom_50">
-						Disrupt traditional sourcing orthodoxies and develop skillsets in the market: Create sources of talent rather than selecting exclusively from traditional, existing ones. Develop and administer open courses to provide potential candidates the skills the job requires today (and the skills that the job will require as work continues to evolve) and skip the resume/interview process once the course is successfully completed. Look to unconventional sources for entry level candidates; turn to professional associations and “diversity” recruitment specialists to fill mid-career, professional roles.
+						<b>Disrupt traditional sourcing orthodoxies and develop skillsets in the market</b>
+						<br>
+							Create sources of talent rather than selecting exclusively from traditional, existing ones. Develop and administer open courses to provide potential candidates the skills the job requires today (and the skills that the job will require as work continues to evolve) and skip the resume/interview process once the course is successfully completed. Look to unconventional sources for entry level candidates; turn to professional associations and “diversity” recruitment specialists to fill mid-career, professional roles.
 						</p>
 						<p class="fat_bar_middle">
 						<span><b class="b_eightneen">Equitable outcome:</b> There is racial diversity at all steps of the hiring process—candidates considered, interviews conducted, offers extended—for all roles, at all levels.  </span>  
 						</p>
 						<div class="fat_bar_2">
 							<div class="fat_bar_2_inner">
-								<h3>Bright spots:</h3>
+								<h3>Bright spots</h3>
 								<p><b>Salesforce:</b> Launched the Pathfinder Training Program in collaboration with Deloitte to equip participants with highly sought-after skills and create and provide access to pathways to technical careers in the Salesforce ecosystem across industries and sectors.<sup>9</sup> </p>
 								<p><b>Apple:</b> Working with Southern Company to launch the Propel Center—a first-of-its-kind hub for the HBCU community—designed to support the next generation of diverse leaders, providing innovative curricula, technology support, internship and career opportunities, and fellowship programs across a range of educational tracks, including AI, machine learning, social justice, entertainment arts, and augmented reality.<sup>10</sup> </p>
 							</div>
 						</div>
 					</div>
-					<!--  -->
 					<div class="group_wrapper_2">
 						<div class="big_bar">
-							<h2>Workforce | access | <b>Champion career paths and advancement </b> </h2>
+							<h2>Workforce | Advancement | <b>Champion career paths and advancement </b> </h2>
 						</div>
 					</div>
 					<div class="group_wrapper fat_bar_wrapper">
@@ -1312,24 +1152,16 @@
 						<b class="b_eightneen">Pitfalls</b>
 						</p>
 						<ul class="meant_for_zero margin_bottom_50">
-							<li class="fat_bar_middle">Holding Black individuals and other PEERs to different standards than their White colleagues, even unconsciously.
-							</li>
-							<li class="fat_bar_middle">Requiring demonstration or proof of ability inconsistently across identity groups (e.g., Black professionals have historically been advanced, or held back, based on their proven skills or ability, while their White colleagues are advanced based on potential11).
-
-							</li>
-							<li class="fat_bar_middle">Expecting preparedness from workers without helping them obtain the knowledge, skills, capabilities, and experiences needed to thrive in future roles.
-							</li>
-							<li class="fat_bar_middle">Mentoring or sponsoring everyone in the same way with no consideration for unique strengths, challenges, or needs (i.e., Golden Rule: treat others how you want to be treated versus Platinum Rule: treat others how they want to be treated).
-
-							</li>
-							<li class="fat_bar_middle">Not providing broad access to sponsorship and instead only offering it to “top performers” which may simply reinforce inequity.
-
-							</li>
+							<li class="fat_bar_middle">Holding Black individuals and other PEERs to different standards than their White colleagues, even unconsciously.</li>
+							<li class="fat_bar_middle">Requiring demonstration or proof of ability inconsistently across identity groups (e.g., Black professionals have historically been advanced, or held back, based on their proven skills or ability, while their White colleagues are advanced based on potential11).</li>
+							<li class="fat_bar_middle">Expecting preparedness from workers without helping them obtain the knowledge, skills, capabilities, and experiences needed to thrive in future roles.</li>
+							<li class="fat_bar_middle">Mentoring or sponsoring everyone in the same way with no consideration for unique strengths, challenges, or needs (i.e., Golden Rule: treat others how you want to be treated versus Platinum Rule: treat others how they want to be treated).</li>
+							<li class="fat_bar_middle">Not providing broad access to sponsorship and instead only offering it to “top performers” which may simply reinforce inequity.</li>
 						</ul>
 						<p class="fat_bar_middle margin_bottom_25">
 						<b class="b_eightneen"><span>Baseline actions</span></b>
 						</p>
-						<p class="fat_bar_middle">
+						<p class="fat_bar_middle margin_bottom_25">
 						<b>Use succession as a development process</b> <br>Proactively identify candidates early for advancement opportunities, and actively provide them access to the skills, experiences, and roles on visible, important, and complex projects required to develop and advance. This approach looks ahead at the positions for which an individual shows potential and creates the opportunities for growth required to meet the advancement criteria. Focus on development across critical talent pools based on business needs. Provide all workers, especially Black individuals and other PEERs, early access to sponsors.
 
 						</p>
@@ -1351,56 +1183,41 @@
 							  <div class="panel-heading">
 							  <h4 class="panel-title">
 								<a class="collapsed" href="#panelBodyOne" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">Sponsorships <div class="icon_wrapper"><i class="fas fa-plus"></i> </div></a>
-								
 								</h4>
 							  </div>
 							  <div id="panelBodyOne" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-							  <div class="panel-body">
-								<div class="group_wrapper">
-									<p>
-										Sponsorship is a commitment to advocate and create advancement opportunities for individuals. It is about providing the critical work experiences, exposure to other influential leaders, and advocacy that will accelerate a protégé’s career. 
-
-									</p>
-									<p><b>Effective sponsors
-									</b></p>
-									<ul>
-										<li>Advocate for their protégé in many settings, from group meetings to 1:1 private conversation.
-										</li>
-										<li>Use organizational knowledge and experience to help their protégé identify and capitalize on critical opportunities and experiences that will support their career progression.
-										</li>
-										<li> Create opportunities for their protégé to expand their professional network and visibility across the organization and with clients and customers, including introducing them to influential leaders and decision-makers.
-										</li>
-										<li> Help their protégé overcome challenges—both perceived and actual—by offering encouragement, support, and advice.
-										</li>
-									</ul>
-									<p>Effective sponsorship drives results
-									</p>
-									<ul>
-										<li>PEER protégés are 60% less likely to plan to leave their job within a year.<sup>12</sup>
-										</li>
-										<li>Sponsored PEER protégés are 65% more likely than their unsponsored counterparts to be satisfied with their rate of advancement.<sup>13</sup>
-										</li>
-									</ul>
-								</div>
+								<div class="panel-body">
+									<div class="group_wrapper">
+										<p>Sponsorship is a commitment to advocate and create advancement opportunities for individuals. It is about providing the critical work experiences, exposure to other influential leaders, and advocacy that will accelerate a protégé’s career. </p>
+										<p><b>Effective sponsors</b></p>
+										<ul>
+											<li>Advocate for their protégé in many settings, from group meetings to 1:1 private conversation.</li>
+											<li>Use organizational knowledge and experience to help their protégé identify and capitalize on critical opportunities and experiences that will support their career progression.</li>
+											<li> Create opportunities for their protégé to expand their professional network and visibility across the organization and with clients and customers, including introducing them to influential leaders and decision-makers.</li>
+											<li> Help their protégé overcome challenges—both perceived and actual—by offering encouragement, support, and advice.</li>
+										</ul>
+										<p><b>Effective sponsorship drives results</b>
+										</p>
+										<ul>
+											<li>PEER protégés are 60% less likely to plan to leave their job within a year.<sup>12</sup></li>
+											<li>Sponsored PEER protégés are 65% more likely than their unsponsored counterparts to be satisfied with their rate of advancement.<sup>13</sup></li>
+										</ul>
+									</div>
 								</div>
 							  </div>
 							</div>
-							
-							 
 						  </div>
 						<div class="fat_bar_2">
 							<div class="fat_bar_2_inner">
-								<h3>Bright spots:</h3>
+								<h3>Bright spots</h3>
 								<p><b>Microsoft:</b> Microsoft committed to evaluating each corporate vice president (CVP) and general manager’s progress on diversity and inclusion when determining their rewards and promotions and to providing CVPs with dedicated D&I coaches.<sup>14</sup> </p>
 								<p><b>Eli Lilly:</b> The pharmaceutical company launched “reverse mentoring” for senior leaders. Workers mentor leaders to help upper management better understand issues of equity, in particular when it comes to the LGBTQ+ community.<sup>15</sup> </p>
 							</div>
 						</div>
 					</div>
-					<!--  -->
-					<!--  -->
 					<div class="group_wrapper_2">
 						<div class="big_bar">
-							<h2>Workforce | access | <b>Innovate and evolve products and services </b> </h2>
+							<h2>Marketplace | Products and services | <b>Innovate and evolve products and services </b> </h2>
 						</div>
 					</div>
 					<div class="group_wrapper fat_bar_wrapper">
@@ -1412,179 +1229,45 @@
 						<b class="b_eightneen">Pitfalls</b>
 						</p>
 						<ul class="meant_for_zero margin_bottom_50">
-							<li class="fat_bar_middle">Not considering all users, customers, or consumers of the product or service during development.
-							</li>
-							<li class="fat_bar_middle">Not testing for ways a product or service can perpetuate oppression and racism (e.g., not considering how facial recognition technologies make many more mistakes when used on people with darker skin tones<sup>16</sup>). 
-
-							</li>
-							<li class="fat_bar_middle">Including only a homogenous group of voices in the development cycle (e.g., underrepresentation of PEER perspectives in clinical trials).
-
-							</li>
-							<li class="fat_bar_middle"> Leaving equity and inclusion as a “gut check” at the end of development, rather than making it a key input to the product and service development process.
-
-							</li>
+							<li class="fat_bar_middle">Not considering all users, customers, or consumers of the product or service during development.</li>
+							<li class="fat_bar_middle">Not testing for ways a product or service can perpetuate oppression and racism (e.g., not considering how facial recognition technologies make many more mistakes when used on people with darker skin tones<sup>16</sup>).</li>
+							<li class="fat_bar_middle">Including only a homogenous group of voices in the development cycle (e.g., underrepresentation of PEER perspectives in clinical trials).</li>
+							<li class="fat_bar_middle"> Leaving equity and inclusion as a “gut check” at the end of development, rather than making it a key input to the product and service development process.</li>
 						</ul>
-						<p class="fat_bar_middle margin_bottom_25 second_color">
-						<b class="b_eightneen"><span>Baseline actions</span></b>
-						</p>
-						<p class="fat_bar_middle">
-						<b>Include diverse customer perspectives in development process
-						</b> <br>Include representative samples of customers with different strengths, weaknesses, needs, and preferences across the development cycle (e.g., requirements gathering, design, testing) to ensure product or service is not biased, oppressive, or adversely affecting any demographic.
-
+						<p class="fat_bar_middle margin_bottom_25 second_color"><b class="b_eightneen"><span>Baseline actions</span></b></p>
+						<p class="fat_bar_middle margin_bottom_25">
+							<b>Include diverse customer perspectives in development process
+							</b> <br>Include representative samples of customers with different strengths, weaknesses, needs, and preferences across the development cycle (e.g., requirements gathering, design, testing) to ensure product or service is not biased, oppressive, or adversely affecting any demographic.
 						</p>
 						<p class="fat_bar_middle margin_bottom_50">
-						<b>Establish a representative development process
-						</b><br>Create diverse product and service development teams, processes, and infrastructure. By listening to a diverse collection of voices—at every stage of the development cycle—leaders can better ensure varied points of view and lived experiences are considered and accounted for.
+							<b>Establish a representative development process</b>
+							<br>Create diverse product and service development teams, processes, and infrastructure. By listening to a diverse collection of voices—at every stage of the development cycle—leaders can better ensure varied points of view and lived experiences are considered and accounted for.
 						</p>
 						<p class="fat_bar_middle margin_bottom_25 second_color">
-						<b class="b_eightneen"><span>Courageous actions</span></b>
+							<b class="b_eightneen"><span>Courageous actions</span></b>
 						</p>
-						<p class="fat_bar_middle">
-							<b>Design for anti-oppression
-							</b> <br>
+						<p class="fat_bar_middle margin_bottom_25">
+							<b>Design for anti-oppression</b> <br>
 							Intentionally design products or services to work against oppression, beyond just removing biases. For example, a telephone operating system may include preprogrammed shortcuts to provide users access to support services. 
 						</p>
 						<p class="margin_bottom_50">
-						<b>Design for underserved populations
-
-							</b> <br>
+							<b>Design for underserved populations</b> <br>
 							Expand customer segments to actively develop products or services that serve underserved populations. For instance, a financial services organization might develop specific products or services for the underbanked population, addressing and pulling down historical barriers. 
 						</p>
 						<p class="fat_bar_middle second_color">
-						<span><b class="b_eightneen">Equitable outcome:</b> Product or service meets the needs of every individual in the organization’s identified customer segments. There are no oppressive, predatory, or otherwise adverse impacts on customer segments or individual customers due to the organization’s product or service.
-						</span>  
+							<span><b class="b_eightneen">Equitable outcome:</b> Product or service meets the needs of every individual in the organization’s identified customer segments. There are no oppressive, predatory, or otherwise adverse impacts on customer segments or individual customers due to the organization’s product or service.</span>  
 						</p>
 						<div class="fat_bar_2 second_color">
 							<div class="fat_bar_2_inner">
-								<h3>Bright spots:</h3>
+								<h3>Bright spots</h3>
 								<p><b>Citi:</b> Committed to expand the US Consumer Bank’s community lending team and its network of correspondent lenders, increasing access to Citi’s mortgage products and services among minority borrowers in low- and moderate-income neighborhoods.<sup>17</sup> </p>
 								<p><b>Slack:</b> Developed a bias correct plugin that helps users identify gender bias by flagging messages and suggesting debiased alternatives.<sup>18</sup> </p>
 							</div>
 						</div>
 					</div>
-					<!--  -->
-					<!--  -->
 					<div class="group_wrapper_2">
 						<div class="big_bar">
-							<h2>Workforce | access | <b>Set and influence rules and standards  </b> </h2>
-						</div>
-					</div>
-					<div class="group_wrapper fat_bar_wrapper">
-						<div class="fat_bar third_color">
-							<h3>Definition</h3>
-							<p>The ways in which an organization leverages its platform, power, and relationships to define or redesign industry, sector, or other collectively enforced rules and standards.</p>
-						</div>
-						<p class="fat_bar_middle">
-						<b class="b_eightneen">Pitfalls</b>
-						</p>
-						<ul class="meant_for_zero margin_bottom_50">
-							<li class="fat_bar_middle"> Assuming the only “rules” that need to change are those set by the government and not the private sector.
-							</li>
-							<li class="fat_bar_middle">Assuming that existing business or industry rules and standards are set in stone or would be too much trouble to change.
-							</li>
-							<li class="fat_bar_middle">Assuming any one organization does not have enough power or influence to change the rules or standards.
-							</li>
-							<li class="fat_bar_middle">Accepting that “that’s just the way it is” or “that’s just the way things have always been done,” or conflating tradition with the best option for the future.
-							</li>
-						</ul>
-						<p class="fat_bar_middle margin_bottom_25 third_color">
-						<b class="b_eightneen"><span>Baseline actions</span></b>
-						</p>
-						<p class="fat_bar_middle">
-						<b>Assess the rules and standards
-						</b> <br>Join a coalition of other organizations within the same industry or sector to review the rules and standards within their influence or control that may disparately affect Black individuals and other PEERs.
-
-					</p>
-						<p class="fat_bar_middle margin_bottom_25 third_color">
-						<b class="b_eightneen"><span>Courageous actions</span></b>
-						</p>
-						<p class="fat_bar_middle">
-							<b>Establish new rules</b> <br>
-							Create or elevate third-party organizations, agencies, or measurement tactics to define and uphold widely accepted standards. 
-
-						</p>
-						<p class="margin_bottom_50">
-						<b>Redefine sector and industry standards
-						</b> <br>
-						Collaborate with other organizations to redefine sector or industry standards that dictate how organizations operate. For instance, consider the Business Roundtable’s 2019 statement redefining the purpose of a corporation from shareholder primacy (from Friedman’s “the social responsibility of business is to increase its profits”) to a commitment to all stakeholders—including customers, employees, suppliers, communities, and shareholders.<sup>23</sup>						</p>
-						<p class="fat_bar_middle third_color">
-						<span><b class="b_eightneen">Equitable outcome:</b> Organization- and industry-wide systems, rules, and standards confront systemic barriers and oppressions with no disparate impact on Black individuals or other PEERs.
-						</span>  
-						</p>
-						<div class="fat_bar_2 second_color">
-							<div class="fat_bar_2_inner">
-								<h3>Bright spots:</h3>
-								<p><b>Oscars®:</b> The Academy of Motion Picture Arts and Sciences announced significant requirements to meet eligibility for Best Picture, such as having at least one individual of an underrepresented race or ethnicity as a lead or significant supporting actor, and casting women, LGBTQ+ individuals, PEERs, and people with cognitive or physical disabilities or who are deaf or hard of hearing in at least 30% of secondary or other minor roles.<sup>24</sup> </p>
-								<p><b>PhRMA*:</b> Its member companies “launched the first ever industry-wide principles on clinical trial diversity.” Though voluntary, these principles raise the standard across research pharmaceutical and biotechnology companies.<sup>25</sup> </p>
-								<p><b>World Economic Forum:</b> The International Business Council (IBC), in collaboration with Deloitte and other professional service organizations, announced a new set of reporting metrics on ESG performance with the objective that “IBC companies … begin reporting collectively … in an effort to encourage greater cooperation and alignment among existing standards as well as to catalyze progress towards a systemic solution, such as a generally accepted international accounting standard.<sup>26</sup> </p>
-								<p><i>*Pharmaceutical Research and Manufacturers of America</i></p>
-							</div>
-						</div>
-					</div>
-					<!--  -->
-					<!--  -->
-					<div class="group_wrapper_2">
-						<div class="big_bar">
-							<h2>Workforce | access | <b>Advocate for and drive political and social change </b> </h2>
-						</div>
-					</div>
-					<div class="group_wrapper fat_bar_wrapper">
-						<div class="fat_bar third_color">
-							<h3>Definition</h3>
-							<p>How an organization leverages its voice, power, platform, and infrastructure to support or advance a cause, public policy, or a model for government support and establish more equitable grounds on which every organization must operate.</p>
-						</div>
-						<p class="fat_bar_middle">
-						<b class="b_eightneen">Pitfalls</b>
-						</p>
-						<ul class="meant_for_zero margin_bottom_50">
-							<li class="fat_bar_middle">Believing topics of race are not the place of business to speak out, step up, or stand out. 
-
-							</li>
-							<li class="fat_bar_middle">Keeping silent out of fear of saying the “wrong” thing when public or social controversies go against the organization’s values. 
-							</li>
-							<li class="fat_bar_middle">Writing statements on racial equity with limited depth, undefined action, or no specific commitment.
-
-							</li>
-							<li class="fat_bar_middle">Sharing inauthentic messages that do not align with the organization’s demonstrated values, beliefs, and behaviors (e.g., words and actions are misaligned; leaders and organizational values are misaligned).
-							</li>
-						</ul>
-						<p class="fat_bar_middle margin_bottom_25 third_color">
-						<b class="b_eightneen"><span>Baseline actions</span></b>
-						</p>
-						<p class="fat_bar_middle">
-						<b>Speak out						</b> <br>Leverage organizational platform and power to speak out against issues that do not align with company values.
-
-
-					</p>
-					<p class="fat_bar_middle">
-						<b>Elevate issues in industry groups</b> <br>Within industry coalitions, companies should use their organizational voice to elevate public or social issues that need to be addressed.</p>
-						<p class="fat_bar_middle margin_bottom_25 third_color">
-						<b class="b_eightneen"><span>Courageous actions</span></b>
-						</p>
-						<p class="fat_bar_middle">
-							<b>Organize for change							</b> <br>
-							Use organizational power and platform to inform, influence, and advocate for changes that align with company values.
-						</p>
-						<p class="margin_bottom_50">
-						<b>Pave the path for policy						</b> <br>
-						Incubate or launch equity projects and solutions that are beneficial and demonstrate an adaptable model that government officials and policymakers could replicate across communities and sectors.						</p>
-						<p class="fat_bar_middle third_color">
-						<span><b class="b_eightneen">Equitable outcome:</b> There are anti-racist, systemic policies and/or programs that confront systemic barriers and oppression
-						</span>  
-						</p>
-						<div class="fat_bar_2 second_color">
-							<div class="fat_bar_2_inner">
-								<h3>Bright spots:</h3>
-								<p><b>Qualcomm:</b> The company launched Wireless Reach in collaboration with nongovernmental organizations, universities and government institutions, nonprofits, development agencies, and other private sector companies to provide advanced wireless technologies to underserved communities globally, enabling services such as education, health care, and public safety.<sup>27</sup></p>
-							</div>
-						</div>
-					</div>
-					<!--  -->
-					<!--  -->
-
-					<div class="group_wrapper_2">
-						<div class="big_bar">
-							<h2>Workforce | access | <b>Select and engage suppliers </b> </h2>
+							<h2>Marketplace | Supply chain | <b>Select and engage suppliers </b> </h2>
 						</div>
 					</div>
 					<div class="group_wrapper fat_bar_wrapper">
@@ -1596,116 +1279,182 @@
 						<b class="b_eightneen">Pitfalls</b>
 						</p>
 						<ul class="meant_for_zero margin_bottom_50">
-							<li class="fat_bar_middle">Narrowly defining who is a supplier rather than considering all the ways the organization spends money on the necessary inputs that allow it to run.
-
-							</li>
-							<li class="fat_bar_middle">Limiting efforts to only diversifying spend on minority-owned businesses rather than further developing, investing in, or connecting minority entrepreneurs.
-
-							</li>
-							<li class="fat_bar_middle"> Believing that there is an economic or quality penalty for diversity.
-
-
-							</li>
-							<li class="fat_bar_middle"> Believing that it is unfair or inappropriate to consider DEI-related criteria as part of procurement and contracting.
-
-							</li>
+							<li class="fat_bar_middle">Narrowly defining who is a supplier rather than considering all the ways the organization spends money on the necessary inputs that allow it to run.</li>
+							<li class="fat_bar_middle">Limiting efforts to only diversifying spend on minority-owned businesses rather than further developing, investing in, or connecting minority entrepreneurs.</li>
+							<li class="fat_bar_middle"> Believing that there is an economic or quality penalty for diversity.</li>
+							<li class="fat_bar_middle"> Believing that it is unfair or inappropriate to consider DEI-related criteria as part of procurement and contracting.</li>
 						</ul>
 						<p class="fat_bar_middle margin_bottom_25 second_color">
-						<b class="b_eightneen"><span>Baseline actions</span></b>
+							<b class="b_eightneen"><span>Baseline actions</span></b>
 						</p>
-						<p class="fat_bar_middle">
-						<b>Increase spend on minority-owned businesses
-						</b> <br>Increase purchase of raw materials, goods, and services from minority-owned businesses. Actively set targets by business unit. This includes expanding the conventional understanding of an organization’s suppliers to include providers of a wider range of services beyond materials and components, such as insurance policies, 401(k) or other retirement plans, legal advice, or technology required to perform the job.
-
-
+						<p class="fat_bar_middle margin_bottom_25">
+							<b>Increase spend on minority-owned businesses</b> <br>
+							Increase purchase of raw materials, goods, and services from minority-owned businesses. Actively set targets by business unit. This includes expanding the conventional understanding of an organization’s suppliers to include providers of a wider range of services beyond materials and components, such as insurance policies, 401(k) or other retirement plans, legal advice, or technology required to perform the job.
 						</p>
 						<p class="fat_bar_middle margin_bottom_50">
-						<b>Define DEI criteria for engagement</b><br>Include DEI criteria in procurement and contracting. Require that both minority-owned and non-minority-owned businesses meet specific diversity and/or inclusion criteria inside their own organizations, such as representation metrics, programs, or external communication. Criteria can be documented throughout contracting processes and ongoing relationships. 
+							<b>Define DEI criteria for engagement</b><br>Include DEI criteria in procurement and contracting. Require that both minority-owned and non-minority-owned businesses meet specific diversity and/or inclusion criteria inside their own organizations, such as representation metrics, programs, or external communication. Criteria can be documented throughout contracting processes and ongoing relationships. 
 						</p>
 						<p class="fat_bar_middle margin_bottom_25 second_color">
-						<b class="b_eightneen"><span>Courageous actions</span> </b>
+							<b class="b_eightneen"><span>Courageous actions</span> </b>
 						</p>
 						<p class="fat_bar_middle margin_bottom_50">
-							<b>Develop and support suppliers
-							</b> <br>
+							<b>Develop and support suppliers</b> <br>
 							Actively invest time, money, and resources into developing diverse suppliers. Provide infrastructure, industry and function expertise, and training and capability development to established suppliers; create shadowing programs, self-auditing processes (e.g., benchmark against other suppliers), and tools and templates (e.g., planning, quality, analytics dashboards) for developing suppliers; commit investment dollars, networking opportunities with business unit leadership, and other access to capital for growing entrepreneurs. 
-
 						</p>
 						<p class="fat_bar_middle second_color">
-						<span><b class="b_eightneen">Equitable outcome:</b> Organizational assets and spending directly support diverse businesses and entrepreneurs, building wealth and integrating Black- and other PEER-owned enterprises more fully into the American business landscape. An organization’s suppliers are racially and ethnically diverse and foster equitable environments.
-
-						</span>  
+							<span><b class="b_eightneen">Equitable outcome:</b> Organizational assets and spending directly support diverse businesses and entrepreneurs, building wealth and integrating Black- and other PEER-owned enterprises more fully into the American business landscape. An organization’s suppliers are racially and ethnically diverse and foster equitable environments.</span>  
 						</p>
-						<div class="fat_bar_2 second_color" style="margin-bottom: 0;">
+						<div class="fat_bar_2 second_color" style="margin-bottom: 0; height: 356px;">
 							<div class="fat_bar_2_inner">
-								<h3>Bright spots:</h3>
+								<h3>Bright spots</h3>
 								<p><b>Yale University:</b> David Swensen, chief of Yale’s $31.2B endowment, established new criteria for the dozens of firms that manage the endowment, requiring and measuring their progress in increasing the diversity of their investment staff<sup>19</sup> </p>
 								<p><b>General Motors:</b> GM provides training through its 5 Point Supplier curriculum, covering GM process, talent acquisition, operational excellence, financial acumen, and Tier II inclusion.<sup>20</sup> Additionally, GM annually recognizes suppliers for increasing and improving inclusion within their own supply chains.<sup>21</sup> </p>
 								<p><b>Coca-Cola:</b> In partnership with Georgia State University and the University of Georgia, Coca-Cola launched a supplier-development institute to provide educational support to small and disadvantaged groups.<sup>22</sup> </p>
 							</div>
 						</div>
 					</div>
-					<!--  -->
-					<!--  -->
-					<div class="group_wrapper">
-						<h1 class="margin_top_70 margin_bottom_50">A racial equity transformation: <br>
-							Our call to action </h1>
+					<div class="group_wrapper_2">
+						<div class="big_bar">
+							<h2>Society | Standards and policy | <b>Set and influence rules and standards </b> </h2>
+						</div>
+					</div>
+					<div class="group_wrapper fat_bar_wrapper">
+						<div class="fat_bar third_color">
+							<h3>Definition</h3>
+							<p>The ways in which an organization leverages its platform, power, and relationships to define or redesign industry, sector, or other collectively enforced rules and standards.</p>
+						</div>
+						<p class="fat_bar_middle">
+							<b class="b_eightneen">Pitfalls</b>
+						</p>
+						<ul class="meant_for_zero margin_bottom_50">
+							<li class="fat_bar_middle"> Assuming the only “rules” that need to change are those set by the government and not the private sector.</li>
+							<li class="fat_bar_middle">Assuming that existing business or industry rules and standards are set in stone or would be too much trouble to change.</li>
+							<li class="fat_bar_middle">Assuming any one organization does not have enough power or influence to change the rules or standards.</li>
+							<li class="fat_bar_middle">Accepting that “that’s just the way it is” or “that’s just the way things have always been done,” or conflating tradition with the best option for the future.</li>
+						</ul>
+						<p class="fat_bar_middle margin_bottom_25 third_color">
+							<b class="b_eightneen"><span>Baseline actions</span></b>
+						</p>
+						<p class="fat_bar_middle">
+							<b>Assess the rules and standards</b> <br>Join a coalition of other organizations within the same industry or sector to review the rules and standards within their influence or control that may disparately affect Black individuals and other PEERs.
+						</p>
+						<p class="fat_bar_middle margin_bottom_25 third_color">
+							<b class="b_eightneen"><span>Courageous actions</span></b>
+						</p>
+						<p class="fat_bar_middle margin_bottom_25">
+							<b>Establish new rules</b> <br>
+							Create or elevate third-party organizations, agencies, or measurement tactics to define and uphold widely accepted standards. 
+						</p>
+						<p class="fat_bar_middle margin_bottom_50">
+							<b>Redefine sector and industry standards</b> <br>
+							Collaborate with other organizations to redefine sector or industry standards that dictate how organizations operate. For instance, consider the Business Roundtable’s 2019 statement redefining the purpose of a corporation from shareholder primacy (from Friedman’s “the social responsibility of business is to increase its profits”) to a commitment to all stakeholders—including customers, employees, suppliers, communities, and shareholders.<sup>23</sup></p>
+						<p class="fat_bar_middle third_color">
+							<span><b class="b_eightneen">Equitable outcome:</b> Organization- and industry-wide systems, rules, and standards confront systemic barriers and oppressions with no disparate impact on Black individuals or other PEERs.</span>  
+						</p>
+						<div class="fat_bar_2 second_color third_color">
+							<div class="fat_bar_2_inner">
+								<h3>Bright spots</h3>
+								<p><b>Oscars<sup>®</sup>:</b> The Academy of Motion Picture Arts and Sciences announced significant requirements to meet eligibility for Best Picture, such as having at least one individual of an underrepresented race or ethnicity as a lead or significant supporting actor, and casting women, LGBTQ+ individuals, PEERs, and people with cognitive or physical disabilities or who are deaf or hard of hearing in at least 30% of secondary or other minor roles.<sup>24</sup> </p>
+								<p><b>PhRMA*:</b> Its member companies “launched the first ever industry-wide principles on clinical trial diversity.” Though voluntary, these principles raise the standard across research pharmaceutical and biotechnology companies.<sup>25</sup> </p>
+								<p><b>World Economic Forum:</b> The International Business Council (IBC), in collaboration with Deloitte and other professional service organizations, announced a new set of reporting metrics on ESG performance with the objective that “IBC companies … begin reporting collectively … in an effort to encourage greater cooperation and alignment among existing standards as well as to catalyze progress towards a systemic solution, such as a generally accepted international accounting standard.<sup>26</sup> </p>
+								<p><i>*Pharmaceutical Research and Manufacturers of America</i></p>
+							</div>
+						</div>
+					</div>
+					<div class="group_wrapper_2">
+						<div class="big_bar">
+							<h2>Society | Standards and policy | <b>Advocate for and drive political and social change </b> </h2>
+						</div>
+					</div>
+					<div class="group_wrapper fat_bar_wrapper">
+						<div class="fat_bar third_color">
+							<h3>Definition</h3>
+							<p>How an organization leverages its voice, power, platform, and infrastructure to support or advance a cause, public policy, or a model for government support and establish more equitable grounds on which every organization must operate.</p>
+						</div>
+						<p class="fat_bar_middle">
+							<b class="b_eightneen">Pitfalls</b>
+						</p>
+						<ul class="meant_for_zero margin_bottom_50">
+							<li class="fat_bar_middle">Believing topics of race are not the place of business to speak out, step up, or stand out. </li>
+							<li class="fat_bar_middle">Keeping silent out of fear of saying the “wrong” thing when public or social controversies go against the organization’s values. </li>
+							<li class="fat_bar_middle">Writing statements on racial equity with limited depth, undefined action, or no specific commitment.</li>
+							<li class="fat_bar_middle">Sharing inauthentic messages that do not align with the organization’s demonstrated values, beliefs, and behaviors (e.g., words and actions are misaligned; leaders and organizational values are misaligned).</li>
+						</ul>
+						<p class="fat_bar_middle margin_bottom_25 third_color">
+							<b class="b_eightneen"><span>Baseline actions</span></b>
+						</p>
+						<p class="fat_bar_middle  margin_bottom_25">
+							<b>Speak out</b> <br>Leverage organizational platform and power to speak out against issues that do not align with company values.
+						</p>
+						<p class="fat_bar_middle">
+							<b>Elevate issues in industry groups</b> <br>Within industry coalitions, companies should use their organizational voice to elevate public or social issues that need to be addressed.
+						</p>
+						<p class="fat_bar_middle margin_bottom_25 third_color">
+							<b class="b_eightneen"><span>Courageous actions</span></b>
+						</p>
+						<p class="fat_bar_middle margin_bottom_25">
+							<b>Organize for change</b> <br>
+							Use organizational power and platform to inform, influence, and advocate for changes that align with company values.
+						</p>
+						<p class="fat_bar_middle margin_bottom_50">
+							<b>Pave the path for policy</b> <br>
+							Incubate or launch equity projects and solutions that are beneficial and demonstrate an adaptable model that government officials and policymakers could replicate across communities and sectors.						</p>
+						<p class="fat_bar_middle third_color">
+							<span><b class="b_eightneen">Equitable outcome:</b> There are anti-racist, systemic policies and/or programs that confront systemic barriers and oppression</span>  
+						</p>
+						<div class="fat_bar_2 third_color">
+							<div class="fat_bar_2_inner">
+								<h3>Bright spots</h3>
+								<p><b>Qualcomm:</b> The company launched Wireless Reach in collaboration with nongovernmental organizations, universities and government institutions, nonprofits, development agencies, and other private sector companies to provide advanced wireless technologies to underserved communities globally, enabling services such as education, health care, and public safety.<sup>27</sup></p>
+							</div>
+						</div>
+					</div>
+					<div class="group_wrapper" id="call_to_action">
+						<h1 class="margin_top_70 margin_bottom_50">A racial equity transformation: <br>Our call to action </h1>
 						<p>Organizations hold an immense amount of control and influence to drive racial equity—which means bold, sustainable progress is possible when organizations and their leaders commit to action. Doing so requires changing the way individuals at all levels think and operate—and it requires expanding their notion of responsibility to include drastically improving outcomes for the Black community and other PEERs. 
  
 						</p>
 						<p class="margin_bottom_50"> 
-						<b>Organizations must act now:
-						</b>
+							<b>Organizations must act now:</b>
 						</p>
 						<div class="row">
 							<div class="col-lg-6 col-md-6">
 								<p style="margin-bottom: 30px;"><i>To go from…</i></p>
-								<p>…promoting DEI through isolated initiatives and symbolic commitments
-								</p>
+								<p style="width: 300px;">…promoting DEI through isolated initiatives and symbolic commitments</p>
 							</div>
 							<div class="col-lg-6 col-md-6">
 								<p style="margin-bottom: 30px;"><i>To…</i></p>
-								<p><b>…diversity, equity, and inclusion as an integrated, continuously supported strategy and a measurable, rigorous approach.</b>
-								</p>
+								<p style="width: 300px;"><b>…diversity, equity, and inclusion as an integrated, continuously supported strategy and a measurable, rigorous approach.</b></p>
+							</div>
+						</div>
+						<hr class="very_bottom_hr">
+						<div class="row">
+							<div class="col-lg-6 col-md-6">
+								<p style="width: 300px;">…DEI efforts limited to hiring and talent</p>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<p style="width: 300px;"><b>…diversity, equity, and inclusion driven through the entire culture and value chain of an organization (e.g., talent life cycle, supply chain, product, partnerships).</b></p>
 							</div>
 							
 						</div>
 						<hr class="very_bottom_hr">
 						<div class="row">
 							<div class="col-lg-6 col-md-6">
-								<p><i>…DEI efforts limited to hiring and talent</i></p>
+								<p style="width: 300px;">…a sole focus on driving shareholder returns</p>
 							</div>
 							<div class="col-lg-6 col-md-6">
-								<p><b>…diversity, equity, and inclusion driven through the entire culture and value chain of an organization (e.g., talent life cycle, supply chain, product, partnerships).
-								</b>
-								</p>
+								<p style="width: 300px;"><b>…a holistic focus on driving value for all stakeholders, including customers, employees, shareholders, and society as a whole.</b></p>
 							</div>
 							
 						</div>
-						<hr class="very_bottom_hr">
-						<div class="row">
-							<div class="col-lg-6 col-md-6">
-								<p><i>…a sole focus on driving shareholder returns</i></p>
-							</div>
-							<div class="col-lg-6 col-md-6">
-								<p><b>…a holistic focus on driving value for all stakeholders, including customers, employees, shareholders, and society as a whole.
-								</b>
-								</p>
-							</div>
-							
-						</div>
-						<p class="margin_top_50">Every person—across every sphere of influence, at every organization, in every industry—has both the responsibility and the opportunity to make a meaningful difference in both the short and long term. An equity-obsessed mindset requires thinking beyond a checklist of actions to take and finish. Rather, it takes constant, sustained commitment from leaders and team members, even when it is uncomfortable or unpopular.
-						</p>
-						<p>And it takes all of us—working as a collaborative community—to build on these actions and discover or create new ones. The work is far too large, and the outcome far too urgent, for any one organization to go at it alone. So, we invite you to join us. To commit to taking courageous action, and to doing it now. And to call on others to do the same. Together, we can create the equitable future we wish to see. 
-						</p>
+						<p class="margin_top_50">Every person—across every sphere of influence, at every organization, in every industry—has both the responsibility and the opportunity to make a meaningful difference in both the short and long term. An equity-obsessed mindset requires thinking beyond a checklist of actions to take and finish. Rather, it takes constant, sustained commitment from leaders and team members, even when it is uncomfortable or unpopular.</p>
+						<p>And it takes all of us—working as a collaborative community—to build on these actions and discover or create new ones. The work is far too large, and the outcome far too urgent, for any one organization to go at it alone. So, we invite you to join us. To commit to taking courageous action, and to doing it now. And to call on others to do the same. Together, we can create the equitable future we wish to see. </p>
 						<p style="font-size: 20px;" class="margin_bottom_70"><b>Now, let’s get to work.</b></p>
-
-					
 					</div>
 					<div class="group_wrapper_2">
 						<div class="letter_new">
 							<div class="group_wrapper">
-								<h1>Deloitte’s commitment to racial equity<sup>28</sup></h1>
+								<h1>Deloitte’s commitment to racial equity <sup>28</sup></h1>
 								<p class="letter_top_p"><b>Taking action against systemic bias, racism, and unequal treatment 
 								</b></p>
 								<p>We have a responsibility—as a purpose-driven enterprise focused on diversity, equity, and inclusion—to take a stand and make a difference on important societal issues.
@@ -1730,9 +1479,8 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="text_wrapper">
-								<h1><span>“</span>We need leaders transcending their own short-term interests for 
-									the greater long-term good.”</h1>
-								<p>Steven Olikara, Founder and CEO, Millennial Action Project</p>
+								<h1><span>“</span>Until the rules of the game change, this moment of true transformation will just be lip service.”<sup>30</sup></h1>
+								<p>Dr. Richard Besser, CEO of the Robert Wood Johnson Foundation</p>
 							</div>
 						</div>
 					</div>	
@@ -1741,19 +1489,7 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="text_wrapper">
-								<h1><span>“</span>We need leaders transcending their own short-term interests for 
-									the greater long-term good.”</h1>
-								<p>Steven Olikara, Founder and CEO, Millennial Action Project</p>
-							</div>
-						</div>
-					</div>	
-				</div>
-				<div class="group_wrapper_2">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="text_wrapper">
-								<h1><span>“</span>We need leaders transcending their own short-term interests for 
-									the greater long-term good.”</h1>
+								<h1><span>“</span>We need leaders transcending their own short-term interests for the greater long-term good.”<sup>31</sup> </h1>
 								<p>Steven Olikara, Founder and CEO, Millennial Action Project</p>
 							</div>
 						</div>
@@ -1908,57 +1644,42 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-6">
-						<ul>
-							<li>1. https://news.gallup.com/poll/319388/new-low-progress-black-civil-rights.aspx	</li>
-							<li>2. https://www.edelman.com/research/systemic-racism	</li>
-							<li>3. Interview with John Rice, September 2020	</li>
-							<li>4. Interview with Cathy Engelbert, September 2020	</li>
-							<li>5. Interview with Dr. Freda Lewis-Hall, September 2020	</li>
-							<li>6. Interview with Steven Olikara, September 2020	</li>
-							<li>7. Employer Information Reports (EEO-1 Single and Establishment Reports), Equal Employment Opportunity Commission, 2018	</li>
-							<li>8. There are now just 4 Black CEOs in the Fortune 500 as Tapestry boss resigns, Fortune.com, July 2020, accessed November 2020</li>
-							<li>9. NABJ Statement on Capitalizing Black and Other Racial Identifiers, NABJ, June 2020</li>
-							<li>10. Racial wage gap for men, Payscale, May 2019</li>
-							<li>11. Equal pay for Black Women, National Women’s Law Center, July 2017</li>
-							<li>12. Black workers endure persistent racial disparities in employment outcomes, Economic Policy Institute, August 2019</li>
-							<li>13. It’s About Time: The Transit Time Penalty and Its Racial Implications report, NOC and TAMN and ISAIAH and CPD, May 2015<li>
-							<li>14. Diversity in US Startups report, Diversity VC and RateMyInvestor, accessed November 2020</li>
-							<li>15. Collab, 2020</li>
-							<li>16. More than half of U.S. households have some investment in the stock market, Pew Research, March 2020</li>
-						</ul>
-					</div>
-					<div class="col-lg-6">
-						<ul>
-							<li>17. The impact of Covid-19 on small business owners,
-								NBER, June 2020 </li>
-							<li>18. Diverse Intelligence Series, Nielsen, 2019</li>
-							<li>19. The racial wealth gap, Economic Policy Institute,
-								February 2017 </li>
-							<li>20. Diverse Intelligence Series, Nielsen, 2019		</li>
-							<li>21. The Business Case for Racial Equity, W.K. Kellogg
-								Foundation, 2018 </li>
-							<li>22. The action generation, Business Insider, June 2020</li>
-							<li>23. What millennials and Gen Z think of your brand’s CSR
-								efforts, and what you can do about it, Sourcing Journal,
-								September 2019 </li>
-							<li>24. What job seekers really think about your diversity and
-								inclusion stats, Glassdoor, November 2014</li>
-							<li>25. The Ultimate Guide to Generation Z in the Workplace,
-								InsideOut Development March 2019 </li>
-							<li>26. Investment Stewardship 2020 Annual Report,
-								Vanguard, accessed November 2020 </li>
-							<li>27. Closing the racial inequality gaps, Citi Global
-								Perspectives & Solutions, September 2020 </li>
-							<li>28. Interview with Valerie Jarrett, September 2020 </li>
-							<li>29. Interview with Sally Saba, October 2020 </li>
-							<li>30. Interview with Bahja Johnson, October 2020 </li>
-							<li>31. The rise of the social enterprise, Deloitte Insights, 2018</li>
-							<li>32. Interview with Doug McMillon, October 2020 </li>
-							<li>33. Interview with Shelley Stewart, September 2020 </li>
-							<li>34. Interview with David Clunie, September 2020 </li>
-						</ul>
-					</div>
+					<ol>
+						<div class="col-lg-6">
+							<li><a href="https://news.gallup.com/poll/319388/new-low-progress-black-civil-rights.aspx">Deloitte, Fortune/Deloitte CEO Survey</a>, October 2020 highlights.</li>
+							<li><a href="https://www.edelman.com/research/systemic-racism">Deloitte, Ready, Set, Activate! Catalyze your culture for sustained results</a>, July 2019.</li>
+							<li>Interview with Stephanie Creary, September 2020.</li>
+							<li>Interview with Elliott Robinson, September 2020.</li>
+							<li>Interview with Dr. Freda Lewis-Hall, September 2020</li>
+							<li>The importance of challenging or “flipping” orthodoxies is outlined in Detonate: Why and How Companies Must Blow Up Best Practices by Geoff Tuff and Steve Goldbach <br>(John Wiley & Sons, 2018), which defines an orthodoxy as “a belief or way of thinking that is accepted as true or correct” and “a pervasive belief that goes unstated and unchallenged” (pp. 14–15). </li>
+							<li>Angela Glover Blackwell, “The Curb-Cut Effect,” Stanford Social Innovation Review, 2017.</li>
+							<li>See, for example, Frank Dobbin and Alexandra Kalev, “Why Diversity Programs Fail,“ Harvard Business Review, July–August 2016: “[S]tudies show that raters tend to lowball women and minorities in performance reviews.”</li>
+							<li>Salesforce, “Become a Salesforce Pathfinder,” accessed December 2020.</li>
+							<li>Apple, “Apple launches major new Racial Equity and Justice Initiative projects to challenge systemic racism, advance racial equity nationwide,” January 2021</li>
+							<li>Shelcy V. Joseph, “How to root out bias in performance reviews for good,” Forbes, December 30, 2019.</li>
+							<li>Sylvia Ann Hewlett, “Too many people of color feel uncomfortable at work,” Harvard Business Review, October 18, 2012.</li>
+							<li>Ibid</li>
+							<li>Satya Nadella, “Addressing racial injustice,” Microsoft, June 23, 2020.</li>
+							<li>Eli Lilly and Company, “LGBTQ Employees Reverse-Mentor Lilly Senior Leaders,” January 1, 2020.</li>
+						</div>
+						<div class="col-lg-6">
+							<li>National Institute of Standards and Technology, “NIST Study Evaluates Effects of Race, Age, Sex on Face Recognition Software,” December 19, 2019.</li>
+							<li>Citi Consumer Businesses, “Citi Launches More Than $1 Billion in Strategic Initiatives to Help Close the Racial Wealth Gap,” September 23, 2020.</li>
+							<li>Catalyst, “#BiasCorrect Install,” accessed November 2020.</li>
+							<li>Juliet Chung and Dawn Lim, “Yale’s David Swensen Puts Money Managers on Notice About Diversity,” Wall Stret Journal, October 23, 2020.</li>
+							<li>General Motors, Diversity & Inclusion Report, 2017, accessed December 2020.</li>
+							<li>General Motors, “Fostering Diversity, Equity & Inclusion,” in 2019 Sustainability Report, accessed December 2020.</li>
+							<li>University of Georgia Small Business Development Center, “The Coca-Cola Company Supplier Development Institute (C3SDI),” accessed January 2021.</li>
+							<li>Business Roundtable, “Business Roundtable redefines the purpose of a corporation to promote ‘an economy that serves all Americans’,” August 19, 2019.</li>
+							<li>Pete Hammond, “Oscar Shakes Up Best Picture Eligibility Standards; Strict New Diversity Requirements Take Full Effect In 2024,” Deadline, September 8, 2020.</li>
+							<li>PhRMA, “PhRMA Principles on Conduct of Clinical Trials,” October 14, 2020.</li>
+							<li>World Economic Forum, Measuring Stakeholder Capitalism: Towards Common Metrics and Consistent Reporting of Sustainable Value Creation, September 2020.</li>
+							<li>Qualcomm, “Wireless Reach,” accessed December 2020.</li>
+							<li>Deloitte, “How we take action against systemic bias, racism, and unequal treatment.”</li>
+							<li>Interview with President Robert Brown, September 2020.</li>
+							<li>Interview with Richard Besser, October 2020.</li>
+						</div>
+					</ol>
 				</div>
 			</div>
 		</div>
@@ -1968,10 +1689,6 @@
 <div class="modal modal-vcenter fade" id="letter_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
-        <!-- <div class="modal-header">
-            <h1 class="modal-title">Changemakers</h1> 
-        
-        </div> -->
 		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -1997,7 +1714,6 @@
 			</p>
 			<p>We understand it will take a lot of work and dedicated effort over time, but we are fully invested and unwaveringly committed. As we take specific actions, we will share thorough, timely updates on our progress.
 			</p>
-			<!-- <p class="last_one">Change isn’t just coming. It’s here. -->
 			</p>
         </div>
         
